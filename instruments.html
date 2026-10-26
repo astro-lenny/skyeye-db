@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instrument Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside id="filters">
+    <h2>Filters</h2>
+    <input type="search" id="search" placeholder="Search facility / instrument…">
+
+    <fieldset>
+      <legend>Wavelength / Frequency</legend>
+      <label>From <input type="number" id="wmin" step="any" min="0"></label>
+      <label>To <input type="number" id="wmax" step="any" min="0"></label>
+      <label>Unit
+        <select id="wunit">
+          <option value="um">µm</option>
+          <option value="nm">nm</option>
+          <option value="a">Å</option>
+          <option value="mm">mm</option>
+          <option value="cm">cm</option>
+          <option value="ghz">GHz</option>
+          <option value="thz">THz</option>
+          <option value="ev">eV</option>
+          <option value="kev">keV</option>
+        </select>
+      </label>
+      <label><input type="radio" name="wmode" value="overlap" checked> Overlaps range</label>
+      <label><input type="radio" name="wmode" value="cover"> Covers entire range</label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Spectral resolving power</legend>
+      <label>From <input type="number" id="minR" step="any" min="0"></label>
+      <label>To <input type="number" id="maxR" step="any" min="0"></label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Spatial resolution</legend>
+      <label>Can reach ≤
+        <input type="number" id="spat" step="any" min="0">
+        <select id="spatunit">
+          <option value="arcsec">arcsec</option>
+          <option value="mas">mas</option>
+          <option value="arcmin">arcmin</option>
+          <option value="deg">deg</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Field of view</legend>
+      <label>At least
+        <input type="number" id="fov" step="any" min="0">
+        <select id="fovunit">
+          <option value="arcsec">arcsec</option>
+          <option value="arcmin">arcmin</option>
+          <option value="deg">deg</option>
+          <option value="mas">mas</option>
+        </select>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Capabilities</legend>
+      <div id="features"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Waveband</legend>
+      <div id="wavebands"></div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Facility</legend>
+      <div id="facilities"></div>
+    </fieldset>
+
+    <fieldset id="access-set">
+      <legend>Access</legend>
+      <div id="access"></div>
+    </fieldset>
+
+    <button id="reset">Reset filters</button>
+    <div id="show-results-bar">
+      <button id="show-results" type="button">Show results</button>
+    </div>
+  </aside>
+
+  <main>
+    <nav id="topnav">
+      <a href="index.html">Facilities &amp; Access</a>
+      <a href="instruments.html" class="active">Instrument Finder</a>
+      <span class="tagline">Per-instrument capability search</span>
+    </nav>
+    <h1>Instrument Finder</h1>
+    <p class="muted" style="margin-top:-0.5rem">
+      Only facilities with a fully specified instrument entry appear here. For location,
+      hemisphere and proposal-access information across the much larger worldwide inventory,
+      see the <a href="index.html">Facilities &amp; Access</a> page.
+    </p>
+    <div id="mobile-bar">
+      <button id="open-filters" type="button">☰ Filters</button>
+      <label id="sort-wrap">Sort
+        <select id="sort">
+          <option value="">Default order</option>
+          <option value="facility:1">Facility A–Z</option>
+          <option value="instrument:1">Instrument A–Z</option>
+          <option value="lamLo:1">Wavelength: short → long</option>
+          <option value="lamLo:-1">Wavelength: long → short</option>
+          <option value="resBest:-1">Spectral res: high → low</option>
+          <option value="spatBest:1">Spatial res: finest first</option>
+          <option value="fovBest:-1">Field of view: largest first</option>
+        </select>
+      </label>
+    </div>
+    <p id="count">Loading…</p>
+    <table>
+      <thead>
+        <tr>
+          <th data-key="facility">Facility</th>
+          <th data-key="instrument">Instrument</th>
+          <th>Waveband</th>
+          <th data-key="lamLo">Wavelength / Frequency</th>
+          <th data-key="resBest">Spectral Resolution</th>
+          <th data-key="spatBest">Spatial Resolution</th>
+          <th data-key="fovBest">Field of View</th>
+          <th>Capabilities</th>
+          <th>Access</th>
+        </tr>
+      </thead>
+      <tbody id="results"></tbody>
+    </table>
+  </main>
+
+  <script src="vendor/papaparse.min.js"></script>
+  <script src="instruments-app.js"></script>
+</body>
+</html>
