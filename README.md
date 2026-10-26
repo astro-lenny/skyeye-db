@@ -1,11 +1,5 @@
 # SkyEye — Telescope & Access Finder
 
-<p align="center">
-  <a href="https://astro-lenny.github.io/skyeye-db/">
-    <img src="https://img.shields.io/badge/🚀%20LAUNCH%20SKYEYE-Open%20App-2ea44f?style=for-the-badge" alt="Launch SkyEye">
-  </a>
-</p>
-
 An open-source tool for answering one question: **given a wavelength range, a target's sky
 position and your affiliation, which telescopes worldwide could you actually observe with, and
 how do you apply?** One page, one sortable spreadsheet-style table (plus a map), no backend, no
@@ -100,6 +94,14 @@ python3 -m http.server 8000
 then open `http://localhost:8000/`. (Opening `index.html` directly via `file://` won't work —
 `fetch()` of local JSON is blocked by browser CORS rules on `file://`; GitHub Pages serves it over
 HTTPS so this isn't an issue once deployed.)
+
+**After deploying a change to `app.js` or `style.css`, bump the `?v=N` query string on their
+`<link>`/`<script>` tags in `index.html`.** GitHub Pages' CDN (and browsers) can serve a cached
+copy of those two files for a little while after a push even through a hard-refresh, since a
+same-URL request can be satisfied from cache without ever reaching the server again; changing the
+URL (via the version number) forces a fresh fetch. If something looks unfixed right after a push,
+check the raw file on GitHub (`github.com/<repo>/blob/main/app.js`) before assuming the code itself
+is wrong — that bypasses all caching and shows you what's actually committed.
 
 ## Contributing
 
