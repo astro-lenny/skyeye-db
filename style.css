@@ -1,0 +1,179 @@
+/* Palette: validated 8-slot categorical order + fixed status palette.
+   See the project's dataviz review — ran scripts/validate_palette.js, light mode only
+   (this tool has no dark theme yet). Chips/badges always carry a visible text label,
+   satisfying the contrast "relief rule" for the three slots below 3:1 on this surface. */
+:root {
+  --surface:        #fcfcfb;
+  --page:           #f9f9f7;
+  --ink:            #0b0b0b;
+  --ink-secondary:  #52514e;
+  --ink-muted:      #898781;
+  --hairline:       #e1e0d9;
+  --border:         rgba(11,11,11,0.10);
+
+  --cat-1-blue:     #2a78d6;  /* Optical */
+  --cat-2-orange:   #eb6834;  /* Infrared */
+  --cat-3-aqua:     #1baf7a;  /* Optical/Infrared */
+  --cat-4-yellow:   #eda100;  /* Radio */
+  --cat-5-magenta:  #e87ba4;  /* Millimeter/Submillimeter */
+  --cat-6-green:    #008300;  /* X-ray */
+  --cat-7-violet:   #6250d6;  /* Ultraviolet */
+  --cat-8-red:      #e34948;  /* Gamma-ray */
+  --cat-muted:      #898781;  /* Unknown / rare (Cosmic ray) */
+
+  --status-good:     #0ca30c;
+  --status-warning:  #fab219;
+  --status-serious:  #ec835a;
+  --status-critical: #d03b3b;
+}
+
+* { box-sizing: border-box; }
+body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; margin: 0;
+       color: var(--ink); background: var(--page); }
+
+/* ---------- header ---------- */
+#site-header { display: flex; justify-content: space-between; align-items: center;
+               flex-wrap: wrap; gap: 1rem; padding: 1rem 1.5rem; background: var(--surface);
+               border-bottom: 1px solid var(--hairline); }
+#site-header h1 { margin: 0; font-size: 1.6rem; letter-spacing: -0.02em; }
+#site-header .tagline { margin: 0.15rem 0 0; color: var(--ink-secondary); font-size: 0.92rem; }
+.header-actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+.btn { display: inline-block; padding: 0.55rem 1rem; border-radius: 8px; font-weight: 600;
+       font-size: 0.9rem; text-decoration: none; border: 1px solid transparent; cursor: pointer; }
+.btn-primary { background: var(--cat-1-blue); color: #fff; }
+.btn-primary:hover { background: #1c5cab; }
+.btn-outline { background: var(--surface); color: var(--ink); border-color: var(--hairline); }
+.btn-outline:hover { background: var(--page); }
+
+.caveat-banner { background: #eef3fd; border-bottom: 1px solid #c7d6ff; color: #1a2b55;
+                 padding: 0.6rem 1.5rem; font-size: 0.85rem; line-height: 1.5; }
+.caveat-banner a { color: #1c5cab; }
+
+footer { padding: 1.25rem 1.5rem 2rem; color: var(--ink-muted); font-size: 0.82rem; }
+footer a { color: var(--ink-secondary); }
+footer code { background: var(--hairline); padding: 0.05rem 0.35rem; border-radius: 4px; }
+
+/* ---------- layout ---------- */
+#layout { display: flex; min-height: calc(100vh - 110px); }
+aside#filters { width: 310px; flex: none; padding: 1rem; background: var(--surface);
+        border-right: 1px solid var(--hairline); height: calc(100vh - 110px); overflow-y: auto;
+        position: sticky; top: 0; }
+.filters-head { display: flex; justify-content: space-between; align-items: baseline; }
+.filters-head h2 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+#reset { background: none; border: none; color: var(--cat-1-blue); cursor: pointer;
+         font-size: 0.85rem; padding: 0; }
+main { flex: 1; padding: 1rem 1.5rem; overflow-x: auto; min-width: 0; }
+
+fieldset { margin: 0.9rem 0; border: 1px solid var(--hairline); border-radius: 8px; padding: 0.6rem 0.75rem; }
+legend { font-weight: 600; font-size: 0.85rem; padding: 0 0.3rem; }
+fieldset label { display: block; margin: 0.3rem 0; font-size: 0.88rem; }
+.info { border-bottom: 1px dotted var(--ink-muted); cursor: help; font-size: 0.8rem; }
+.hint { font-size: 0.76rem; color: var(--ink-muted); margin: 0.4rem 0 0; line-height: 1.4; }
+input[type=number] { width: 4.8rem; }
+input[type=search] { width: 100%; box-sizing: border-box; padding: 0.4rem 0.5rem;
+                      border: 1px solid var(--hairline); border-radius: 6px; margin-bottom: 0.5rem; }
+select { max-width: 9rem; }
+#wavebands, #capabilities, #hemispheres, #categories, #statuses, #regions { max-height: 170px; overflow-y: auto; }
+
+/* ---------- view toggle ---------- */
+#view-toggle { display: flex; gap: 0.3rem; margin-bottom: 0.6rem; }
+#view-toggle button { padding: 0.45rem 1rem; border: 1px solid var(--hairline); background: var(--surface);
+                       border-radius: 999px; cursor: pointer; font-size: 0.88rem; font-weight: 600; color: var(--ink-secondary); }
+#view-toggle button.active { background: var(--cat-1-blue); color: #fff; border-color: var(--cat-1-blue); }
+
+#count { color: var(--ink-secondary); font-size: 0.9rem; }
+
+#map { height: 60vh; min-height: 360px; border-radius: 10px; overflow: hidden;
+       border: 1px solid var(--hairline); margin-bottom: 1rem; }
+#map[hidden] { display: none; }
+.map-popup-link { margin-top: 0.4rem; padding: 0.3rem 0.6rem; border: 1px solid var(--hairline);
+                   background: var(--surface); border-radius: 6px; cursor: pointer; font-size: 0.8rem; }
+
+/* ---------- table ---------- */
+#table-wrap[hidden] { display: none; }
+table { border-collapse: collapse; width: 100%; min-width: 1300px; background: var(--surface);
+        border-radius: 10px; overflow: hidden; font-size: 0.88rem; }
+th, td { text-align: left; padding: 0.5rem 0.7rem; vertical-align: top; border-bottom: 1px solid var(--hairline); }
+thead th { position: sticky; top: 0; background: var(--surface); z-index: 1; font-size: 0.78rem;
+           text-transform: uppercase; letter-spacing: 0.03em; color: var(--ink-secondary); }
+th[data-key] { cursor: pointer; user-select: none; }
+th[data-key]:hover { background: var(--page); }
+.sort-arrow { color: var(--cat-1-blue); }
+th { resize: horizontal; overflow: hidden; }
+tbody tr.facility-row:nth-child(4n+1), tbody tr.facility-row:nth-child(4n+2) { background: #fdfdfc; }
+tr.facility-row { cursor: pointer; }
+tr.facility-row:hover { background: #eef3fd; }
+.detail-row td { background: #fbfbfa; }
+
+/* chips / badges -- always paired with their own visible text label */
+.chip { display: inline-block; padding: 0.15rem 0.55rem; border-radius: 999px; font-size: 0.78rem;
+        font-weight: 600; color: #fff; white-space: nowrap; }
+.chip-optical              { background: var(--cat-1-blue); }
+.chip-infrared             { background: var(--cat-2-orange); }
+.chip-optical-infrared     { background: var(--cat-3-aqua); }
+.chip-radio                { background: var(--cat-4-yellow); color: #3a2900; }
+.chip-millimeter-submillimeter { background: var(--cat-5-magenta); color: #3a0f22; }
+.chip-x-ray                { background: var(--cat-6-green); }
+.chip-ultraviolet          { background: var(--cat-7-violet); }
+.chip-gamma-ray            { background: var(--cat-8-red); }
+.chip-cosmic-ray, .chip-unknown { background: var(--cat-muted); }
+
+.badge { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-size: 0.76rem; font-weight: 600; }
+.badge-active     { background: #e3f6e3; color: #0a6b0a; }
+.badge-between_cycles { background: #fff3da; color: #8a6400; }
+.badge-suspended  { background: #fde2e2; color: #a31414; }
+.badge-future     { background: #e3ecfd; color: #1a4b9a; }
+.badge-unknown    { background: var(--hairline); color: var(--ink-secondary); }
+.badge-aggregate  { background: #eee; color: #555; border: 1px dashed #999; }
+.badge-cap        { background: #eef3fd; color: #1c3f73; margin: 0 0.15rem 0.15rem 0; }
+
+.muted { color: var(--ink-muted); }
+
+.detail-wrap { padding: 0.75rem 1rem; }
+.caveat { color: #7a4b00; background: #fff8e6; border: 1px solid #f0d78c; border-radius: 6px;
+          padding: 0.5rem 0.75rem; margin: 0.5rem 0; font-size: 0.85rem; }
+.route-card { border: 1px solid var(--hairline); border-radius: 8px; padding: 0.6rem 0.8rem; margin: 0.5rem 0; }
+.route-card h4 { margin: 0 0 0.3rem; font-size: 0.95rem; }
+.route-card dl { display: grid; grid-template-columns: 10rem 1fr; gap: 0.15rem 0.6rem; margin: 0.3rem 0 0; font-size: 0.85rem; }
+.route-card dt { color: var(--ink-secondary); }
+
+#mobile-bar, #show-results-bar { display: none; }
+body.noscroll { overflow: hidden; }
+
+@media (max-width: 760px) {
+  #site-header { padding: 0.75rem 1rem; }
+  #site-header h1 { font-size: 1.3rem; }
+  .caveat-banner { padding: 0.5rem 1rem; }
+  #layout { display: block; }
+  main { padding: 0.75rem; overflow-x: visible; }
+
+  #mobile-bar { display: flex; margin-bottom: 0.6rem; }
+  #mobile-bar button { padding: 0.6rem 1rem; font-size: 1rem; border-radius: 8px; border: 1px solid var(--hairline); background: var(--surface); }
+
+  aside#filters { position: fixed; inset: 0; z-index: 10; width: 100%; height: auto;
+          border: none; transform: translateX(-100%); transition: transform 0.2s; padding-bottom: 0; }
+  aside#filters.open { transform: none; }
+  #show-results-bar { display: block; position: sticky; bottom: 0; margin: 1rem -1rem 0;
+                      padding: 0.75rem 1rem; background: var(--surface); border-top: 1px solid var(--hairline); }
+  #show-results { width: 100%; padding: 0.8rem; font-size: 1rem; border: none; border-radius: 8px;
+                  background: var(--cat-1-blue); color: #fff; }
+
+  input, select, button { font-size: 16px; }
+  input[type=number] { width: 5.5rem; }
+
+  table, thead, tbody, tr, td { display: block; }
+  table { min-width: 0; width: 100%; }
+  thead { display: none; }
+  tr.facility-row { background: var(--surface); border: 1px solid var(--hairline); border-radius: 8px;
+       padding: 0.5rem 0.75rem; margin-bottom: 0.75rem; }
+  td:nth-child(n) { min-width: 0; white-space: normal; border: none; padding: 0.25rem 0;
+                    display: flex; gap: 0.75rem; justify-content: space-between; text-align: right; }
+  td::before { content: attr(data-label); flex: 0 0 38%; text-align: left; font-weight: 600; color: var(--ink-secondary); }
+  /* the cell's actual content is one wrapped span (see app.js td()) so multiple badges/chips
+     wrap together as a block instead of each becoming its own flex item beside the label */
+  .cell { flex: 1; min-width: 0; }
+  td:empty { display: none; }
+  .detail-row td { display: block; text-align: left; }
+  .detail-row td::before { content: none; }
+  #map { height: 50vh; }
+}

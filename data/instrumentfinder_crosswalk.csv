@@ -1,0 +1,3 @@
+instrumentfinder_facility_name,inventory_facility_id,inventory_official_name,match_confidence,notes
+ALMA,amer-alma,Atacama Large Millimeter/submillimeter Array,manual_verified_override,"Verified, not guessed: inventory record amer-alma has official_name 'Atacama Large Millimeter/submillimeter Array', operator 'Joint ALMA Observatory', official_url on almascience.eso.org, and registry_aliases including 'ALMA' nested under coordinate_alternatives -- but the facility's own top-level aliases:[] is empty, so exact/alias matching misses it. This is a data-completeness gap in the source record, not an ambiguous match."
+MMT,amer-mmt,MMT,exact_name_or_alias,

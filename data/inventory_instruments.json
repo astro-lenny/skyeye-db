@@ -1,0 +1,4288 @@
+[
+ {
+  "id": "instrument-9e4fad1218c1",
+  "name": "WIDAR",
+  "facility_id": "amer-vla",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-nrao",
+   "amer-src-nrao27"
+  ]
+ },
+ {
+  "id": "instrument-20724111c419",
+  "name": "UWBR",
+  "facility_id": "amer-gbt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-nrao",
+   "amer-src-nrao27"
+  ]
+ },
+ {
+  "id": "instrument-1686a289e6ce",
+  "name": "MUSTANG-2",
+  "facility_id": "amer-gbt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-nrao",
+   "amer-src-nrao27"
+  ]
+ },
+ {
+  "id": "instrument-8392528d61a6",
+  "name": "ARGUS",
+  "facility_id": "amer-gbt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-nrao",
+   "amer-src-nrao27"
+  ]
+ },
+ {
+  "id": "instrument-f51b05d835a0",
+  "name": "cyclic spectroscopy",
+  "facility_id": "amer-gbt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-nrao",
+   "amer-src-nrao27"
+  ]
+ },
+ {
+  "id": "instrument-95b911101ba4",
+  "name": "VLBI receivers",
+  "facility_id": "amer-vlba",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-nrao",
+   "amer-src-nrao27"
+  ]
+ },
+ {
+  "id": "instrument-02d6afa7ad00",
+  "name": "Bands 1–10",
+  "facility_id": "amer-alma",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-alma"
+  ]
+ },
+ {
+  "id": "instrument-1a53cf67e8a5",
+  "name": "HSC",
+  "facility_id": "amer-subaru",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-subaru"
+  ]
+ },
+ {
+  "id": "instrument-5d624d548747",
+  "name": "PFS",
+  "facility_id": "amer-subaru",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-subaru"
+  ]
+ },
+ {
+  "id": "instrument-e9a6b52d526c",
+  "name": "FOCAS",
+  "facility_id": "amer-subaru",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-subaru"
+  ]
+ },
+ {
+  "id": "instrument-8b4b0e6cb49d",
+  "name": "HDS",
+  "facility_id": "amer-subaru",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-subaru"
+  ]
+ },
+ {
+  "id": "instrument-b659bc4ec3fa",
+  "name": "IRCS",
+  "facility_id": "amer-subaru",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-subaru"
+  ]
+ },
+ {
+  "id": "instrument-fdeeca5bea7d",
+  "name": "MOIRCS",
+  "facility_id": "amer-subaru",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-subaru"
+  ]
+ },
+ {
+  "id": "instrument-fb9a201be8d1",
+  "name": "SCExAO",
+  "facility_id": "amer-subaru",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-subaru"
+  ]
+ },
+ {
+  "id": "instrument-0a38a9e94efb",
+  "name": "IRD",
+  "facility_id": "amer-subaru",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-subaru"
+  ]
+ },
+ {
+  "id": "instrument-48325d2740c2",
+  "name": "SpeX",
+  "facility_id": "amer-irtf",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-irtf"
+  ]
+ },
+ {
+  "id": "instrument-c25c13d29c52",
+  "name": "iSHELL",
+  "facility_id": "amer-irtf",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-irtf"
+  ]
+ },
+ {
+  "id": "instrument-8ed7bd45e673",
+  "name": "TEXES",
+  "facility_id": "amer-irtf",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-irtf"
+  ]
+ },
+ {
+  "id": "instrument-f3a2293aa5ef",
+  "name": "MegaCam",
+  "facility_id": "amer-cfht",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cfht"
+  ]
+ },
+ {
+  "id": "instrument-a472654f2059",
+  "name": "ESPaDOnS",
+  "facility_id": "amer-cfht",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cfht"
+  ]
+ },
+ {
+  "id": "instrument-258e41bf4eab",
+  "name": "SPIRou",
+  "facility_id": "amer-cfht",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cfht"
+  ]
+ },
+ {
+  "id": "instrument-b1b692694957",
+  "name": "Wenaokeao",
+  "facility_id": "amer-cfht",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cfht"
+  ]
+ },
+ {
+  "id": "instrument-b22b94044527",
+  "name": "4-band receiver",
+  "facility_id": "amer-aro12",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-aro"
+  ]
+ },
+ {
+  "id": "instrument-0974c74c28bc",
+  "name": "AROWS",
+  "facility_id": "amer-aro12",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-aro"
+  ]
+ },
+ {
+  "id": "instrument-4cc207401c91",
+  "name": "dual-frequency 1.3/0.8mm receiver",
+  "facility_id": "amer-smt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-aro"
+  ]
+ },
+ {
+  "id": "instrument-2dfd478ab0fc",
+  "name": "SWRDS",
+  "facility_id": "amer-smt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-aro"
+  ]
+ },
+ {
+  "id": "instrument-6315d15a4239",
+  "name": "Binospec",
+  "facility_id": "amer-mmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-steward",
+   "amer-src-cfatechnical",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-ff18e4d4351d",
+  "name": "MMIRS",
+  "facility_id": "amer-mmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-steward",
+   "amer-src-cfatechnical",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-4df8e93e2e3d",
+  "name": "BlueChannel",
+  "facility_id": "amer-mmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-steward",
+   "amer-src-cfatechnical",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-2789724f4ca0",
+  "name": "SPOL by permission",
+  "facility_id": "amer-mmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-steward",
+   "amer-src-cfatechnical",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-d388eeebaf62",
+  "name": "IMACS",
+  "facility_id": "amer-baade",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-8350a50446c3",
+  "name": "FIRE",
+  "facility_id": "amer-baade",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-b95e55f68192",
+  "name": "FourStar",
+  "facility_id": "amer-baade",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-419e2a8c9eef",
+  "name": "LLAMAS",
+  "facility_id": "amer-baade",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-8a2a642f2c53",
+  "name": "MIKE",
+  "facility_id": "amer-clay",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-44980a10bf08",
+  "name": "PFS",
+  "facility_id": "amer-clay",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-f1e98cb4bcf2",
+  "name": "MagAO-X",
+  "facility_id": "amer-clay",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-7bf7ac6dbb9f",
+  "name": "WINERED",
+  "facility_id": "amer-clay",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-16dcf60f6510",
+  "name": "Proto-Lightspeed",
+  "facility_id": "amer-clay",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-carnegie",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-b19960eeec49",
+  "name": "imaging camera",
+  "facility_id": "amer-dao18",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-dao"
+  ]
+ },
+ {
+  "id": "instrument-1422311c573c",
+  "name": "spectrograph",
+  "facility_id": "amer-dao12",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-dao"
+  ]
+ },
+ {
+  "id": "instrument-0af509e77f20",
+  "name": "PESTO",
+  "facility_id": "amer-omm",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-omm"
+  ]
+ },
+ {
+  "id": "instrument-9d53576255f1",
+  "name": "CPAPIR",
+  "facility_id": "amer-omm",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-omm"
+  ]
+ },
+ {
+  "id": "instrument-41a68edfcd82",
+  "name": "LMI",
+  "facility_id": "amer-ldt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-ldt"
+  ]
+ },
+ {
+  "id": "instrument-cc732a283a06",
+  "name": "DeVeny",
+  "facility_id": "amer-ldt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-ldt"
+  ]
+ },
+ {
+  "id": "instrument-0a05eaeaaf1b",
+  "name": "NIHTS",
+  "facility_id": "amer-ldt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-ldt"
+  ]
+ },
+ {
+  "id": "instrument-3c131985d698",
+  "name": "EXPres",
+  "facility_id": "amer-ldt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-ldt"
+  ]
+ },
+ {
+  "id": "instrument-1fe38bff2c4b",
+  "name": "QWSSI",
+  "facility_id": "amer-ldt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-ldt"
+  ]
+ },
+ {
+  "id": "instrument-7cce8f03bf2e",
+  "name": "POETS",
+  "facility_id": "amer-ldt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-ldt"
+  ]
+ },
+ {
+  "id": "instrument-348e0127a206",
+  "name": "ʻAlaʻihi",
+  "facility_id": "amer-jcmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-jcmt",
+   "amer-src-jcmtelig"
+  ]
+ },
+ {
+  "id": "instrument-20cbd0428798",
+  "name": "ʻŪʻū",
+  "facility_id": "amer-jcmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-jcmt",
+   "amer-src-jcmtelig"
+  ]
+ },
+ {
+  "id": "instrument-1253192e5ccd",
+  "name": "HARP",
+  "facility_id": "amer-jcmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-jcmt",
+   "amer-src-jcmtelig"
+  ]
+ },
+ {
+  "id": "instrument-a8d10789f57c",
+  "name": "ʻĀweoweo",
+  "facility_id": "amer-jcmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-jcmt",
+   "amer-src-jcmtelig"
+  ]
+ },
+ {
+  "id": "instrument-27862cd11544",
+  "name": "Kuntur",
+  "facility_id": "amer-jcmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-jcmt",
+   "amer-src-jcmtelig"
+  ]
+ },
+ {
+  "id": "instrument-0ac528fb5531",
+  "name": "Sinistro",
+  "facility_id": "amer-lco",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lco"
+  ]
+ },
+ {
+  "id": "instrument-8010aec9ae00",
+  "name": "MuSCAT",
+  "facility_id": "amer-lco",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lco"
+  ]
+ },
+ {
+  "id": "instrument-8606fe0d8498",
+  "name": "FLOYDS",
+  "facility_id": "amer-lco",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lco"
+  ]
+ },
+ {
+  "id": "instrument-06d844051a37",
+  "name": "QHY600",
+  "facility_id": "amer-lco",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lco"
+  ]
+ },
+ {
+  "id": "instrument-957799a0d3ce",
+  "name": "FORS2",
+  "facility_id": "amer-vlt1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-ccd55d60fbbc",
+  "name": "KMOS",
+  "facility_id": "amer-vlt1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-05cd3b321a4e",
+  "name": "ESPRESSO combined coudé",
+  "facility_id": "amer-vlt1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-88d8a7c8c9e6",
+  "name": "FLAMES",
+  "facility_id": "amer-vlt2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-c75955cfcf47",
+  "name": "UVES",
+  "facility_id": "amer-vlt2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-72543e567748",
+  "name": "ESPRESSO combined coudé",
+  "facility_id": "amer-vlt2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-548e4fb270b9",
+  "name": "SPHERE",
+  "facility_id": "amer-vlt3",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-b472ff8d34cf",
+  "name": "X-SHOOTER",
+  "facility_id": "amer-vlt3",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-3bbea3ed0128",
+  "name": "CRIRES",
+  "facility_id": "amer-vlt3",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-e552b8465764",
+  "name": "ESPRESSO combined coudé",
+  "facility_id": "amer-vlt3",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-f48fa3d3359e",
+  "name": "HAWK-I",
+  "facility_id": "amer-vlt4",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-7ac4aa6ad2c6",
+  "name": "ERIS",
+  "facility_id": "amer-vlt4",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-52598791b000",
+  "name": "MUSE",
+  "facility_id": "amer-vlt4",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-ddfb3c98de58",
+  "name": "ESPRESSO combined coudé",
+  "facility_id": "amer-vlt4",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-ca5a0e628cb6",
+  "name": "GRAVITY",
+  "facility_id": "amer-vlti",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-42514a97e3fa",
+  "name": "MATISSE",
+  "facility_id": "amer-vlti",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-571473b06744",
+  "name": "PIONIER (AT only)",
+  "facility_id": "amer-vlti",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-b8290d29cf8c",
+  "name": "SOXS",
+  "facility_id": "amer-ntt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-997c5576b16b",
+  "name": "ULTRACAM conditional",
+  "facility_id": "amer-ntt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-d643d5d4d6af",
+  "name": "visitor focus",
+  "facility_id": "amer-ntt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-fda52063bfae",
+  "name": "HARPS",
+  "facility_id": "amer-eso36",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-1f9261a3bd74",
+  "name": "NIRPS",
+  "facility_id": "amer-eso36",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eso"
+  ]
+ },
+ {
+  "id": "instrument-68aaf9fd12ea",
+  "name": "SEPIA",
+  "facility_id": "amer-apex",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-apex",
+   "amer-src-apexdetail"
+  ]
+ },
+ {
+  "id": "instrument-24029c312c40",
+  "name": "nFLASH",
+  "facility_id": "amer-apex",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-apex",
+   "amer-src-apexdetail"
+  ]
+ },
+ {
+  "id": "instrument-9a7dc4d8e71d",
+  "name": "N3AR",
+  "facility_id": "amer-apex",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-apex",
+   "amer-src-apexdetail"
+  ]
+ },
+ {
+  "id": "instrument-5a820dac18d5",
+  "name": "LASMA",
+  "facility_id": "amer-apex",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-apex",
+   "amer-src-apexdetail"
+  ]
+ },
+ {
+  "id": "instrument-e8c24d560f41",
+  "name": "AMKID-LFA",
+  "facility_id": "amer-apex",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-apex",
+   "amer-src-apexdetail"
+  ]
+ },
+ {
+  "id": "instrument-0743e889b5ec",
+  "name": "GMOS-N",
+  "facility_id": "amer-geminin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-5d0ece1c4086",
+  "name": "GNIRS",
+  "facility_id": "amer-geminin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-458ae841b765",
+  "name": "IGRINS-2",
+  "facility_id": "amer-geminin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-fadaa9579672",
+  "name": "Altair",
+  "facility_id": "amer-geminin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-a860b9438a77",
+  "name": "Alopeke",
+  "facility_id": "amer-geminin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-84a6a4d8943b",
+  "name": "MAROON-X",
+  "facility_id": "amer-geminin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-b2df3a7845b3",
+  "name": "GMOS-S",
+  "facility_id": "amer-geminis",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-e02f3143c656",
+  "name": "GHOST",
+  "facility_id": "amer-geminis",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-f9b2d7ed7c17",
+  "name": "FLAMINGOS-2",
+  "facility_id": "amer-geminis",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-f82564050dc4",
+  "name": "Zorro",
+  "facility_id": "amer-geminis",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-9408243e3a06",
+  "name": "IQUEYE",
+  "facility_id": "amer-geminis",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-gemini"
+  ]
+ },
+ {
+  "id": "instrument-a314a0541767",
+  "name": "Goodman",
+  "facility_id": "amer-soar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-f4181300cba1",
+  "name": "STELES",
+  "facility_id": "amer-soar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-af4d590038b1",
+  "name": "SIFS",
+  "facility_id": "amer-soar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-9f92185f07fa",
+  "name": "SAMPlus",
+  "facility_id": "amer-soar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-fc95c7fa6c77",
+  "name": "SAMI",
+  "facility_id": "amer-soar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-1a6ade91cf54",
+  "name": "HRCam2",
+  "facility_id": "amer-soar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-eaba03f8ca77",
+  "name": "TripleSpec",
+  "facility_id": "amer-soar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-881471d272a1",
+  "name": "ISPI",
+  "facility_id": "amer-soar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-cb94a6b2bb6e",
+  "name": "DECam",
+  "facility_id": "amer-blanco",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-52e388cdeb5a",
+  "name": "NEWFIRM",
+  "facility_id": "amer-blanco",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-soar"
+  ]
+ },
+ {
+  "id": "instrument-f257bd8cecb7",
+  "name": "NEID",
+  "facility_id": "amer-wiyn",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-wiyn",
+   "amer-src-neid"
+  ]
+ },
+ {
+  "id": "instrument-f0e4e728ee02",
+  "name": "VLBI receiver",
+  "facility_id": "amer-lmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eht"
+  ]
+ },
+ {
+  "id": "instrument-8e745a7b9660",
+  "name": "VLBI receiver",
+  "facility_id": "amer-glt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-eht"
+  ]
+ },
+ {
+  "id": "instrument-d324a5e16896",
+  "name": "NGPS",
+  "facility_id": "amer-hale",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-caltech",
+   "amer-src-am14-jpac27"
+  ]
+ },
+ {
+  "id": "instrument-570ae805b856",
+  "name": "PALM-3000",
+  "facility_id": "amer-hale",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-caltech",
+   "amer-src-am14-jpac27"
+  ]
+ },
+ {
+  "id": "instrument-3c5818416db8",
+  "name": "other facility/PI instruments",
+  "facility_id": "amer-hale",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-caltech",
+   "amer-src-am14-jpac27"
+  ]
+ },
+ {
+  "id": "instrument-12d5ee5903ff",
+  "name": "ZTF camera",
+  "facility_id": "amer-p48",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-caltech"
+  ]
+ },
+ {
+  "id": "instrument-b906fb14bd72",
+  "name": "SEDM",
+  "facility_id": "amer-p60",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-caltech"
+  ]
+ },
+ {
+  "id": "instrument-b3ba5679cac5",
+  "name": "WINTER camera",
+  "facility_id": "amer-winter",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-caltech"
+  ]
+ },
+ {
+  "id": "instrument-3b62a230cf30",
+  "name": "KeplerCam",
+  "facility_id": "amer-flwo12",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cfa",
+   "amer-src-cfatechnical",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-509ca478a8a6",
+  "name": "FAST",
+  "facility_id": "amer-flwo15",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cfa",
+   "amer-src-cfatechnical",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-53e0ea08f88d",
+  "name": "TRES",
+  "facility_id": "amer-flwo15",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cfa",
+   "amer-src-cfatechnical",
+   "amer-src-am14-steward-insts",
+   "amer-src-am14-cfa-insts"
+  ]
+ },
+ {
+  "id": "instrument-41fce0af0bff",
+  "name": "WFI",
+  "facility_id": "amer-mpg22",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cntac",
+   "amer-src-tech-mpg22"
+  ]
+ },
+ {
+  "id": "instrument-0a1b1b42f8d9",
+  "name": "GROND",
+  "facility_id": "amer-mpg22",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cntac",
+   "amer-src-tech-mpg22"
+  ]
+ },
+ {
+  "id": "instrument-7aab9ee23c90",
+  "name": "FEROS",
+  "facility_id": "amer-mpg22",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cntac",
+   "amer-src-tech-mpg22"
+  ]
+ },
+ {
+  "id": "instrument-f932613f6f4e",
+  "name": "DFOSC (ESO overview; current availability unknown)",
+  "facility_id": "amer-danish",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cntac",
+   "amer-src-tech-danish"
+  ]
+ },
+ {
+  "id": "instrument-c76f22fcb9e7",
+  "name": "shared multi-object near-infrared spectrograph",
+  "facility_id": "amer-extra",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cntac",
+   "amer-src-tech-extra"
+  ]
+ },
+ {
+  "id": "instrument-bca7cbc46a44",
+  "name": "OmegaCAM",
+  "facility_id": "amer-vst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cntac",
+   "amer-src-tech-vst"
+  ]
+ },
+ {
+  "id": "instrument-fcaa8f80fad8",
+  "name": "Andor iKon-L936 camera",
+  "facility_id": "amer-murphy06",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cntac",
+   "amer-src-murphytech",
+   "amer-src-am12-cntac27",
+   "amer-src-am12-murphy"
+  ]
+ },
+ {
+  "id": "instrument-255588c9a2a4",
+  "name": "350GHz spectroscopic receiver",
+  "facility_id": "amer-aste",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-cntac",
+   "amer-src-tech-aste"
+  ]
+ },
+ {
+  "id": "instrument-c1c3d518208a",
+  "name": "beamformer",
+  "facility_id": "amer-lwa1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale",
+   "aud-elwa2027a",
+   "aud-lwa-guide2012"
+  ]
+ },
+ {
+  "id": "instrument-7288855dbd4e",
+  "name": "transientbuffers",
+  "facility_id": "amer-lwa1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale",
+   "aud-elwa2027a",
+   "aud-lwa-guide2012"
+  ]
+ },
+ {
+  "id": "instrument-fb8e0402a1fe",
+  "name": "all-skyimagers",
+  "facility_id": "amer-lwa1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale",
+   "aud-elwa2027a",
+   "aud-lwa-guide2012"
+  ]
+ },
+ {
+  "id": "instrument-728329b90510",
+  "name": "beamformer",
+  "facility_id": "amer-lwana",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale"
+  ]
+ },
+ {
+  "id": "instrument-f89d26d2210e",
+  "name": "transientbuffers",
+  "facility_id": "amer-lwana",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale"
+  ]
+ },
+ {
+  "id": "instrument-2e31d93f8bfb",
+  "name": "all-skyimagers",
+  "facility_id": "amer-lwana",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale"
+  ]
+ },
+ {
+  "id": "instrument-e2c9b3875178",
+  "name": "beamformer",
+  "facility_id": "amer-lwasv",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale",
+   "aud-elwa2027a",
+   "aud-lwa-guide2012"
+  ]
+ },
+ {
+  "id": "instrument-d5dfb86c97e7",
+  "name": "transientbuffers",
+  "facility_id": "amer-lwasv",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale",
+   "aud-elwa2027a",
+   "aud-lwa-guide2012"
+  ]
+ },
+ {
+  "id": "instrument-bbe133aabb51",
+  "name": "all-skyimagers",
+  "facility_id": "amer-lwasv",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-lwa",
+   "amer-src-lwastatus",
+   "aud-lwa-status2026",
+   "aud-lwa-issues-stale",
+   "aud-elwa2027a",
+   "aud-lwa-guide2012"
+  ]
+ },
+ {
+  "id": "instrument-3b17c7a1a250",
+  "name": "Imaging atmospheric Cherenkov cameras",
+  "facility_id": "amer-veritas",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-veritas",
+   "amer-src-am11-veritas-joint",
+   "amer-src-am11-fermi20",
+   "amer-src-am11-veritas-cata"
+  ]
+ },
+ {
+  "id": "instrument-eead2d7d8c94",
+  "name": "Mimir",
+  "facility_id": "amer-pto",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-pto",
+   "amer-src-ptotech"
+  ]
+ },
+ {
+  "id": "instrument-baecd50ab24d",
+  "name": "PRISM",
+  "facility_id": "amer-pto",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-pto",
+   "amer-src-ptotech"
+  ]
+ },
+ {
+  "id": "instrument-5cafc9286adb",
+  "name": "FlareCam / replacement camera; exact current camera unknown",
+  "facility_id": "amer-arcsat",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-arcsat"
+  ]
+ },
+ {
+  "id": "instrument-9008a5b4687c",
+  "name": "SBIG STC 428 OEM CCD camera with filter wheel",
+  "facility_id": "amer-cure",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am8-cure-tech",
+   "amer-src-am8-cure-access",
+   "amer-src-am8-cure-contact"
+  ]
+ },
+ {
+  "id": "instrument-0323e78959c1",
+  "name": "STXL camera; spectrograph availability TBA",
+  "facility_id": "amer-aico1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-aico-access",
+   "amer-src-am9-aico-tech"
+  ]
+ },
+ {
+  "id": "instrument-c251ed5b27bd",
+  "name": "STXL camera",
+  "facility_id": "amer-aico06",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-aico-access",
+   "amer-src-am9-aico-tech"
+  ]
+ },
+ {
+  "id": "instrument-441c37cd1b12",
+  "name": "Quail Aluma camera with Canon EF400mm lens",
+  "facility_id": "amer-aico06",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-aico-access",
+   "amer-src-am9-aico-tech"
+  ]
+ },
+ {
+  "id": "instrument-a65b3d29d2c0",
+  "name": "SBIG AC2020 CMOS camera; SDSS/open filters",
+  "facility_id": "amer-rao-cmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-rao-access",
+   "amer-src-am9-rao-tech",
+   "amer-src-am9-rao-cmtform"
+  ]
+ },
+ {
+  "id": "instrument-05e3c62dc023",
+  "name": "FLI Microline16803 CCD",
+  "facility_id": "amer-rao-kgmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-rao-access",
+   "amer-src-am9-rao-tech"
+  ]
+ },
+ {
+  "id": "instrument-ea926e721c69",
+  "name": "SBIG Aluma AC4040-C1",
+  "facility_id": "amer-bgo",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-bgo",
+   "amer-src-am9-bgo-request",
+   "amer-src-am9-bgo-priv",
+   "amer-src-am9-bgo-tech"
+  ]
+ },
+ {
+  "id": "instrument-ea71031f6e9d",
+  "name": "SBIG STXL-11002",
+  "facility_id": "amer-bgo",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-bgo",
+   "amer-src-am9-bgo-request",
+   "amer-src-am9-bgo-priv",
+   "amer-src-am9-bgo-tech"
+  ]
+ },
+ {
+  "id": "instrument-7174560d8582",
+  "name": "broadband and narrowband filters; current availability confirm via filter command",
+  "facility_id": "amer-bgo",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-bgo",
+   "amer-src-am9-bgo-request",
+   "amer-src-am9-bgo-priv",
+   "amer-src-am9-bgo-tech"
+  ]
+ },
+ {
+  "id": "instrument-3c2b8d07e8fc",
+  "name": "7-element radio interferometer; upgraded receiver specification unknown",
+  "facility_id": "amer-drao-st",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am9-drao-access",
+   "amer-src-am9-drao-ops"
+  ]
+ },
+ {
+  "id": "instrument-9c63b2f54c59",
+  "name": "ARC4K CCD/E2V231-84;UBVRI,z,Y,narrowband filters",
+  "facility_id": "amer-loao",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-loao-access",
+   "amer-src-am10-loao-call",
+   "amer-src-am10-loao-tech",
+   "amer-src-am10-loao-ccd",
+   "amer-src-am10-loao-filters",
+   "amer-src-am10-loao-site",
+   "amer-src-am10-loao-too"
+  ]
+ },
+ {
+  "id": "instrument-c8a87714e328",
+  "name": "KASINICS named in Nasmyth description; current proposal availability unknown",
+  "facility_id": "amer-loao",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-loao-access",
+   "amer-src-am10-loao-call",
+   "amer-src-am10-loao-tech",
+   "amer-src-am10-loao-ccd",
+   "amer-src-am10-loao-filters",
+   "amer-src-am10-loao-site",
+   "amer-src-am10-loao-too"
+  ]
+ },
+ {
+  "id": "instrument-df7cc503b781",
+  "name": "Half Degree Imager (HDI)",
+  "facility_id": "amer-wiyn09",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-wiyn09",
+   "amer-src-am10-wiyn09-queue",
+   "amer-src-am10-wiyn09-manual"
+  ]
+ },
+ {
+  "id": "instrument-32e49b742fb7",
+  "name": "Bright Star Monitors",
+  "facility_id": "amer-aavsonet",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-aavso",
+   "amer-src-am10-aavso-how",
+   "amer-src-am10-aavso-upgrade"
+  ]
+ },
+ {
+  "id": "instrument-4ad525ed806b",
+  "name": "Faint Star Monitors",
+  "facility_id": "amer-aavsonet",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-aavso",
+   "amer-src-am10-aavso-how",
+   "amer-src-am10-aavso-upgrade"
+  ]
+ },
+ {
+  "id": "instrument-ddb2a3f96981",
+  "name": "site-specific optical imaging systems",
+  "facility_id": "amer-itelescope",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-reserve",
+   "amer-src-am10-it-price",
+   "amer-src-am10-it-fleet",
+   "amer-src-am10-it-free"
+  ]
+ },
+ {
+  "id": "instrument-b8fa1e754250",
+  "name": "QHY268C",
+  "facility_id": "amer-it-t02",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-95729933ed95",
+  "name": "SBIGST10XME",
+  "facility_id": "amer-it-t05",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-9cdc3330abcb",
+  "name": "FLIProLinePL",
+  "facility_id": "amer-it-t11",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-fc2ead25d7a4",
+  "name": "ZWO2400c",
+  "facility_id": "amer-it-t14",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-1687daccd154",
+  "name": "SBIG16803",
+  "facility_id": "amer-it-t20",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-1a9bd7cbc4f5",
+  "name": "FLIPL6303E",
+  "facility_id": "amer-it-t21",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-cc3d04139800",
+  "name": "ApogeeU16M16803",
+  "facility_id": "amer-it-t24",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-14b89c0a53ec",
+  "name": "ZEUS455M",
+  "facility_id": "amer-it-t25",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-bb43d52f812a",
+  "name": "ZWOASI6200MPro",
+  "facility_id": "amer-it-t26",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-49a135c03b56",
+  "name": "ASI2600MMPro",
+  "facility_id": "amer-it-t70",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-19bd7a48ba6a",
+  "name": "ASI2600MMPro",
+  "facility_id": "amer-it-t71",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-e1f83836656b",
+  "name": "FLIML16200",
+  "facility_id": "amer-it-t72",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-49902fe796e1",
+  "name": "ZWOASI2600MM",
+  "facility_id": "amer-it-t73",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-8cc708cfa389",
+  "name": "MoravianC361000C",
+  "facility_id": "amer-it-t74",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-5f224c4b84f8",
+  "name": "ZWOASI2600MM",
+  "facility_id": "amer-it-t75",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet"
+  ]
+ },
+ {
+  "id": "instrument-f6c457348311",
+  "name": "ZWOASI2600C",
+  "facility_id": "amer-it-t68",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am10-it-science",
+   "amer-src-am10-it-terms",
+   "amer-src-am10-it-fleet",
+   "amer-src-am10-it-free"
+  ]
+ },
+ {
+  "id": "instrument-79991faf0d46",
+  "name": "antenna-specific DSN receivers/backends",
+  "facility_id": "amer-goldstone-dss14",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dsn-science",
+   "amer-src-am11-dsn-propose",
+   "amer-src-am11-dsn-tech",
+   "amer-src-am11-gssr-tech"
+  ]
+ },
+ {
+  "id": "instrument-ee1c469d6449",
+  "name": "GoldstoneSolarSystemRadar",
+  "facility_id": "amer-goldstone-dss14",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dsn-science",
+   "amer-src-am11-dsn-propose",
+   "amer-src-am11-dsn-tech",
+   "amer-src-am11-gssr-tech"
+  ]
+ },
+ {
+  "id": "instrument-a0bc3a4a3d28",
+  "name": "antenna-specific DSN receivers/backends",
+  "facility_id": "amer-goldstone-dss24",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dsn-science",
+   "amer-src-am11-dsn-propose",
+   "amer-src-am11-dsn-tech"
+  ]
+ },
+ {
+  "id": "instrument-94a210d51c1c",
+  "name": "radioastronomyreceiver configuration subjecttoapproval",
+  "facility_id": "amer-goldstone-dss24",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dsn-science",
+   "amer-src-am11-dsn-propose",
+   "amer-src-am11-dsn-tech"
+  ]
+ },
+ {
+  "id": "instrument-af4dcac27c6a",
+  "name": "antenna-specific DSN receivers/backends",
+  "facility_id": "amer-goldstone-dss25",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dsn-science",
+   "amer-src-am11-dsn-propose",
+   "amer-src-am11-dsn-tech"
+  ]
+ },
+ {
+  "id": "instrument-9797a49f749c",
+  "name": "radioastronomyreceiver configuration subjecttoapproval",
+  "facility_id": "amer-goldstone-dss25",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dsn-science",
+   "amer-src-am11-dsn-propose",
+   "amer-src-am11-dsn-tech"
+  ]
+ },
+ {
+  "id": "instrument-e6008ccb9487",
+  "name": "antenna-specific DSN receivers/backends",
+  "facility_id": "amer-goldstone-dss26",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dsn-science",
+   "amer-src-am11-dsn-propose",
+   "amer-src-am11-dsn-tech"
+  ]
+ },
+ {
+  "id": "instrument-03893f67d9a2",
+  "name": "radioastronomyreceiver configuration subjecttoapproval",
+  "facility_id": "amer-goldstone-dss26",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dsn-science",
+   "amer-src-am11-dsn-propose",
+   "amer-src-am11-dsn-tech"
+  ]
+ },
+ {
+  "id": "instrument-6bcb0ae31e1e",
+  "name": "VBI",
+  "facility_id": "amer-dkist",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dkist-call",
+   "amer-src-am11-dkist27",
+   "amer-src-am11-dkist-pa",
+   "amer-src-am11-dkist-inst"
+  ]
+ },
+ {
+  "id": "instrument-2e4f829d4e3d",
+  "name": "ViSP",
+  "facility_id": "amer-dkist",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dkist-call",
+   "amer-src-am11-dkist27",
+   "amer-src-am11-dkist-pa",
+   "amer-src-am11-dkist-inst"
+  ]
+ },
+ {
+  "id": "instrument-062090b96709",
+  "name": "Cryo-NIRSP",
+  "facility_id": "amer-dkist",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dkist-call",
+   "amer-src-am11-dkist27",
+   "amer-src-am11-dkist-pa",
+   "amer-src-am11-dkist-inst"
+  ]
+ },
+ {
+  "id": "instrument-54438fed4bf7",
+  "name": "DL-NIRSP",
+  "facility_id": "amer-dkist",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-dkist-call",
+   "amer-src-am11-dkist27",
+   "amer-src-am11-dkist-pa",
+   "amer-src-am11-dkist-inst"
+  ]
+ },
+ {
+  "id": "instrument-cc790a577936",
+  "name": "BFI",
+  "facility_id": "amer-gst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-gst-access",
+   "amer-src-am11-gst-form",
+   "amer-src-am11-gst-call26",
+   "amer-src-am11-gst-tech",
+   "amer-src-am11-gst-legacytech"
+  ]
+ },
+ {
+  "id": "instrument-80e11d64b778",
+  "name": "VIS",
+  "facility_id": "amer-gst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-gst-access",
+   "amer-src-am11-gst-form",
+   "amer-src-am11-gst-call26",
+   "amer-src-am11-gst-tech",
+   "amer-src-am11-gst-legacytech"
+  ]
+ },
+ {
+  "id": "instrument-ec3390f19b4a",
+  "name": "NIRIS",
+  "facility_id": "amer-gst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-gst-access",
+   "amer-src-am11-gst-form",
+   "amer-src-am11-gst-call26",
+   "amer-src-am11-gst-tech",
+   "amer-src-am11-gst-legacytech"
+  ]
+ },
+ {
+  "id": "instrument-ba2a8d9b9175",
+  "name": "FISS",
+  "facility_id": "amer-gst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-gst-access",
+   "amer-src-am11-gst-form",
+   "amer-src-am11-gst-call26",
+   "amer-src-am11-gst-tech",
+   "amer-src-am11-gst-legacytech"
+  ]
+ },
+ {
+  "id": "instrument-45acf7d8ead6",
+  "name": "CYRA (standalone)",
+  "facility_id": "amer-gst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-gst-access",
+   "amer-src-am11-gst-form",
+   "amer-src-am11-gst-call26",
+   "amer-src-am11-gst-tech",
+   "amer-src-am11-gst-legacytech"
+  ]
+ },
+ {
+  "id": "instrument-36be95a61846",
+  "name": "MIRI (standalone; contactProfCao)",
+  "facility_id": "amer-gst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "amer-src-am11-gst-access",
+   "amer-src-am11-gst-form",
+   "amer-src-am11-gst-call26",
+   "amer-src-am11-gst-tech",
+   "amer-src-am11-gst-legacytech"
+  ]
+ },
+ {
+  "id": "instrument-1fd4d40e087a",
+  "name": "SCORPIO",
+  "facility_id": "eur-byurakan",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-opticon",
+   "eur-byurakan-direct",
+   "eur-byurakan-direct2026",
+   "eur-byurakan-form",
+   "eur-byurakan-instruments"
+  ]
+ },
+ {
+  "id": "instrument-7b60bf736dcd",
+  "name": "VAGR IFU (listed; application availability unknown)",
+  "facility_id": "eur-byurakan",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-opticon",
+   "eur-byurakan-direct",
+   "eur-byurakan-direct2026",
+   "eur-byurakan-form",
+   "eur-byurakan-instruments"
+  ]
+ },
+ {
+  "id": "instrument-f43d169dd4df",
+  "name": "NICS",
+  "facility_id": "eur-tng",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-opticon",
+   "eur-tng-aot55",
+   "eur-tng-aot55-tech"
+  ]
+ },
+ {
+  "id": "instrument-ca4a2e8f52a4",
+  "name": "GIANO-B",
+  "facility_id": "eur-tng",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-opticon",
+   "eur-tng-aot55",
+   "eur-tng-aot55-tech"
+  ]
+ },
+ {
+  "id": "instrument-2f482636268c",
+  "name": "HARPS-N",
+  "facility_id": "eur-tng",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-opticon",
+   "eur-tng-aot55",
+   "eur-tng-aot55-tech"
+  ]
+ },
+ {
+  "id": "instrument-f9dd7b2ad8a1",
+  "name": "DOLORES",
+  "facility_id": "eur-tng",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-opticon",
+   "eur-tng-aot55",
+   "eur-tng-aot55-tech"
+  ]
+ },
+ {
+  "id": "instrument-c06abee09ef3",
+  "name": "GIARPS",
+  "facility_id": "eur-tng",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-opticon",
+   "eur-tng-aot55",
+   "eur-tng-aot55-tech"
+  ]
+ },
+ {
+  "id": "instrument-980ca6731751",
+  "name": "SiFAP2restrictedvisitor",
+  "facility_id": "eur-tng",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-opticon",
+   "eur-tng-aot55",
+   "eur-tng-aot55-tech"
+  ]
+ },
+ {
+  "id": "instrument-13d966f5b144",
+  "name": "SpUpNIC",
+  "facility_id": "afr-saao19",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "afr-saao"
+  ]
+ },
+ {
+  "id": "instrument-793c045d712a",
+  "name": "OSIRIS+",
+  "facility_id": "eur-gtc",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-iac-cat",
+   "eur-gtc-detail"
+  ]
+ },
+ {
+  "id": "instrument-32394da30186",
+  "name": "EMIR",
+  "facility_id": "eur-gtc",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-iac-cat",
+   "eur-gtc-detail"
+  ]
+ },
+ {
+  "id": "instrument-889eb9004f2e",
+  "name": "MEGARA",
+  "facility_id": "eur-gtc",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-iac-cat",
+   "eur-gtc-detail"
+  ]
+ },
+ {
+  "id": "instrument-c394becdf55d",
+  "name": "HiPERCAM",
+  "facility_id": "eur-gtc",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-iac-cat",
+   "eur-gtc-detail"
+  ]
+ },
+ {
+  "id": "instrument-06fbe06966f4",
+  "name": "WEAVE",
+  "facility_id": "eur-wht",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-iac-cat",
+   "eur-ing-call"
+  ]
+ },
+ {
+  "id": "instrument-1a17bde78111",
+  "name": "HiFIplus",
+  "facility_id": "eur-gregor",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-gregor"
+  ]
+ },
+ {
+  "id": "instrument-bfb9462b96b7",
+  "name": "ZIMPOL service",
+  "facility_id": "eur-gregor",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-gregor"
+  ]
+ },
+ {
+  "id": "instrument-92d06c697ffc",
+  "name": "AFOSC",
+  "facility_id": "eur-copernico",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-asiago"
+  ]
+ },
+ {
+  "id": "instrument-b99ff22ce224",
+  "name": "ADONI",
+  "facility_id": "eur-copernico",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-asiago"
+  ]
+ },
+ {
+  "id": "instrument-ea6730fa3c49",
+  "name": "SOPHIE/SOPHIE-RED",
+  "facility_id": "eur-ohp193",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-french-call",
+   "eur-ohp-sophie-red-update"
+  ]
+ },
+ {
+  "id": "instrument-e3ab6e282ff0",
+  "name": "MISTRAL",
+  "facility_id": "eur-ohp193",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-french-call",
+   "eur-ohp-sophie-red-update"
+  ]
+ },
+ {
+  "id": "instrument-f8c56f2c0dfd",
+  "name": "Neo-Narval",
+  "facility_id": "eur-tbl",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-french-call"
+  ]
+ },
+ {
+  "id": "instrument-b85843f15d44",
+  "name": "SPIP sharedrisk",
+  "facility_id": "eur-tbl",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-french-call"
+  ]
+ },
+ {
+  "id": "instrument-e0cfc025fdab",
+  "name": "VISION sharedrisk",
+  "facility_id": "eur-tbl",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-french-call"
+  ]
+ },
+ {
+  "id": "instrument-17cd2cb508db",
+  "name": "T80Cam",
+  "facility_id": "eur-jast80",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-oaj-call"
+  ]
+ },
+ {
+  "id": "instrument-2ed8f05e1482",
+  "name": "JPCam",
+  "facility_id": "eur-jst250",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-oaj-call"
+  ]
+ },
+ {
+  "id": "instrument-482e78e5e30b",
+  "name": "SHOC",
+  "facility_id": "afr-saao10",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "afr-saao"
+  ]
+ },
+ {
+  "id": "instrument-78a5235221e9",
+  "name": "SAAO CCD",
+  "facility_id": "afr-saao10",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "afr-saao"
+  ]
+ },
+ {
+  "id": "instrument-d9e3bd25afbb",
+  "name": "CCD",
+  "facility_id": "eur-caha123",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-caha-paid"
+  ]
+ },
+ {
+  "id": "instrument-b9be48aa9ace",
+  "name": "CMOS",
+  "facility_id": "eur-caha123",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-caha-paid"
+  ]
+ },
+ {
+  "id": "instrument-3e2130c56188",
+  "name": "MUSICOS echelle",
+  "facility_id": "eur-skalnate13",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-skalnate-statute"
+  ]
+ },
+ {
+  "id": "instrument-8ceb0758bb55",
+  "name": "FLIProLinePL23042 CCD",
+  "facility_id": "eur-skalnate13",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-skalnate-statute"
+  ]
+ },
+ {
+  "id": "instrument-5dfb7319e89c",
+  "name": "SBIGST10-XME CCD",
+  "facility_id": "eur-skalnate061",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-skalnate-statute"
+  ]
+ },
+ {
+  "id": "instrument-1995772e6379",
+  "name": "SBIGALUMAAC4040",
+  "facility_id": "afr-mat50",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "afr-mat-direct"
+  ]
+ },
+ {
+  "id": "instrument-dced5de0d17e",
+  "name": "CCDphotometry",
+  "facility_id": "eur-suhora",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-suhora-access"
+  ]
+ },
+ {
+  "id": "instrument-e71b3bc180f4",
+  "name": "Sophia2048B CCD",
+  "facility_id": "eur-ostrowik",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-ostrowik-access",
+   "eur-ostrowik-upgrade",
+   "eur-ostrowik-technical"
+  ]
+ },
+ {
+  "id": "instrument-f1389b70c631",
+  "name": "RC imaging",
+  "facility_id": "eur-rozhen2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-rozhen-tac2027a",
+   "eur-rozhen-current",
+   "eur-rozhen-timetables2026b",
+   "eur-bas-sites"
+  ]
+ },
+ {
+  "id": "instrument-2921bc06abe4",
+  "name": "Echelle spectrograph",
+  "facility_id": "eur-rozhen2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-rozhen-tac2027a",
+   "eur-rozhen-current",
+   "eur-rozhen-timetables2026b",
+   "eur-bas-sites"
+  ]
+ },
+ {
+  "id": "instrument-19cff66e7762",
+  "name": "Andor iKon-L936 CCD",
+  "facility_id": "eur-milankovic",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-vidojevica-access2026",
+   "eur-vidojevica-scope",
+   "eur-vidojevica-instruments"
+  ]
+ },
+ {
+  "id": "instrument-668cf77383ab",
+  "name": "LISA-VIS spectrograph",
+  "facility_id": "eur-milankovic",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-vidojevica-access2026",
+   "eur-vidojevica-scope",
+   "eur-vidojevica-instruments"
+  ]
+ },
+ {
+  "id": "instrument-87b5e3b04a48",
+  "name": "FLI ProLine PL23042 CCD",
+  "facility_id": "eur-nedeljkovic",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-vidojevica-access2026",
+   "eur-vidojevica-scope",
+   "eur-vidojevica-instruments"
+  ]
+ },
+ {
+  "id": "instrument-514b56e37f32",
+  "name": "SBIG STXL-6303E CCD",
+  "facility_id": "eur-vidomeade",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-vidojevica-access2026",
+   "eur-vidojevica-scope",
+   "eur-vidojevica-instruments"
+  ]
+ },
+ {
+  "id": "instrument-1ca3a2102c6b",
+  "name": "UFES fiber-fed echelle spectrograph",
+  "facility_id": "eur-kourovka12",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-kourovka-access",
+   "eur-kourovka12-technical"
+  ]
+ },
+ {
+  "id": "instrument-2e22e9831442",
+  "name": "RoboPhot multichannel photometer (occasional)",
+  "facility_id": "eur-kourovka12",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-kourovka-access",
+   "eur-kourovka12-technical"
+  ]
+ },
+ {
+  "id": "instrument-d882b7fbe054",
+  "name": "IR photometer",
+  "facility_id": "eur-cas-zte",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-sai-cas2027a",
+   "eur-sai-cas2026b-scope"
+  ]
+ },
+ {
+  "id": "instrument-b0a000a16f30",
+  "name": "low-resolution spectrograph",
+  "facility_id": "eur-cas-zte",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-sai-cas2027a",
+   "eur-sai-cas2026b-scope"
+  ]
+ },
+ {
+  "id": "instrument-0aa44fe18fd2",
+  "name": "UBV photomultiplier photometer",
+  "facility_id": "eur-cas-zeiss1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-sai-cas2027a",
+   "eur-sai-cas2026b-scope"
+  ]
+ },
+ {
+  "id": "instrument-7f3822fdd753",
+  "name": "4096x4096 CCD photometer",
+  "facility_id": "eur-cas-zeiss2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-sai-cas2027a",
+   "eur-sai-cas2026b-scope"
+  ]
+ },
+ {
+  "id": "instrument-c8df29881ecd",
+  "name": "2048x2048 CCD camera",
+  "facility_id": "eur-cas-rc600",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-sai-cas2027a",
+   "eur-sai-cas2026b-scope"
+  ]
+ },
+ {
+  "id": "instrument-3984bca4d508",
+  "name": "CCD photometric camera",
+  "facility_id": "eur-cmo-rc600",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-sai-cmo2027a",
+   "eur-sai-cmo-scope"
+  ]
+ },
+ {
+  "id": "instrument-fde061951548",
+  "name": "C/X/K/Q/W receivers",
+  "facility_id": "eur-yebes40",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-yebes-access"
+  ]
+ },
+ {
+  "id": "instrument-e51e4b49dde5",
+  "name": "FFT spectrometers",
+  "facility_id": "eur-yebes40",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-yebes-access"
+  ]
+ },
+ {
+  "id": "instrument-f5b573363122",
+  "name": "L/S/X/Kreceivers;actualavailabilityconfirm",
+  "facility_id": "eur-dss63",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-dsn-madrid-access",
+   "eur-dsn-madrid-technical",
+   "eur-dsn-current-links"
+  ]
+ },
+ {
+  "id": "instrument-f764d73055de",
+  "name": "Q-band38–50GHzreceiver",
+  "facility_id": "eur-dss54",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-dsn-madrid-access",
+   "eur-dsn-madrid-technical",
+   "eur-dsn-current-links"
+  ]
+ },
+ {
+  "id": "instrument-ae6c4a2d9b0d",
+  "name": "FFTSspectrometer",
+  "facility_id": "eur-dss54",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-dsn-madrid-access",
+   "eur-dsn-madrid-technical",
+   "eur-dsn-current-links"
+  ]
+ },
+ {
+  "id": "instrument-e01bbb7d45bc",
+  "name": "QHY600M",
+  "facility_id": "eur-it-t18",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-itelescope-science",
+   "eur-itelescope-spain-scope",
+   "eur-itelescope-spain-sites"
+  ]
+ },
+ {
+  "id": "instrument-b2cae920c2fc",
+  "name": "ZWOASI2600MMPro",
+  "facility_id": "eur-it-t80",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-itelescope-science",
+   "eur-itelescope-spain-scope",
+   "eur-itelescope-spain-support"
+  ]
+ },
+ {
+  "id": "instrument-5d7adea1ccf1",
+  "name": "LRGB/Halpha/OIII/SII",
+  "facility_id": "eur-it-t80",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-itelescope-science",
+   "eur-itelescope-spain-scope",
+   "eur-itelescope-spain-support"
+  ]
+ },
+ {
+  "id": "instrument-c7f31be93298",
+  "name": "CCD cameras and filters",
+  "facility_id": "eur-pic-t50",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-t50-current",
+   "eur-t50-tech",
+   "eur-t50-training",
+   "eur-t50-fees"
+  ]
+ },
+ {
+  "id": "instrument-5cc66b7d8833",
+  "name": "Alpy600 spectrometer",
+  "facility_id": "eur-pic-t50",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-t50-current",
+   "eur-t50-tech",
+   "eur-t50-training",
+   "eur-t50-fees"
+  ]
+ },
+ {
+  "id": "instrument-c54e26c9630c",
+  "name": "Planned4LargeSizedTelescopes23m",
+  "facility_id": "eur-ctao-north",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-ctao-north",
+   "eur-ctao-statutes"
+  ]
+ },
+ {
+  "id": "instrument-cd8b34a014c1",
+  "name": "Planned9MediumSizedTelescopes12m",
+  "facility_id": "eur-ctao-north",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-ctao-north",
+   "eur-ctao-statutes"
+  ]
+ },
+ {
+  "id": "instrument-be948e82439f",
+  "name": "FPGA backend",
+  "facility_id": "eur-dwingeloo",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-dwingeloo-access",
+   "eur-dwingeloo-tech",
+   "eur-dwingeloo-current2026"
+  ]
+ },
+ {
+  "id": "instrument-b5aad3e3d4e3",
+  "name": "SDR backends",
+  "facility_id": "eur-dwingeloo",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-dwingeloo-access",
+   "eur-dwingeloo-tech",
+   "eur-dwingeloo-current2026"
+  ]
+ },
+ {
+  "id": "instrument-66f5eabe1ac6",
+  "name": "Dual polarisation radio feeds",
+  "facility_id": "eur-dwingeloo",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-dwingeloo-access",
+   "eur-dwingeloo-tech",
+   "eur-dwingeloo-current2026"
+  ]
+ },
+ {
+  "id": "instrument-97e33dfa701a",
+  "name": "USRP N210 spectrometer",
+  "facility_id": "eur-salsa-torre",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-salsa-access",
+   "eur-salsa-manual",
+   "eur-salsa-tech"
+  ]
+ },
+ {
+  "id": "instrument-f6158121b9c2",
+  "name": "USRP N210 spectrometer",
+  "facility_id": "eur-salsa-vale",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-salsa-access",
+   "eur-salsa-manual",
+   "eur-salsa-tech"
+  ]
+ },
+ {
+  "id": "instrument-7e06262dceb4",
+  "name": "USRP N210 spectrometer",
+  "facility_id": "eur-salsa-brage",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-salsa-access",
+   "eur-salsa-manual",
+   "eur-salsa-tech"
+  ]
+ },
+ {
+  "id": "instrument-9f8610ba4b40",
+  "name": "Andor Marana4.2-11 sCMOS",
+  "facility_id": "eur-ohp120",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-ohp-small27a",
+   "eur-ohp120-tech2026"
+  ]
+ },
+ {
+  "id": "instrument-4e6107e60ac9",
+  "name": "Visitor instruments; LISA primarily teaching",
+  "facility_id": "eur-ohp120",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-ohp-small27a",
+   "eur-ohp120-tech2026"
+  ]
+ },
+ {
+  "id": "instrument-36b52e81288d",
+  "name": "SBIG STXL6303 and photometric filters",
+  "facility_id": "eur-ohp80",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-ohp-small27a",
+   "eur-ohp80-tech"
+  ]
+ },
+ {
+  "id": "instrument-72bc6a09b08b",
+  "name": "ZWO ASI2600MM DUO; filters unspecified",
+  "facility_id": "eur-besely-c14",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-besely-access",
+   "eur-besely-booking",
+   "eur-besely-contact"
+  ]
+ },
+ {
+  "id": "instrument-593abeaddf00",
+  "name": "Scientific cameras; models unknown",
+  "facility_id": "eur-pujalt-tgs",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "eur-pujalt-access",
+   "eur-pujalt-equipment"
+  ]
+ },
+ {
+  "id": "instrument-69897c769ae5",
+  "name": "H22",
+  "facility_id": "ap-nobeyama45",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-nro",
+   "ap3-nro-call",
+   "ap3-nro-fees"
+  ]
+ },
+ {
+  "id": "instrument-82b45ca7229e",
+  "name": "H40",
+  "facility_id": "ap-nobeyama45",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-nro",
+   "ap3-nro-call",
+   "ap3-nro-fees"
+  ]
+ },
+ {
+  "id": "instrument-345f221836c1",
+  "name": "Z45",
+  "facility_id": "ap-nobeyama45",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-nro",
+   "ap3-nro-call",
+   "ap3-nro-fees"
+  ]
+ },
+ {
+  "id": "instrument-67e419cbd542",
+  "name": "FOREST",
+  "facility_id": "ap-nobeyama45",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-nro",
+   "ap3-nro-call",
+   "ap3-nro-fees"
+  ]
+ },
+ {
+  "id": "instrument-820e8bd284df",
+  "name": "7BEE (risk-sharing)",
+  "facility_id": "ap-nobeyama45",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-nro",
+   "ap3-nro-call",
+   "ap3-nro-fees"
+  ]
+ },
+ {
+  "id": "instrument-141dd2beaf3f",
+  "name": "HINOTORI TZ (single dish risk-sharing; VLBI unavailable)",
+  "facility_id": "ap-nobeyama45",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-nro",
+   "ap3-nro-call",
+   "ap3-nro-fees"
+  ]
+ },
+ {
+  "id": "instrument-63a0ad670074",
+  "name": "KOOLS-IFU",
+  "facility_id": "ap-seimei",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-seimei",
+   "ap3-seimei-kyoto",
+   "ap3-seimei-2027a"
+  ]
+ },
+ {
+  "id": "instrument-9dc7dfae6a7a",
+  "name": "TriCCS",
+  "facility_id": "ap-seimei",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-seimei",
+   "ap3-seimei-kyoto",
+   "ap3-seimei-2027a"
+  ]
+ },
+ {
+  "id": "instrument-b8b1745c2f20",
+  "name": "GAOES-RV",
+  "facility_id": "ap-seimei",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-seimei",
+   "ap3-seimei-kyoto",
+   "ap3-seimei-2027a"
+  ]
+ },
+ {
+  "id": "instrument-5fa686b7796b",
+  "name": "HFOSC",
+  "facility_id": "ap-hct",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hct"
+  ]
+ },
+ {
+  "id": "instrument-f66d0a9a95ba",
+  "name": "TIRSPEC",
+  "facility_id": "ap-hct",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hct"
+  ]
+ },
+ {
+  "id": "instrument-db35bd483bb2",
+  "name": "HESP",
+  "facility_id": "ap-hct",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hct"
+  ]
+ },
+ {
+  "id": "instrument-9f2d88487fa2",
+  "name": "ADFOSC",
+  "facility_id": "ap-dot",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-dot"
+  ]
+ },
+ {
+  "id": "instrument-645033e4c6cd",
+  "name": "TANSPEC",
+  "facility_id": "ap-dot",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-dot"
+  ]
+ },
+ {
+  "id": "instrument-712c8878c98a",
+  "name": "TIRCAM2",
+  "facility_id": "ap-dot",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-dot"
+  ]
+ },
+ {
+  "id": "instrument-d8e0935d64bf",
+  "name": "SPIM",
+  "facility_id": "ap-dot",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-dot"
+  ]
+ },
+ {
+  "id": "instrument-edf2c870cda1",
+  "name": "19-beam receiver",
+  "facility_id": "ap-fast",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-fastcall",
+   "ap-src-fastcontinuity",
+   "ap-src-fast26",
+   "ap-src-fast26extension"
+  ]
+ },
+ {
+  "id": "instrument-55a5b18503bf",
+  "name": "BOES",
+  "facility_id": "ap-boao",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-boao",
+   "ap2-src-kasi27a",
+   "ap2-src-boao-rules"
+  ]
+ },
+ {
+  "id": "instrument-22bf42271548",
+  "name": "KASINICS",
+  "facility_id": "ap-boao",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-boao",
+   "ap2-src-kasi27a",
+   "ap2-src-boao-rules"
+  ]
+ },
+ {
+  "id": "instrument-d09207fed538",
+  "name": "4kCCD",
+  "facility_id": "ap-boao",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-boao",
+   "ap2-src-kasi27a",
+   "ap2-src-boao-rules"
+  ]
+ },
+ {
+  "id": "instrument-c32f4bdd065c",
+  "name": "SEQUOIA-TRAO",
+  "facility_id": "ap-trao",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-traosusp"
+  ]
+ },
+ {
+  "id": "instrument-eb28859971a7",
+  "name": "NIRCam",
+  "facility_id": "ap-jwst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-jwst",
+   "ap-src-jwsttech"
+  ]
+ },
+ {
+  "id": "instrument-db4f6f981424",
+  "name": "NIRSpec",
+  "facility_id": "ap-jwst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-jwst",
+   "ap-src-jwsttech"
+  ]
+ },
+ {
+  "id": "instrument-0b23dd1fe841",
+  "name": "NIRISS",
+  "facility_id": "ap-jwst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-jwst",
+   "ap-src-jwsttech"
+  ]
+ },
+ {
+  "id": "instrument-edf81411ef19",
+  "name": "MIRI",
+  "facility_id": "ap-jwst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-jwst",
+   "ap-src-jwsttech"
+  ]
+ },
+ {
+  "id": "instrument-717db8f7ed4b",
+  "name": "ACS",
+  "facility_id": "ap-hst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hst"
+  ]
+ },
+ {
+  "id": "instrument-79009e858c25",
+  "name": "COS",
+  "facility_id": "ap-hst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hst"
+  ]
+ },
+ {
+  "id": "instrument-382eaa21e6a9",
+  "name": "STIS",
+  "facility_id": "ap-hst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hst"
+  ]
+ },
+ {
+  "id": "instrument-ebb2d52d29f0",
+  "name": "WFC3",
+  "facility_id": "ap-hst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hst"
+  ]
+ },
+ {
+  "id": "instrument-e90423296962",
+  "name": "FGS",
+  "facility_id": "ap-hst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hst"
+  ]
+ },
+ {
+  "id": "instrument-592a9e7fc7cf",
+  "name": "ACIS",
+  "facility_id": "ap-chandra",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-chandra"
+  ]
+ },
+ {
+  "id": "instrument-58cfc357d767",
+  "name": "HRC",
+  "facility_id": "ap-chandra",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-chandra"
+  ]
+ },
+ {
+  "id": "instrument-17d35afdd27e",
+  "name": "Resolve",
+  "facility_id": "ap-xrism",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-xrism",
+   "aud-xrism-keyfull",
+   "aud-xrism-keynasa"
+  ]
+ },
+ {
+  "id": "instrument-81b9b8d2af75",
+  "name": "Xtend",
+  "facility_id": "ap-xrism",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-xrism",
+   "aud-xrism-keyfull",
+   "aud-xrism-keynasa"
+  ]
+ },
+ {
+  "id": "instrument-8e36c438b6b8",
+  "name": "LAT",
+  "facility_id": "ap-fermi",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-fermi"
+  ]
+ },
+ {
+  "id": "instrument-1ec245f47417",
+  "name": "GBM",
+  "facility_id": "ap-fermi",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-fermi"
+  ]
+ },
+ {
+  "id": "instrument-ca477659ebc3",
+  "name": "BAT",
+  "facility_id": "ap-swift",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-swift"
+  ]
+ },
+ {
+  "id": "instrument-9c7069aac9cf",
+  "name": "XRT",
+  "facility_id": "ap-swift",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-swift"
+  ]
+ },
+ {
+  "id": "instrument-ee4b18337fc0",
+  "name": "UVOT",
+  "facility_id": "ap-swift",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-swift"
+  ]
+ },
+ {
+  "id": "instrument-48c287d556f2",
+  "name": "FXT (offered)",
+  "facility_id": "ap-einstein-probe",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-ep"
+  ]
+ },
+ {
+  "id": "instrument-f3c328fa7b65",
+  "name": "WXT (not offered inCycle3)",
+  "facility_id": "ap-einstein-probe",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-ep"
+  ]
+ },
+ {
+  "id": "instrument-2d3df9c535f1",
+  "name": "VELC",
+  "facility_id": "ap-aditya",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-aditya",
+   "ap2-src-aditya4"
+  ]
+ },
+ {
+  "id": "instrument-6ddda26b6cd2",
+  "name": "SUIT",
+  "facility_id": "ap-aditya",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-aditya",
+   "ap2-src-aditya4"
+  ]
+ },
+ {
+  "id": "instrument-b3ea9696ce26",
+  "name": "XSPECT (offered)",
+  "facility_id": "ap-xposat",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-xposat"
+  ]
+ },
+ {
+  "id": "instrument-3ec9da53b6e6",
+  "name": "POLIX (not offered)",
+  "facility_id": "ap-xposat",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-xposat"
+  ]
+ },
+ {
+  "id": "instrument-6c56c2fc92d5",
+  "name": "SOT",
+  "facility_id": "ap-hinode",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hinode"
+  ]
+ },
+ {
+  "id": "instrument-1aaeeeb2fad0",
+  "name": "XRT",
+  "facility_id": "ap-hinode",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hinode"
+  ]
+ },
+ {
+  "id": "instrument-58f5d28a7a7b",
+  "name": "EIS",
+  "facility_id": "ap-hinode",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-hinode"
+  ]
+ },
+ {
+  "id": "instrument-3bf8b357ed5d",
+  "name": "MXT",
+  "facility_id": "ap-svom",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-svomcall",
+   "ap-src-svom",
+   "aud-svom2027-full"
+  ]
+ },
+ {
+  "id": "instrument-8bd28511af9e",
+  "name": "VT",
+  "facility_id": "ap-svom",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-svomcall",
+   "ap-src-svom",
+   "aud-svom2027-full"
+  ]
+ },
+ {
+  "id": "instrument-ee64da156cc4",
+  "name": "ECLAIRs",
+  "facility_id": "ap-svom",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-svomcall",
+   "ap-src-svom",
+   "aud-svom2027-full"
+  ]
+ },
+ {
+  "id": "instrument-6c41e8a92ece",
+  "name": "GRM",
+  "facility_id": "ap-svom",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap-src-svomcall",
+   "ap-src-svom",
+   "aud-svom2027-full"
+  ]
+ },
+ {
+  "id": "instrument-39cfaef74e78",
+  "name": "4k × 4k CCD",
+  "facility_id": "ap2-st104",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-aries-st",
+   "ap2-src-aries-report"
+  ]
+ },
+ {
+  "id": "instrument-9d171c41661b",
+  "name": "AIMPOL",
+  "facility_id": "ap2-st104",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-aries-st",
+   "ap2-src-aries-report"
+  ]
+ },
+ {
+  "id": "instrument-713844d3c350",
+  "name": "2048 × 2048 CCD",
+  "facility_id": "ap2-dfot",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-aries-dfot",
+   "ap2-src-aries-report"
+  ]
+ },
+ {
+  "id": "instrument-1317cf30db37",
+  "name": "512 × 512 CCD",
+  "facility_id": "ap2-dfot",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-aries-dfot",
+   "ap2-src-aries-report"
+  ]
+ },
+ {
+  "id": "instrument-bb30f3cff4a1",
+  "name": "SOPHIA 2048B",
+  "facility_id": "ap2-lulin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-lulin26c",
+   "ap2-src-lulintech",
+   "ap2-src-lulinsite"
+  ]
+ },
+ {
+  "id": "instrument-c7d62e42db5a",
+  "name": "UVEX",
+  "facility_id": "ap2-lulin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-lulin26c",
+   "ap2-src-lulintech",
+   "ap2-src-lulinsite"
+  ]
+ },
+ {
+  "id": "instrument-f1b482b31d94",
+  "name": "LISA",
+  "facility_id": "ap2-lulin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-lulin26c",
+   "ap2-src-lulintech",
+   "ap2-src-lulinsite"
+  ]
+ },
+ {
+  "id": "instrument-e0433df38d59",
+  "name": "TRIPOL",
+  "facility_id": "ap2-lulin",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-lulin26c",
+   "ap2-src-lulintech",
+   "ap2-src-lulinsite"
+  ]
+ },
+ {
+  "id": "instrument-1fda6ad47926",
+  "name": "NIC",
+  "facility_id": "ap2-nayuta",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-nayuta26b",
+   "ap2-src-nayuta26ben",
+   "ap2-src-nayutatech",
+   "ap2-src-nayutainstruments"
+  ]
+ },
+ {
+  "id": "instrument-0acb07cb02a0",
+  "name": "MALLS",
+  "facility_id": "ap2-nayuta",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-nayuta26b",
+   "ap2-src-nayuta26ben",
+   "ap2-src-nayutatech",
+   "ap2-src-nayutainstruments"
+  ]
+ },
+ {
+  "id": "instrument-5b5575d7d812",
+  "name": "WFGS2",
+  "facility_id": "ap2-nayuta",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-nayuta26b",
+   "ap2-src-nayuta26ben",
+   "ap2-src-nayutatech",
+   "ap2-src-nayutainstruments"
+  ]
+ },
+ {
+  "id": "instrument-29d11ca9159b",
+  "name": "POPO by prior consultation",
+  "facility_id": "ap2-nayuta",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-nayuta26b",
+   "ap2-src-nayuta26ben",
+   "ap2-src-nayutatech",
+   "ap2-src-nayutainstruments"
+  ]
+ },
+ {
+  "id": "instrument-14276264bc8f",
+  "name": "SBIG STL-1001E",
+  "facility_id": "ap2-nhao60",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-nhaocollaboration",
+   "ap2-src-nhao60"
+  ]
+ },
+ {
+  "id": "instrument-604281bcb3d5",
+  "name": "simultaneous polarimetric imaging/spectroscopy apparatus",
+  "facility_id": "ap2-nhao60",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-nhaocollaboration",
+   "ap2-src-nhao60"
+  ]
+ },
+ {
+  "id": "instrument-6bbf31ee3a8c",
+  "name": "CCD (detailed current model unknown)",
+  "facility_id": "ap2-soao",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-soao-rules",
+   "ap2-src-kasi27a",
+   "ap2-src-soao-tech"
+  ]
+ },
+ {
+  "id": "instrument-67ef11ca0166",
+  "name": "UVIT",
+  "facility_id": "ap2-astrosat",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-astrosat-portal",
+   "ap2-src-astrosat-continuity",
+   "ap2-src-astrosat14",
+   "ap2-src-astrosat-guide"
+  ]
+ },
+ {
+  "id": "instrument-c159348df856",
+  "name": "SXT",
+  "facility_id": "ap2-astrosat",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-astrosat-portal",
+   "ap2-src-astrosat-continuity",
+   "ap2-src-astrosat14",
+   "ap2-src-astrosat-guide"
+  ]
+ },
+ {
+  "id": "instrument-bbdbf12e2a1f",
+  "name": "LAXPC",
+  "facility_id": "ap2-astrosat",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-astrosat-portal",
+   "ap2-src-astrosat-continuity",
+   "ap2-src-astrosat14",
+   "ap2-src-astrosat-guide"
+  ]
+ },
+ {
+  "id": "instrument-f4d12765128f",
+  "name": "CZTI",
+  "facility_id": "ap2-astrosat",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-astrosat-portal",
+   "ap2-src-astrosat-continuity",
+   "ap2-src-astrosat14",
+   "ap2-src-astrosat-guide"
+  ]
+ },
+ {
+  "id": "instrument-5d4a00dd6283",
+  "name": "SSM (survey monitor; requestability unverified)",
+  "facility_id": "ap2-astrosat",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-astrosat-portal",
+   "ap2-src-astrosat-continuity",
+   "ap2-src-astrosat14",
+   "ap2-src-astrosat-guide"
+  ]
+ },
+ {
+  "id": "instrument-d36ae0e0c859",
+  "name": "Andor DW436 2048 × 2048 CCD",
+  "facility_id": "ap2-kunming1m",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-kunming26",
+   "ap2-src-kunmingtech"
+  ]
+ },
+ {
+  "id": "instrument-14f250d4921d",
+  "name": "Tomo-e Gozen",
+  "facility_id": "ap2-kiso",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-kiso-collaboration",
+   "ap2-src-kiso-tech"
+  ]
+ },
+ {
+  "id": "instrument-7a7e5396f859",
+  "name": "FLI Microline16803",
+  "facility_id": "ap2-it-t08",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-it-australia",
+   "ap2-src-it-science"
+  ]
+ },
+ {
+  "id": "instrument-91af9bc5fc38",
+  "name": "ZWO6200MM",
+  "facility_id": "ap2-it-t17",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-it-australia",
+   "ap2-src-it-science"
+  ]
+ },
+ {
+  "id": "instrument-bfbeb3ca74ef",
+  "name": "FLI-PL6303E",
+  "facility_id": "ap2-it-t30",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-it-australia",
+   "ap2-src-it-science"
+  ]
+ },
+ {
+  "id": "instrument-816728c7c909",
+  "name": "ZWO6200MM",
+  "facility_id": "ap2-it-t32",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-it-australia",
+   "ap2-src-it-science"
+  ]
+ },
+ {
+  "id": "instrument-f02da9c786e9",
+  "name": "FLI-Proline16803",
+  "facility_id": "ap2-it-t59",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-it-australia",
+   "ap2-src-it-science"
+  ]
+ },
+ {
+  "id": "instrument-63402fd320a6",
+  "name": "Apogee Alta U16; monochrome camera and filters",
+  "facility_id": "ap2-it-t33",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-it-included",
+   "ap2-src-it-science"
+  ]
+ },
+ {
+  "id": "instrument-895182852517",
+  "name": "24 GPS/GNSS antenna receivers and synthesis correlator",
+  "facility_id": "ap2-iub-tart",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap2-src-cassa-core",
+   "ap2-src-cassa-tart",
+   "ap2-src-cassa-rules",
+   "ap2-src-cassa-constitution"
+  ]
+ },
+ {
+  "id": "instrument-6ec2251226d6",
+  "name": "vacuum vertical spectrograph",
+  "facility_id": "ap3-hidadst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-dst-access",
+   "ap3-dst2026",
+   "ap3-dst-tech"
+  ]
+ },
+ {
+  "id": "instrument-7fb952c82622",
+  "name": "horizontal spectrograph",
+  "facility_id": "ap3-hidadst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-dst-access",
+   "ap3-dst2026",
+   "ap3-dst-tech"
+  ]
+ },
+ {
+  "id": "instrument-0798e44c6831",
+  "name": "Halpha Lyot filter",
+  "facility_id": "ap3-hidadst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-dst-access",
+   "ap3-dst2026",
+   "ap3-dst-tech"
+  ]
+ },
+ {
+  "id": "instrument-1e4cb0a7a8b6",
+  "name": "spectropolarimeter",
+  "facility_id": "ap3-hidadst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-dst-access",
+   "ap3-dst2026",
+   "ap3-dst-tech"
+  ]
+ },
+ {
+  "id": "instrument-b3a53abe0940",
+  "name": "adaptive optics",
+  "facility_id": "ap3-hidadst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-dst-access",
+   "ap3-dst2026",
+   "ap3-dst-tech"
+  ]
+ },
+ {
+  "id": "instrument-a618a9edcc77",
+  "name": "TFOSC imaging/spectroscopy",
+  "facility_id": "ap3-rtt150",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-rtt150-tech",
+   "ap3-tr-rtt26"
+  ]
+ },
+ {
+  "id": "instrument-f6f41c0fa54b",
+  "name": "TFOSC polarimeter/MOS",
+  "facility_id": "ap3-rtt150",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-rtt150-tech",
+   "ap3-tr-rtt26"
+  ]
+ },
+ {
+  "id": "instrument-a9e080530c8f",
+  "name": "Andor cameras",
+  "facility_id": "ap3-rtt150",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-rtt150-tech",
+   "ap3-tr-rtt26"
+  ]
+ },
+ {
+  "id": "instrument-1de855525d6e",
+  "name": "Coude spectrograph/I2",
+  "facility_id": "ap3-rtt150",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-rtt150-tech",
+   "ap3-tr-rtt26"
+  ]
+ },
+ {
+  "id": "instrument-350d5dcb037e",
+  "name": "DEFPOS",
+  "facility_id": "ap3-rtt150",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-rtt150-tech",
+   "ap3-tr-rtt26"
+  ]
+ },
+ {
+  "id": "instrument-3dd9c30776ad",
+  "name": "SI1100 CCD camera",
+  "facility_id": "ap3-tug100",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-tug100-tech",
+   "ap3-tr-tug26"
+  ]
+ },
+ {
+  "id": "instrument-0b6a113a07ea",
+  "name": "QHY174GPS guider",
+  "facility_id": "ap3-tug100",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-tug100-tech",
+   "ap3-tr-tug26"
+  ]
+ },
+ {
+  "id": "instrument-f1ab90c34559",
+  "name": "Andor iKon-L936",
+  "facility_id": "ap3-tug060",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-tug060-tech"
+  ]
+ },
+ {
+  "id": "instrument-83ea56c8f74a",
+  "name": "12-position optical filter wheel",
+  "facility_id": "ap3-tug060",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-tr-rules",
+   "ap3-tr-form",
+   "ap3-tr-projects",
+   "ap3-tr-tug060-tech"
+  ]
+ },
+ {
+  "id": "instrument-2718f248d9e5",
+  "name": "20inchRCOS Ritchey-Chretien",
+  "facility_id": "ap3-onl-stellar1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-4c5b998da467",
+  "name": "TakahashiFS102 guide telescope",
+  "facility_id": "ap3-onl-stellar1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-4285a286023f",
+  "name": "SBIG cameras and self-guided spectrograph (2021brochure)",
+  "facility_id": "ap3-onl-stellar1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-0ab3f12ef163",
+  "name": "OfficinaStellare500RiFast astrograph",
+  "facility_id": "ap3-onl-stellar2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-8c2bac7795ed",
+  "name": "TakahashiFS102",
+  "facility_id": "ap3-onl-stellar2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-005430e54979",
+  "name": "FLIProLinePL4240 (2021brochure)",
+  "facility_id": "ap3-onl-stellar2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-9284b3529e58",
+  "name": "TMB152",
+  "facility_id": "ap3-onl-solar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-2100dabbdab5",
+  "name": "TakahashiFSQ106",
+  "facility_id": "ap3-onl-solar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-26ee4827170b",
+  "name": "LST152Halpha",
+  "facility_id": "ap3-onl-solar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-f5edb7969ffd",
+  "name": "LST60Halpha",
+  "facility_id": "ap3-onl-solar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-a36007495890",
+  "name": "Coronado70CaK (2021brochure)",
+  "facility_id": "ap3-onl-solar",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "ap3-onl-access",
+   "ap3-onl-continuity",
+   "ap3-onl-brochure"
+  ]
+ },
+ {
+  "id": "instrument-42755bf40289",
+  "name": "CCDT150",
+  "facility_id": "aud-osn-t150",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-osn-access",
+   "aud-osn-es",
+   "aud-osn-tech"
+  ]
+ },
+ {
+  "id": "instrument-4b4d18938bd4",
+  "name": "CCDT90",
+  "facility_id": "aud-osn-t90",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-osn-access",
+   "aud-osn-es",
+   "aud-osn-tech"
+  ]
+ },
+ {
+  "id": "instrument-50f14f3a5c2b",
+  "name": "CMOS-T90 (Spanish call only)",
+  "facility_id": "aud-osn-t90",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-osn-access",
+   "aud-osn-es",
+   "aud-osn-tech"
+  ]
+ },
+ {
+  "id": "instrument-3e97dc03c19f",
+  "name": "22 GHz dual-beam and VLBI",
+  "facility_id": "aud-metsahovi-14",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mro-access",
+   "aud-mro-equipment",
+   "aud-mro-schedule"
+  ]
+ },
+ {
+  "id": "instrument-475f0b4c06e7",
+  "name": "37 GHz dual-beam",
+  "facility_id": "aud-metsahovi-14",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mro-access",
+   "aud-mro-equipment",
+   "aud-mro-schedule"
+  ]
+ },
+ {
+  "id": "instrument-9c9965fb5c6f",
+  "name": "43 GHz VLBI",
+  "facility_id": "aud-metsahovi-14",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mro-access",
+   "aud-mro-equipment",
+   "aud-mro-schedule"
+  ]
+ },
+ {
+  "id": "instrument-d67d06a0b1f8",
+  "name": "86 GHz VLBI",
+  "facility_id": "aud-metsahovi-14",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mro-access",
+   "aud-mro-equipment",
+   "aud-mro-schedule"
+  ]
+ },
+ {
+  "id": "instrument-21f4cac6ab84",
+  "name": "Ondřejov Echelle Spectrograph",
+  "facility_id": "aud-perek",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-perek-access",
+   "aud-perek-guide",
+   "aud-perek-tech",
+   "aud-perek-diameter"
+  ]
+ },
+ {
+  "id": "instrument-1eab2dcc9aa7",
+  "name": "single-order spectrograph",
+  "facility_id": "aud-perek",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-perek-access",
+   "aud-perek-guide",
+   "aud-perek-tech",
+   "aud-perek-diameter"
+  ]
+ },
+ {
+  "id": "instrument-d64874086c45",
+  "name": "photometric camera",
+  "facility_id": "aud-perek",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-perek-access",
+   "aud-perek-guide",
+   "aud-perek-tech",
+   "aud-perek-diameter"
+  ]
+ },
+ {
+  "id": "instrument-bd2c4206b7aa",
+  "name": "CRISP2",
+  "facility_id": "aud-sst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-sst-access",
+   "aud-sst-setup",
+   "aud-sst-size"
+  ]
+ },
+ {
+  "id": "instrument-ceed680a1684",
+  "name": "CHROMIS",
+  "facility_id": "aud-sst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-sst-access",
+   "aud-sst-setup",
+   "aud-sst-size"
+  ]
+ },
+ {
+  "id": "instrument-a78005730c1c",
+  "name": "HeSP (2026 availability conflict)",
+  "facility_id": "aud-sst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-sst-access",
+   "aud-sst-setup",
+   "aud-sst-size"
+  ]
+ },
+ {
+  "id": "instrument-c4b7a41550fc",
+  "name": "MiHI visitor instrument; allocation unknown",
+  "facility_id": "aud-sst",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-sst-access",
+   "aud-sst-setup",
+   "aud-sst-size"
+  ]
+ },
+ {
+  "id": "instrument-2d9205c7d49a",
+  "name": "slit spectrograph",
+  "facility_id": "aud-azt20",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-kazvo-access",
+   "aud-kazvo-policy"
+  ]
+ },
+ {
+  "id": "instrument-3a4f0e815ddc",
+  "name": "Andor EMCCD",
+  "facility_id": "aud-azt20",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-kazvo-access",
+   "aud-kazvo-policy"
+  ]
+ },
+ {
+  "id": "instrument-49127f031480",
+  "name": "Kepler KL400 CMOS + Sloan filters",
+  "facility_id": "aud-azt20",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-kazvo-access",
+   "aud-kazvo-policy"
+  ]
+ },
+ {
+  "id": "instrument-252e3c443596",
+  "name": "QHY600 CMOS",
+  "facility_id": "aud-rc500",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-kazvo-access",
+   "aud-kazvo-policy"
+  ]
+ },
+ {
+  "id": "instrument-0758c5fb2f58",
+  "name": "QHY600 CMOS",
+  "facility_id": "aud-wfos40",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-kazvo-access",
+   "aud-kazvo-policy"
+  ]
+ },
+ {
+  "id": "instrument-594fc08d5ffd",
+  "name": "HERCULES",
+  "facility_id": "aud-mtj-mclellan",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mtj-access",
+   "aud-mtj-current"
+  ]
+ },
+ {
+  "id": "instrument-10fa77481148",
+  "name": "FLI CCD",
+  "facility_id": "aud-mtj-bc",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mtj-access",
+   "aud-mtj-current",
+   "aud-mtj-bc"
+  ]
+ },
+ {
+  "id": "instrument-0b6ee4cab8d6",
+  "name": "Puoko-nui",
+  "facility_id": "aud-mtj-bc",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mtj-access",
+   "aud-mtj-current",
+   "aud-mtj-bc"
+  ]
+ },
+ {
+  "id": "instrument-9c40f49e4633",
+  "name": "CCD photometry",
+  "facility_id": "aud-mtj-oc",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mtj-access",
+   "aud-mtj-current"
+  ]
+ },
+ {
+  "id": "instrument-adff3b97f429",
+  "name": "MOA Wide Field Camera",
+  "facility_id": "aud-mtj-moa",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-mtj-access",
+   "aud-mtj-current",
+   "aud-mtj-moa"
+  ]
+ },
+ {
+  "id": "instrument-c30dff7d4f1a",
+  "name": "LE",
+  "facility_id": "aud-hxmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-hxmt2025",
+   "aud-hxmt2026",
+   "aud-hxmt-standing"
+  ]
+ },
+ {
+  "id": "instrument-4239ad096940",
+  "name": "ME",
+  "facility_id": "aud-hxmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-hxmt2025",
+   "aud-hxmt2026",
+   "aud-hxmt-standing"
+  ]
+ },
+ {
+  "id": "instrument-5bcad843e045",
+  "name": "HE",
+  "facility_id": "aud-hxmt",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-hxmt2025",
+   "aud-hxmt2026",
+   "aud-hxmt-standing"
+  ]
+ },
+ {
+  "id": "instrument-f36a6123b74d",
+  "name": "SWAP",
+  "facility_id": "aud-proba2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-proba2-gi",
+   "aud-rob-gi2025",
+   "aud-proba2-current",
+   "aud-proba2-tech"
+  ]
+ },
+ {
+  "id": "instrument-01a23752fd5a",
+  "name": "LYRA",
+  "facility_id": "aud-proba2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-proba2-gi",
+   "aud-rob-gi2025",
+   "aud-proba2-current",
+   "aud-proba2-tech"
+  ]
+ },
+ {
+  "id": "instrument-9193136003f6",
+  "name": "EUI (verifiedGuestInvestigatorroute only)",
+  "facility_id": "aud-solo",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-proba2-gi",
+   "aud-rob-gi2025",
+   "aud-solo-mission-engagement"
+  ]
+ },
+ {
+  "id": "instrument-1e724d518c86",
+  "name": "ASPIICS",
+  "facility_id": "aud-proba3",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-proba3-gi",
+   "aud-proba3-deadline",
+   "aud-proba3-recovered"
+  ]
+ },
+ {
+  "id": "instrument-453ef79eec66",
+  "name": "SECCHI subjectinstrumentteamfeasibility",
+  "facility_id": "aud-stereoa",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-stereo-current",
+   "aud-solar-jop"
+  ]
+ },
+ {
+  "id": "instrument-bc001f5f4691",
+  "name": "Diffraction Limited Aluma AC4040 CMOS",
+  "facility_id": "aud-spirit1",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-spirit-access",
+   "aud-spirit-tech",
+   "aud-spirit-guides"
+  ]
+ },
+ {
+  "id": "instrument-3695896965b8",
+  "name": "FLI Proline PL16801 CCD",
+  "facility_id": "aud-spirit2",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-spirit-access",
+   "aud-spirit-tech",
+   "aud-spirit-guides"
+  ]
+ },
+ {
+  "id": "instrument-c951eca2c149",
+  "name": "FLI Proline16803 CCD",
+  "facility_id": "aud-spirit3",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-spirit-access",
+   "aud-spirit-tech",
+   "aud-spirit-guides"
+  ]
+ },
+ {
+  "id": "instrument-3d5b934b953b",
+  "name": "SBIG STX16803 CCD",
+  "facility_id": "aud-spirit4",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-spirit-access",
+   "aud-spirit-tech",
+   "aud-spirit-guides"
+  ]
+ },
+ {
+  "id": "instrument-c0c0177763d2",
+  "name": "Fingerlakes Kepler KAF-4320 CCD (sourceverbatim)",
+  "facility_id": "aud-spirit6",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-spirit-access",
+   "aud-spirit-tech",
+   "aud-spirit-guides"
+  ]
+ },
+ {
+  "id": "instrument-83a8853846c7",
+  "name": "water Cherenkov detector",
+  "facility_id": "aud-nevod",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-nevod-access",
+   "aud-nevod-services",
+   "aud-nevod-form",
+   "aud-nevod-current",
+   "aud-nevod-tech",
+   "aud-nevod-fees"
+  ]
+ },
+ {
+  "id": "instrument-976a953a3f0b",
+  "name": "DECOR",
+  "facility_id": "aud-nevod",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-nevod-access",
+   "aud-nevod-services",
+   "aud-nevod-form",
+   "aud-nevod-current",
+   "aud-nevod-tech",
+   "aud-nevod-fees"
+  ]
+ },
+ {
+  "id": "instrument-eca5ebb52057",
+  "name": "URAGAN",
+  "facility_id": "aud-nevod",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-nevod-access",
+   "aud-nevod-services",
+   "aud-nevod-form",
+   "aud-nevod-current",
+   "aud-nevod-tech",
+   "aud-nevod-fees"
+  ]
+ },
+ {
+  "id": "instrument-2fc3dcf36ee1",
+  "name": "calibration telescope system",
+  "facility_id": "aud-nevod",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-nevod-access",
+   "aud-nevod-services",
+   "aud-nevod-form",
+   "aud-nevod-current",
+   "aud-nevod-tech",
+   "aud-nevod-fees"
+  ]
+ },
+ {
+  "id": "instrument-b2f3c6b6cfb2",
+  "name": "PRISMA",
+  "facility_id": "aud-nevod",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-nevod-access",
+   "aud-nevod-services",
+   "aud-nevod-form",
+   "aud-nevod-current",
+   "aud-nevod-tech",
+   "aud-nevod-fees"
+  ]
+ },
+ {
+  "id": "instrument-17776dcc038b",
+  "name": "additional cosmic-ray detectors by agreement",
+  "facility_id": "aud-nevod",
+  "status": "As listed by facility sources; individual claim-to-source mapping and current route-specific availability may need further verification",
+  "source_ids": [
+   "aud-nevod-access",
+   "aud-nevod-services",
+   "aud-nevod-form",
+   "aud-nevod-current",
+   "aud-nevod-tech",
+   "aud-nevod-fees"
+  ]
+ }
+]

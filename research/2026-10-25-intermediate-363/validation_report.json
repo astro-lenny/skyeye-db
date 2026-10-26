@@ -1,0 +1,53 @@
+{
+  "counts": {
+    "catalogue_entries": 374,
+    "eligible_catalogue_entries": 363,
+    "eligible_space_entries": 23,
+    "eligible_ground_and_network_entries": 340,
+    "non_current_or_unverified_entries": 11,
+    "suspended_entries": 5,
+    "announced_future_entries": 2,
+    "proposal_programmes": 237,
+    "documented_routes": 482,
+    "sources": 673,
+    "unresolved_candidate_records": 179,
+    "excluded_records": 14,
+    "coordinate_matches": 125
+  },
+  "checks": [
+    "Unique facility, programme, route and source IDs",
+    "All route joins and facility/programme/route evidence references resolve",
+    "Available decimal coordinates in valid latitude/longitude ranges"
+  ],
+  "missing_facility_fields": {
+    "operator": 35,
+    "latitude_deg": 211,
+    "longitude_deg": 211,
+    "elevation_m": 198,
+    "aperture_m": 130,
+    "collecting_area_m2": 363,
+    "wavelength_coverage": 15,
+    "instruments": 155,
+    "observing_modes": 144,
+    "technical_constraints": 176,
+    "technical_documentation_urls": 106
+  },
+  "missing_programme_fields": {
+    "eligibility": 5,
+    "fees": 187,
+    "frequency": 13,
+    "latest_call_found": 46,
+    "deadline": 87,
+    "submission_portal": 7,
+    "allocation_process": 39
+  },
+  "edition_id": "2026-10-25-intermediate-363",
+  "export_roundtrip_checks": [
+    "master: 363 rows; every exported cell round-tripped exactly",
+    "proposal_access: 482 rows; every exported cell round-tripped exactly",
+    "research_ledger: 341 rows; every exported cell round-tripped exactly",
+    "sources: 673 rows; every exported cell round-tripped exactly",
+    "unresolved_candidates: 179 rows; every exported cell round-tripped exactly",
+    "country_coverage: 249 rows; every exported cell round-tripped exactly"
+  ]
+}

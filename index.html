@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SkyEye — Telescope &amp; Access Finder</title>
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="site-header">
+    <div class="brand">
+      <h1>SkyEye</h1>
+      <p class="tagline">Find a telescope by wavelength, sky position and who can apply — worldwide.</p>
+    </div>
+    <div class="header-actions">
+      <a id="contribute-btn" class="btn btn-primary" target="_blank" rel="noopener"
+         title="Open a GitHub issue to suggest a facility, fix a field, or propose a feature.">★ Contribute</a>
+      <a id="report-bug-btn" class="btn btn-outline" target="_blank" rel="noopener"
+         title="Found wrong data or a broken filter? Open a bug report on GitHub.">⚠ Report a bug / error</a>
+    </div>
+  </header>
+
+  <div class="caveat-banner">
+    <strong>Incomplete, intermediate research edition.</strong>
+    "Unknown" never means no, zero, free or unrestricted. Historical deadlines are not current
+    opportunities. Peak-elevation and declination-reach figures are derived geometry (latitude
+    only) — not verified telescope pointing limits.
+    <a href="research/2026-10-25-intermediate-363/coverage_audit.md">Coverage &amp; limits</a> ·
+    <a href="docs/data_dictionary.md">Data dictionary</a>
+  </div>
+
+  <div id="layout">
+    <aside id="filters">
+      <div class="filters-head">
+        <h2>Filters</h2>
+        <button id="reset" type="button">Reset</button>
+      </div>
+      <input type="search" id="search" placeholder="Search facility / instrument / country…">
+
+      <fieldset>
+        <legend title="Filters on either a parsed numeric range (instruments + ~1 in 6 facilities) or the broader category below.">
+          Wavelength / Frequency <span class="info">ⓘ</span>
+        </legend>
+        <label>From <input type="number" id="wmin" step="any" min="0"></label>
+        <label>To <input type="number" id="wmax" step="any" min="0"></label>
+        <label>Unit
+          <select id="wunit">
+            <option value="um">µm</option>
+            <option value="nm">nm</option>
+            <option value="angstrom">Å</option>
+            <option value="mm">mm</option>
+            <option value="cm">cm</option>
+            <option value="ghz">GHz</option>
+            <option value="mhz">MHz</option>
+            <option value="thz">THz</option>
+            <option value="ev">eV</option>
+            <option value="kev">keV</option>
+          </select>
+        </label>
+        <label title="Row's range overlaps your range at all."><input type="radio" name="wmode" value="overlap" checked> Overlaps range</label>
+        <label title="Row's range fully contains your range."><input type="radio" name="wmode" value="cover"> Covers entire range</label>
+        <p class="hint">Only matches rows with a known numeric range (most facility-level entries
+          don't have one yet — use Waveband below for those).</p>
+      </fieldset>
+
+      <fieldset>
+        <legend title="Broad electromagnetic regime, derived from each facility's documented coverage. Covers almost every row, even without a precise numeric range.">
+          Waveband <span class="info">ⓘ</span>
+        </legend>
+        <div id="wavebands"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend title="Where your target is on the sky (declination) and how high it must get above the horizon to be usable.">
+          Target declination <span class="info">ⓘ</span>
+        </legend>
+        <label>Dec. min (°) <input type="number" id="decMin" step="any" min="-90" max="90" placeholder="-30"></label>
+        <label>Dec. max (°) <input type="number" id="decMax" step="any" min="-90" max="90" placeholder="optional"></label>
+        <label title="Peak altitude at transit = 90° − |latitude − declination|. Below ~20-30° atmospheric extinction/airmass gets severe for most science cases.">
+          Min. usable elevation (°) <input type="number" id="minElevation" step="any" min="0" max="90" value="30">
+        </label>
+        <p class="hint">Computed from facility latitude only (ideal horizon, no obstructions,
+          mount or scheduling limits). Facilities with unknown coordinates are excluded by this
+          filter specifically — they still appear with every other filter.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend title="Free-text match against the eligibility wording of every documented access route for a facility.">
+          Your affiliation / country <span class="info">ⓘ</span>
+        </legend>
+        <input type="search" id="affiliation" placeholder="e.g. Chile, EU, university…">
+        <p class="hint">Keyword match only — many open programmes don't name every eligible
+          country. Not finding your affiliation mentioned is not proof you're ineligible; always
+          check the linked call.</p>
+      </fieldset>
+
+      <fieldset>
+        <legend title="Only applies to the handful of facilities with verified per-instrument technical data today. A capability shown as required will hide every row where it isn't specifically confirmed.">
+          Capabilities <span class="info">ⓘ</span>
+        </legend>
+        <div id="capabilities"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Spectral resolving power</legend>
+        <label>From <input type="number" id="minR" step="any" min="0"></label>
+        <label>To <input type="number" id="maxR" step="any" min="0"></label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Spatial resolution</legend>
+        <label>Can reach ≤
+          <input type="number" id="spat" step="any" min="0">
+          <select id="spatunit">
+            <option value="arcsec">arcsec</option>
+            <option value="mas">mas</option>
+            <option value="arcmin">arcmin</option>
+            <option value="deg">deg</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Field of view</legend>
+        <label>At least
+          <input type="number" id="fov" step="any" min="0">
+          <select id="fovunit">
+            <option value="arcsec">arcsec</option>
+            <option value="arcmin">arcmin</option>
+            <option value="deg">deg</option>
+            <option value="mas">mas</option>
+          </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Scope</legend>
+        <label title="Excludes suspended, announced-future and non-current/unverified catalogue entries."><input type="checkbox" id="eligibleOnly" checked> Eligible catalogue entries only</label>
+        <label title="A network (e.g. a VLBI array of several telescopes) or an access-scope aggregate is not an independent physical telescope."><input type="checkbox" id="hideAggregates" checked> Hide networks / access-scope aggregates</label>
+        <label><input type="checkbox" id="coordsOnly"> Only facilities with known coordinates</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Hemisphere</legend>
+        <div id="hemispheres"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Category</legend>
+        <div id="categories"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend title="Documented programme continuity, not a guarantee of an open call right now.">
+          Programme status <span class="info">ⓘ</span>
+        </legend>
+        <div id="statuses"></div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Region</legend>
+        <div id="regions"></div>
+      </fieldset>
+
+      <div id="show-results-bar">
+        <button id="show-results" type="button">Show results</button>
+      </div>
+    </aside>
+
+    <main>
+      <div id="mobile-bar">
+        <button id="open-filters" type="button">☰ Filters</button>
+      </div>
+
+      <div id="view-toggle" role="tablist">
+        <button data-view="table" class="active" role="tab" aria-selected="true">Table</button>
+        <button data-view="map" role="tab" aria-selected="false">Map</button>
+      </div>
+
+      <p id="count">Loading…</p>
+
+      <div id="map" hidden></div>
+
+      <div id="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-key="official_name" title="Click to sort. Facility name, plus instrument name for the entries with per-instrument detail.">Facility<span class="sort-arrow"></span></th>
+              <th data-key="instrument_name" title="Click to sort. Only set for facilities with verified per-instrument technical data.">Instrument<span class="sort-arrow"></span></th>
+              <th data-key="facility_type" title="Click to sort. Telescope, array, space observatory, network, etc.">Type<span class="sort-arrow"></span></th>
+              <th data-key="waveband_category" title="Click to sort. Broad electromagnetic regime.">Waveband<span class="sort-arrow"></span></th>
+              <th data-key="lam_lo_m" title="Click to sort by lower bound. Blank when no numeric range is parsed yet.">Wavelength / Freq.<span class="sort-arrow"></span></th>
+              <th title="Only recorded for facilities with verified per-instrument data.">Capabilities</th>
+              <th data-key="spec_res_best" title="Click to sort. Highest spectral resolving power (R) reachable.">Spectral Res.<span class="sort-arrow"></span></th>
+              <th data-key="spat_res_arcsec_best" title="Click to sort. Finest spatial resolution, arcsec.">Spatial Res.<span class="sort-arrow"></span></th>
+              <th data-key="fov_arcsec_best" title="Click to sort. Largest field of view, arcsec.">FOV<span class="sort-arrow"></span></th>
+              <th data-key="country" title="Click to sort.">Country / Region<span class="sort-arrow"></span></th>
+              <th data-key="latitude_deg" title="Click to sort by latitude. Shows your target's peak elevation here once a declination is set.">Hemisphere<span class="sort-arrow"></span></th>
+              <th data-key="proposal_access_status" title="Click to sort. Documented programme continuity, not an open-call guarantee.">Status<span class="sort-arrow"></span></th>
+              <th data-key="route_count" title="Click to sort. Number of documented access routes — click a row to see each one's eligibility, fees and deadline.">Programmes<span class="sort-arrow"></span></th>
+            </tr>
+          </thead>
+          <tbody id="results"></tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    SkyEye is open source. Data: intermediate research edition
+    <code>2026-10-25-intermediate-363</code> (incomplete, in progress) — see
+    <a href="docs/data_dictionary.md">data dictionary</a>,
+    <a href="docs/unresolved_integration_issues.md">known issues</a> and
+    <a href="CHANGELOG.md">changelog</a>.
+  </footer>
+
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
