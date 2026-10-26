@@ -18,6 +18,15 @@ DATA_DIR = os.path.join(REPO_ROOT, "data")
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wavelength_parse import parse_wavelength_range_m, classify_waveband, _to_meters  # noqa: E402
 
+
+def as_list(v):
+    """~29% of the source's routes[].covered_instruments are a bare string instead of a
+    one-item list -- a data-shape inconsistency confirmed against every other list-typed field
+    in the research edition (only this one is affected). Normalize so app.js can always .join() it."""
+    if v is None:
+        return []
+    return v if isinstance(v, list) else [v]
+
 ANGLE_TO_ARCSEC = {
     "uas": 1e-6, "mas": 1e-3, "arcsec": 1, "arcsecs": 1, "arcsecond": 1, "arcseconds": 1,
     "as": 1, '"': 1, "deg": 3600, "degree": 3600, "degrees": 3600,
@@ -98,7 +107,7 @@ def facility_context(fid):
             "deadline": prog.get("deadline"),
             "submission_portal": prog.get("submission_portal"),
             "allocation_process": prog.get("allocation_process"),
-            "covered_instruments": r.get("covered_instruments") or [],
+            "covered_instruments": as_list(r.get("covered_instruments")),
             "access_evidence": unknown_to_none(r.get("access_evidence")),
             "verification": r.get("verification"),
             "notes": unknown_to_none(r.get("notes")),

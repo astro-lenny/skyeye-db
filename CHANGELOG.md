@@ -1,5 +1,36 @@
 # Changelog
 
+## [Unreleased] — three real bugs found via actual deployed-site testing
+
+All three below were caught from live GitHub Pages testing, not inferred — thank you for the
+screenshots. Verified fixed with Playwright, not just reasoned about: see each entry.
+
+### Fixed
+- **Map showed "API KEY REQUIRED" watermarked tiles.** CARTO's anonymous `dark_all` basemap
+  (`basemaps.cartocdn.com`) now requires an API key — it was free when first used here, isn't
+  anymore. Switched to the OSM Foundation's own standard tile server (`tile.openstreetmap.org`,
+  always free, no key, no account) and fake the dark look with a CSS `filter` on the tile pane
+  only, so markers/popups/zoom controls are unaffected.
+- **Clicking certain rows silently did nothing, and the map sometimes showed 0 markers.** Root
+  cause: 139 of 482 routes (29%) in the research inventory have `covered_instruments` recorded as
+  a bare string instead of a one-item list — a data-shape inconsistency in the source, confirmed
+  against every other list-typed field (only this one is affected). `route.covered_instruments
+  .join(", ")` threw a `TypeError` on those rows, which silently aborted the whole `render()` call
+  partway through — explaining both symptoms with one root cause. Fixed by normalizing to a list
+  in both build scripts (`as_list()` helper), plus a defensive `[].concat(...)` guard in `app.js`
+  itself so a future data slip can't crash the page again. Verified by clicking through a sample
+  spread across all 384 rows in a headless browser with zero errors, and confirming 0 remaining
+  non-list values in the rebuilt `data/observations.json`.
+- **Table couldn't be scrolled sideways, and the header didn't stay visible while scrolling down**
+  — two compounding CSS bugs, both confirmed empirically before and after the fix:
+  1. `#table-wrap { overflow: hidden }` clipped the oversized table instead of letting it scroll.
+  2. `table { border-collapse: collapse }` and `th { overflow: hidden }` (the column-resize-handle
+     styling) each independently break `position: sticky` on table cells in every major browser —
+     a well-known browser limitation, not something either rule was obviously expected to cause.
+     Dropped the resize handle (minor, unrequested) to keep the sticky header (explicitly asked
+     for). `#table-wrap` is now its own bounded, scrollable region (horizontal + vertical) with
+     its header pinned to the top of that region as you scroll through rows.
+
 ## [Unreleased] — visual redesign + quick telescope links
 
 Direct response to feedback that the previous light-theme redesign still looked unfinished and

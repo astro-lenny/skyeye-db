@@ -108,7 +108,7 @@ aside#filters { width: 320px; flex: none; padding: 1rem; background: var(--surfa
 .filters-head { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.6rem; }
 .filters-head h2 { margin: 0; font-size: 1rem; color: var(--ink-secondary); text-transform: uppercase; letter-spacing: 0.05em; }
 #reset { background: none; border: none; color: var(--accent); cursor: pointer; font-size: 0.85rem; padding: 0; }
-main { flex: 1; padding: 1.25rem 1.5rem; overflow-x: auto; min-width: 0; }
+main { flex: 1; padding: 1.25rem 1.5rem; min-width: 0; }
 
 details.filter-group { margin: 0.5rem 0; border: 1px solid var(--hairline); border-radius: var(--radius-md);
                         background: var(--surface-raised); overflow: hidden; }
@@ -159,8 +159,12 @@ input[type=number]:focus, input[type=search]:focus, select:focus { border-color:
 #count { color: var(--ink-secondary); font-size: 0.88rem; margin-top: 0; }
 
 #map { height: 60vh; min-height: 360px; border-radius: var(--radius-lg); overflow: hidden;
-       border: 1px solid var(--hairline); margin-bottom: 1rem; filter: saturate(1.05); }
+       border: 1px solid var(--hairline); margin-bottom: 1rem; background: #0a0e17; }
 #map[hidden] { display: none; }
+/* OSM's standard tiles are free/no-key (unlike CARTO's basemaps, which now require one) but are
+   a light basemap; invert+rotate just the tile imagery to fake a dark map without touching
+   markers, popups or the zoom control, which live in separate Leaflet panes. */
+#map .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(0.92) contrast(0.9) saturate(0.8); }
 .map-popup-link { margin-top: 0.4rem; padding: 0.3rem 0.6rem; border: 1px solid var(--hairline);
                    background: var(--surface); color: var(--ink); border-radius: 6px; cursor: pointer; font-size: 0.8rem; }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--surface-raised); color: var(--ink); }
@@ -168,15 +172,25 @@ input[type=number]:focus, input[type=search]:focus, select:focus { border-color:
 
 /* ---------- table ---------- */
 #table-wrap[hidden] { display: none; }
-#table-wrap { border: 1px solid var(--hairline); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-1); }
-table { border-collapse: collapse; width: 100%; min-width: 1300px; background: var(--surface); font-size: 0.87rem; }
+/* A bounded-height scroll region (not the whole page) is what actually lets a sticky <thead>
+   and horizontal scrolling coexist in CSS: overflow-x:auto on an unbounded-height container
+   also makes it the sticky positioning context for its children, but since it never scrolls
+   vertically itself (no max-height), position:sticky has nothing to stick to and the header
+   just scrolls away with the page. Giving it a real height fixes both at once. */
+#table-wrap { border: 1px solid var(--hairline); border-radius: var(--radius-lg); box-shadow: var(--shadow-1);
+              overflow: auto; max-height: calc(100vh - 280px); min-height: 360px; }
+/* border-collapse: collapse silently breaks position:sticky on <th>/<td> in every major browser
+   engine -- separate + zero spacing keeps the same visual borders without that bug. */
+table { border-collapse: separate; border-spacing: 0; width: 100%; min-width: 1300px; background: var(--surface); font-size: 0.87rem; }
 th, td { text-align: left; padding: 0.55rem 0.75rem; vertical-align: top; border-bottom: 1px solid var(--hairline); }
 thead th { position: sticky; top: 0; background: var(--surface-2); z-index: 1; font-size: 0.72rem;
            text-transform: uppercase; letter-spacing: 0.04em; color: var(--ink-muted); font-weight: 700; }
 th[data-key] { cursor: pointer; user-select: none; }
 th[data-key]:hover { color: var(--ink); }
 .sort-arrow { color: var(--accent); }
-th { resize: horizontal; overflow: hidden; }
+/* No column-resize handle: it needs overflow != visible on the <th>, which silently breaks
+   position:sticky on that same cell in every major browser -- sticky is the more useful of
+   the two, and horizontal scrolling already handles an overly wide table. */
 tbody tr.facility-row { position: relative; cursor: pointer; border-left: 3px solid transparent; }
 tbody tr.facility-row:nth-child(4n+1), tbody tr.facility-row:nth-child(4n+2) { background: rgba(255,255,255,0.015); }
 tr.facility-row:hover { background: rgba(59,214,255,0.07); border-left-color: var(--accent); }
@@ -230,7 +244,10 @@ body.noscroll { overflow: hidden; }
   #stat-bar { overflow-x: auto; }
   .caveat-banner { padding: 0.5rem 1rem; }
   #layout { display: block; }
-  main { padding: 0.75rem; overflow-x: visible; }
+  main { padding: 0.75rem; }
+  /* mobile uses the card layout (thead hidden, no horizontal scroll needed) -- let it flow with
+     the normal page scroll instead of its own bounded box. */
+  #table-wrap { max-height: none; overflow: visible; }
 
   #mobile-bar { display: flex; margin-bottom: 0.6rem; }
   #mobile-bar button { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1rem; font-size: 0.95rem;

@@ -3377,7 +3377,9 @@
   "programme_name": "MLSO Special Observation Requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Upgraded Coronal Multi-channel Polarimeter",
+  "covered_instruments": [
+   "Upgraded Coronal Multi-channel Polarimeter"
+  ],
   "eligibility": "Solar and heliospheric scientific community; nationality/institution requirements unknown.",
   "access_evidence": "UCoMP most flexible; changes to observing modes/cadence can be requested. Most recent illustrated campaign2022 is not a current call. Full-power restoration announcement states UCoMP will join KCor daily; actual resumed date unknown.",
   "source_ids": [
@@ -3396,7 +3398,9 @@
   "programme_name": "MLSO Special Observation Requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "COSMO K-Coronagraph",
+  "covered_instruments": [
+   "COSMO K-Coronagraph"
+  ],
   "eligibility": "Solar and heliospheric scientific community; nationality/institution requirements unknown.",
   "access_evidence": "UCoMP most flexible; changes to observing modes/cadence can be requested. Most recent illustrated campaign2022 is not a current call. Full-power restoration announcement states UCoMP will join KCor daily; actual resumed date unknown.",
   "source_ids": [
@@ -3415,7 +3419,9 @@
   "programme_name": "CTAO future open observing programme",
   "route_status": "future",
   "verification": "official_documentation",
-  "covered_instruments": "Approved Alpha configuration14Medium-Sized+37Small-Sized telescopes",
+  "covered_instruments": [
+   "Approved Alpha configuration14Medium-Sized+37Small-Sized telescopes"
+  ],
   "eligibility": "Announced open proposal-driven observatory; detailed access shares and eligibility unknown.",
   "access_evidence": "Future access separated from operational accepting programmes; allocation, first call and fees unknown.",
   "source_ids": [
@@ -3433,7 +3439,9 @@
   "programme_name": "Fermi–VERITAS collaborative observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Four12m imaging atmospheric Cherenkov telescopes",
+  "covered_instruments": [
+   "Four12m imaging atmospheric Cherenkov telescopes"
+  ],
   "eligibility": "US and non-US investigators may propose; NASA funding only US institution employed/residentPI and qualified USCoIs. Mandatory collaboration/publication rules, existing programme exclusions.",
   "access_evidence": "<=120h/cycle,onehourRA band<=25%historical(~20h); regions<0.5deg; prefer elevation>50deg,typicaldeclination0to60exceptions-10to70deg. July/Augweatherclosure. One year joint time even multiyearFermi support. FullVERITASauthorship/internalpublicationreview;CategoryAineligible,CategoryBcollaboration,CategoryCproposerlead. Specificationslinkfailed; NASA jointtechnicalsection actuallyretrieved. Portal linked, not independentlyread.",
   "source_ids": [
@@ -3452,7 +3460,9 @@
   "programme_name": "UNAM CATT telescope time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "CMOS direct imaging V/R (2027A); standing CCDs notnecessarilyoffered",
+  "covered_instruments": [
+   "CMOS direct imaging V/R (2027A); standing CCDs notnecessarilyoffered"
+  ],
   "eligibility": "Astronomy researchers at Mexican national institutions; national graduate thesis students and Mexican students in foreign graduate programmes with supervisorletter;institutionalagreementresearchers;othersonlyIAUNAMInternalCouncilpermission. AcademictechnicalstaffscienceonlyCATTauthorization.",
   "access_evidence": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved.",
   "source_ids": [
@@ -3472,7 +3482,9 @@
   "programme_name": "UNAM CATT telescope time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Astronomy researchers at Mexican national institutions; national graduate thesis students and Mexican students in foreign graduate programmes with supervisorletter;institutionalagreementresearchers;othersonlyIAUNAMInternalCouncilpermission. AcademictechnicalstaffscienceonlyCATTauthorization.",
   "access_evidence": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved.",
   "source_ids": [
@@ -3492,7 +3504,9 @@
   "programme_name": "UNAM CATT telescope time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Astronomy researchers at Mexican national institutions; national graduate thesis students and Mexican students in foreign graduate programmes with supervisorletter;institutionalagreementresearchers;othersonlyIAUNAMInternalCouncilpermission. AcademictechnicalstaffscienceonlyCATTauthorization.",
   "access_evidence": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved.",
   "source_ids": [
@@ -3512,7 +3526,9 @@
   "programme_name": "Bosque Alegre scientific telescope-time requests",
   "route_status": "unknown",
   "verification": "official_documentation",
-  "covered_instruments": "ApogeeALTAF16M andU9 CCDs listed;UBVRI/narrowband",
+  "covered_instruments": [
+   "ApogeeALTAF16M andU9 CCDs listed;UBVRI/narrowband"
+  ],
   "eligibility": "Astronomers may request; exact institutional/nationality restrictions unknown.",
   "access_evidence": "Standingapplicationinstructioncurrentlinkedoperatorresearchnavigation;lastlistedallocations2019,notcurrentopportunity. Formreferredbutnotlinked;emailcontactprovided. DetailedTAC/feesunknown.",
   "source_ids": [
@@ -3531,7 +3547,9 @@
   "programme_name": "Telescope Access Program — China allocation",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "2026B WIRCam,SITELLE,MegaCam,SPIRou,ESPaDOnS;offerlistmustbecheckedpersemester",
+  "covered_instruments": [
+   "2026B WIRCam,SITELLE,MegaCam,SPIRou,ESPaDOnS;offerlistmustbecheckedpersemester"
+  ],
   "eligibility": "China-based astronomers;90%memberCAMS,PKU,THU,USTC,WLU;10%allChina-basedinstitutes.",
   "access_evidence": "4–7CFHTnights+13Halenights. CFHTfirstofficialCFHTproposalnumber26BSthenuploadTAP. P200template1.3.3+Caltechcoversheet;CWIrequiresinstrumentPIapproval. NearIRbrighttimeunlessexplicitjustification. CFHT2026BlastWIRCam/SITELLE;fixedtargetAEONToOMegaCam/SPIRou/ESPaDOnSbefore16HST,movingtargetsnotexpected26B. TAPportalfetchedemptyJavaScriptshell;coversheetread;notauthenticated/submitted.",
   "source_ids": [
@@ -3549,7 +3567,9 @@
   "programme_name": "Telescope Access Program — China allocation",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "AvailableinstrumentperPalomarsite;CWIPIapprovalmandatory",
+  "covered_instruments": [
+   "AvailableinstrumentperPalomarsite;CWIPIapprovalmandatory"
+  ],
   "eligibility": "China-based astronomers;90%memberCAMS,PKU,THU,USTC,WLU;10%allChina-basedinstitutes.",
   "access_evidence": "4–7CFHTnights+13Halenights. CFHTfirstofficialCFHTproposalnumber26BSthenuploadTAP. P200template1.3.3+Caltechcoversheet;CWIrequiresinstrumentPIapproval. NearIRbrighttimeunlessexplicitjustification. CFHT2026BlastWIRCam/SITELLE;fixedtargetAEONToOMegaCam/SPIRou/ESPaDOnSbefore16HST,movingtargetsnotexpected26B. TAPportalfetchedemptyJavaScriptshell;coversheetread;notauthenticated/submitted.",
   "source_ids": [
@@ -3567,7 +3587,9 @@
   "programme_name": "CHARA Fast Turnaround Snapshot Imaging",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "MIRC-X/MYSTIC H/K",
+  "covered_instruments": [
+   "MIRC-X/MYSTIC H/K"
+  ],
   "eligibility": "Open to all observers; preference new observers without scheduledtime and targets outside awardedpeerreview programmes.",
   "access_evidence": "Confirmhighimpactresult,feasibilitycheck,unexpectedeventorcompletionforpublication. Formlinkcachemiss;officialprogrammefullyretrieved. Publicationinstrumentteamrecommendationsapply;nofeeamountdocumented.",
   "source_ids": [
@@ -3585,7 +3607,9 @@
   "programme_name": "University of Hawaiʻi institutional observing allocation",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "LegacySNIFS,WFGS2,TekCCD,OPTIC;currentofferunknown",
+  "covered_instruments": [
+   "LegacySNIFS,WFGS2,TekCCD,OPTIC;currentofferunknown"
+  ],
   "eligibility": "IfA faculty,postdocs,students employed awardedsemester;incomingpostdocs byobservingdate. Visitors>=1year directorapproval,max2semesters withIfAfaculty/studentCoI. StudentfacultyCoI required;precandidacyrestrictedfacilities.",
   "access_evidence": "UHaffiliatedPI requiredUH2.2. Currentgraduateinstructions+formalpolicyestablishroute;legacyinstrumentlistalone notcurrentoffering. Exactportal/currentinstrumentsunknown.",
   "source_ids": [
@@ -3605,7 +3629,9 @@
   "programme_name": "University of Hawaiʻi institutional observing allocation",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown;semester-specific",
+  "covered_instruments": [
+   "unknown;semester-specific"
+  ],
   "eligibility": "IfA faculty,postdocs,students employed awardedsemester;incomingpostdocs byobservingdate. Visitors>=1year directorapproval,max2semesters withIfAfaculty/studentCoI. StudentfacultyCoI required;precandidacyrestrictedfacilities.",
   "access_evidence": "CurrentIfAgraduateinstructions explicitly nameUH2.2/UKIRT/Gemini/CFHT;precandidacy2hlimitGemini/CFHT.",
   "source_ids": [
@@ -3623,7 +3649,9 @@
   "programme_name": "University of Hawaiʻi institutional observing allocation",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown;semester-specific",
+  "covered_instruments": [
+   "unknown;semester-specific"
+  ],
   "eligibility": "IfA faculty,postdocs,students employed awardedsemester;incomingpostdocs byobservingdate. Visitors>=1year directorapproval,max2semesters withIfAfaculty/studentCoI. StudentfacultyCoI required;precandidacyrestrictedfacilities.",
   "access_evidence": "CurrentIfAgraduateinstructions explicitly nameUH2.2/UKIRT/Gemini/CFHT;precandidacy2hlimitGemini/CFHT.",
   "source_ids": [
@@ -3641,7 +3669,9 @@
   "programme_name": "KAS scientific remote telescope requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "SBIG STX-16803; LRGB and3nm Halpha/OIII/SII",
+  "covered_instruments": [
+   "SBIG STX-16803; LRGB and3nm Halpha/OIII/SII"
+  ],
   "eligibility": "Trained paid fullmembers in tenSWMichigan counties bydefault;othersRTCindividualevaluation. InstitutionswrittenproposalRTC;outside-regionindividualscanpropose. Publicinstitutionfeeswaived;privatecase-specific.",
   "access_evidence": "JointKAS/userdataownership;publicationandprivatesalesrequirewrittenboardconsent. SpecialastronomicaleventsallowRTCcancel/reassign. Scientificusepossibleunderproposalpolicy/photometryinstrumentation;nofundingcallassumed.",
   "source_ids": [
@@ -3661,7 +3691,9 @@
   "programme_name": "KAS scientific remote telescope requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "SBIG STX-16803; LRGB and3nm Halpha/OIII/SII",
+  "covered_instruments": [
+   "SBIG STX-16803; LRGB and3nm Halpha/OIII/SII"
+  ],
   "eligibility": "Trained paid fullmembers in tenSWMichigan counties bydefault;othersRTCindividualevaluation. InstitutionswrittenproposalRTC;outside-regionindividualscanpropose. Publicinstitutionfeeswaived;privatecase-specific.",
   "access_evidence": "JointKAS/userdataownership;publicationandprivatesalesrequirewrittenboardconsent. SpecialastronomicaleventsallowRTCcancel/reassign. Scientificusepossibleunderproposalpolicy/photometryinstrumentation;nofundingcallassumed.",
   "source_ids": [
@@ -3681,7 +3713,9 @@
   "programme_name": "KAS Owl Observatory member research reservations",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "KAS members aftertraining;membership open toanyinterestedpersonregardlessnationalorigin. Additionalfeesmayapply;exactOwlfeesunknown.",
   "access_evidence": "Operator explicitly permitsresearchprojects andprovidesreservationroute. Proposalmeritrankingunknown;membershiprestrictedrequests countunderusercriterion. Directpageantibot/cachemiss,indexread.",
   "source_ids": [
@@ -3699,7 +3733,9 @@
   "programme_name": "Las Cumbres worldwide discretionary observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "2026B MuSCAT/FLOYDS2m,Sinistro/Sophia1m,QHY600.4m;confirmcurrentsemester",
+  "covered_instruments": [
+   "2026B MuSCAT/FLOYDS2m,Sinistro/Sophia1m,QHY600.4m;confirmcurrentsemester"
+  ],
   "eligibility": "Astronomers worldwide through Heising-Simons Open Access; Science Collaboration members. Urgent/highimpactcase;notoutreachexceptinvitation.",
   "access_evidence": "Director reviews often withexperts,usually<1week. Mustjustifyurgencyoverregularcycle ifeligibleforstandard/guaranteedtime. No publisheduserfee identified.",
   "source_ids": [
@@ -3719,7 +3755,9 @@
   "programme_name": "Las Cumbres2026B Key Project observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "2026B MuSCAT/FLOYDS2m,Sinistro/Sophia1m,QHY600.4m;confirmcurrentsemester",
+  "covered_instruments": [
+   "2026B MuSCAT/FLOYDS2m,Sinistro/Sophia1m,QHY600.4m;confirmcurrentsemester"
+  ],
   "eligibility": "Only investigators who submittedLOIandwereinvitedfullproposal;worldwideLOIeligibility. HeisingSimons supportsoutside-dedicated-accessPI.",
   "access_evidence": ">=500h,multisemesterupto3years,nonanonymous,teamresourcecommitment. Fullproposalinvitationrestricted. Exact2026Bdeadlineunknownfromretrievedguidelines.",
   "source_ids": [
@@ -3739,7 +3777,9 @@
   "programme_name": "AAVSO researcher observing campaigns",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Variablevisual/CCD/CMOS/PEPphotometryandopticalspectrographs",
+  "covered_instruments": [
+   "Variablevisual/CCD/CMOS/PEPphotometryandopticalspectrographs"
+  ],
   "eligibility": "Anywelljustifiedresearchprogramme;membershipencouragednotrequired;finitecampaignwithinvolunteercapabilities.",
   "access_evidence": "DistinctfromAAVSOnet roboticallocatedtelescopes. Researcherleadsanalysis/publication;observerrecognitionrequired,coauthorshipstronglyencouragedforcriticaldata. Publicapp403;policyread.",
   "source_ids": [
@@ -3756,7 +3796,9 @@
   "programme_name": "JPL/IPAC Hale Telescope observing allocation",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "CurrentPalomarapprovedinstruments;NGPSfacility,PARVIunavailable2027A",
+  "covered_instruments": [
+   "CurrentPalomarapprovedinstruments;NGPSfacility,PARVIunavailable2027A"
+  ],
   "eligibility": "JPL and IPAC staff;postdoctoral PIs require advisorqualificationletter bydeadline.",
   "access_evidence": "PIpresentfullallocatedtime;no associatedfunding,feesunknown. Remote request1monthahead;CWIonsitepersonrecommended. NGPSfacilityapproved,PARVIunavailablefrom2027A. Privateinstrumentapprovalrequired. JPACportalnotaccessible;actual7pagecallfullyread.",
   "source_ids": [
@@ -3773,7 +3815,9 @@
   "programme_name": "GoChile supervised scientific observing requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Students, secondary-school researchers and amateur astronomers explicitly served; other researchers may inquire; formal geographic or affiliation limits unknown.",
   "access_evidence": "2026 operator announcement explicitly invites use requests and reports quantitative student research. Non-profit initiative; user fees unknown. Two telescopes share a mount and cannot independently point.",
   "source_ids": [
@@ -3791,7 +3835,9 @@
   "programme_name": "GoChile supervised scientific observing requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Students, secondary-school researchers and amateur astronomers explicitly served; other researchers may inquire; formal geographic or affiliation limits unknown.",
   "access_evidence": "2026 operator announcement explicitly invites use requests and reports quantitative student research. Non-profit initiative; user fees unknown. Two telescopes share a mount and cannot independently point.",
   "source_ids": [
@@ -3809,7 +3855,9 @@
   "programme_name": "GORT scientific observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Apogee Alta U47 CCD; clear/B/V/R/I filters",
+  "covered_instruments": [
+   "Apogee Alta U47 CCD; clear/B/V/R/I filters"
+  ],
   "eligibility": "Proposal approval required; educational/citizen scientific projects supported. Formal affiliation/nationality restrictions unknown.",
   "access_evidence": "Actual science proposal required. Guidelines retrieved; telescope portal inaccessible. Contact EdEON edeon@sonoma.edu for application questions; general contact not explicitly mandated submission address. Fees unknown.",
   "source_ids": [
@@ -3827,7 +3875,9 @@
   "programme_name": "ITM specialized solar observing requests",
   "route_status": "unknown",
   "verification": "official_documentation",
-  "covered_instruments": "H-alpha solar imaging; cameras offered unknown",
+  "covered_instruments": [
+   "H-alpha solar imaging; cameras offered unknown"
+  ],
   "eligibility": "Researchers, students and astronomy enthusiasts; further nationality/institution restrictions unknown.",
   "access_evidence": "Official page remains available via search index; direct retrieval timed out. Form itself not retrieved; latest linked form2024A must not be advertised as current opportunity. Museum free-entry statement does not prove telescope-time fees.",
   "source_ids": [
@@ -3845,7 +3895,9 @@
   "programme_name": "Boyce-Astro independent scientific project / course observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "scientific photometry and speckle cameras; exactcurrentprimarycameraunknown",
+  "covered_instruments": [
+   "scientific photometry and speckle cameras; exactcurrentprimarycameraunknown"
+  ],
   "eligibility": "Students and other researchers through programme admission; IntroSTARS+quiz prerequisite for courses. International remote participation supported; formal nationality restrictions unknown.",
   "access_evidence": "Scientific observational research supported, with publication. Archive-only BART radio data do not qualify as new-time route; separate telescope/control eligibility not unrestricted public access.",
   "source_ids": [
@@ -3863,7 +3915,9 @@
   "programme_name": "Boyce-Astro independent scientific project / course observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "QHY600; speckle and time-series photometry",
+  "covered_instruments": [
+   "QHY600; speckle and time-series photometry"
+  ],
   "eligibility": "Students and other researchers through programme admission; IntroSTARS+quiz prerequisite for courses. International remote participation supported; formal nationality restrictions unknown.",
   "access_evidence": "Scientific observational research supported, with publication. Archive-only BART radio data do not qualify as new-time route; separate telescope/control eligibility not unrestricted public access.",
   "source_ids": [
@@ -3881,7 +3935,9 @@
   "programme_name": "MicroObservatory guest scientific/educational observation requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "6inchreflectingCCDtelescopes;650x500pixelimages",
+  "covered_instruments": [
+   "6inchreflectingCCDtelescopes;650x500pixelimages"
+  ],
   "eligibility": "All audiences with email; preselectedtargets on public interface. Advanced/fullaccess limited users; independentPIarbitrary-targetacceptanceunknown.",
   "access_evidence": "Actualnewimage requests distinguished from NASAExoplanetWatch existing-data checkout. Research-use documentedthroughDIYPlanetSearchprogramme; exactcurrentadvancedenrolmentunverified. Networkonly, individualphysicalmemberidentitiesnotresolved.",
   "source_ids": [
@@ -3899,7 +3955,9 @@
   "programme_name": "NextAstro paid scientific observing requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Subscribing general users, students, educators and researchers; nationality/institutionrestrictionsunknown.",
   "access_evidence": "Verifiedoperatorindexedscientificobservingaccess;physicalmembersnotpubliclyidentifiedinretrievedsources. DistinctfromformerPhotonRanch employmentofafounder;donotinferplatformormemberidentity.",
   "source_ids": [
@@ -3916,7 +3974,9 @@
   "programme_name": "Tarleton institutional and partnered scientific observing requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "high-resolution CCD imaging; camera/filter modelsunknown",
+  "covered_instruments": [
+   "high-resolution CCD imaging; camera/filter modelsunknown"
+  ],
   "eligibility": "Tarleton faculty researchers and astronomy-project students; guest collaborators/MOUpartners require Tarleton responsiblecoordinator and onsitepresence; noindependentguestremotecontrol.",
   "access_evidence": "Actualscientific-timeemailrequestseparatefrompublicstarparties. Feesunknown; nofixedcallcycleordeadlinepublished.",
   "source_ids": [
@@ -3934,7 +3994,9 @@
   "programme_name": "MACRO consortium member scientific observing requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "QHY600Pro; Sloang/r/i, Halpha/OIII/SII/luminance and grisms",
+  "covered_instruments": [
+   "QHY600Pro; Sloang/r/i, Halpha/OIII/SII/luminance and grisms"
+  ],
   "eligibility": "Verified institutional students/faculty/staff at managingmembers Macalester,Augustana,Coe,Knox and usermemberIowa. External researchers collaboratewithmembers; institutional membershipmaybeinquired.",
   "access_evidence": "Officialindexedcontentread, directguide/facilitycachemissandportalnotaccessible. Sameeveningqueue before15:00Arizona; scheduling/weatherconstraintsapply. Fixedproposaldeadlineunknown.",
   "source_ids": [
@@ -3953,7 +4015,9 @@
   "programme_name": "Great Basin Observatory scientific observing requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "CCD imager/filterwheel; spectrograph currentmodelandavailabilityunknown",
+  "covered_instruments": [
+   "CCD imager/filterwheel; spectrograph currentmodelandavailabilityunknown"
+  ],
   "eligibility": "Scientific students/researchers through memberregistration; nonprofit educationalfoundations/universitiesmayapplypartnership. Independentindividualapprovalcriteriaandnationalityrestrictionsunknown.",
   "access_evidence": "Officialresearchportalexplicitrequestroute. Form/login/partnership/statussubpagesretrievalcachemiss. Publictourregistrationnot scientific-timeeligibility; userfeesunknown.",
   "source_ids": [
@@ -3972,7 +4036,9 @@
   "programme_name": "MONET institutional/school and special observing requests",
   "route_status": "unknown",
   "verification": "official_documentation",
-  "covered_instruments": "CCD imaging; STF-8300M listed technicalpage; currentcameraexactstatusuncertain",
+  "covered_instruments": [
+   "CCD imaging; STF-8300M listed technicalpage; currentcameraexactstatusuncertain"
+  ],
   "eligibility": "School-partnerobservingtimeexplicitlyavailable; institutional research/importantobservationrequestscontactoperator. Generalexternalresearchernationality/affiliationeligibilityunknown.",
   "access_evidence": "Conditionalaccessscope:specificpartner/schoolscientificobservationssupported; noopeninternationalPIcallverified. Educationlinkcachemiss; observationportalJSonly. MOSESnotassumedofferable.",
   "source_ids": [
@@ -6635,7 +6701,9 @@
   "programme_name": "ANU 2.3m regular normal time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "PI and at least 50% of authors based at Australian institutions",
   "access_evidence": "2027A proposals via Lens; Australian-majority normal time, worldwide paid time, contractual guaranteed time, rolling director requests; automated observing.",
   "source_ids": [
@@ -6652,7 +6720,9 @@
   "programme_name": "ANU 2.3m paid time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Any astronomer worldwide",
   "access_evidence": "2027A proposals via Lens; Australian-majority normal time, worldwide paid time, contractual guaranteed time, rolling director requests; automated observing.",
   "source_ids": [
@@ -6669,7 +6739,9 @@
   "programme_name": "ANU 2.3m Director discretionary time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Requests to RSAA Director; normal-time requests must justify urgency",
   "access_evidence": "2027A proposals via Lens; Australian-majority normal time, worldwide paid time, contractual guaranteed time, rolling director requests; automated observing.",
   "source_ids": [
@@ -6686,7 +6758,9 @@
   "programme_name": "AAT open time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Astronomers based at Australian institutions",
   "access_evidence": "Since July 2025 Australian institutions may compete for open time; domestic and overseas researchers may purchase time through AAL.",
   "source_ids": [
@@ -6703,7 +6777,9 @@
   "programme_name": "AAT paid time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Australian and non-Australian proposals",
   "access_evidence": "Since July 2025 Australian institutions may compete for open time; domestic and overseas researchers may purchase time through AAL.",
   "source_ids": [
@@ -6746,7 +6822,9 @@
   "programme_name": "NAOJ/Kyoto Seimei nationwide university open use",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Nationwide university open-use programme; detailed PI affiliation rules in linked implementation guidelines; unknown pending reading",
   "access_evidence": "2027A open-use call offers KOOLS-IFU, TriCCS imaging/slit spectroscopy, GAOES-RV; applications via NOUS; deadline 27 October 2026 10:00 JST.",
   "source_ids": [
@@ -6763,7 +6841,9 @@
   "programme_name": "HCT regular / ToO",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Astronomical community; nationality restrictions not stated on cited page",
   "access_evidence": "HCT is available to the astronomical community, with HFOSC, TIRSPEC and HESP; three cycles yearly, ToO, and separate director requests.",
   "source_ids": [
@@ -6780,7 +6860,9 @@
   "programme_name": "HCT Director discretionary time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Urgent science distinct from already accepted regular/ToO targets",
   "access_evidence": "HCT is available to the astronomical community, with HFOSC, TIRSPEC and HESP; three cycles yearly, ToO, and separate director requests.",
   "source_ids": [
@@ -6797,7 +6879,9 @@
   "programme_name": "3.6m DOT science observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "PI affiliated to Indian or Belgian academic institution/university",
   "access_evidence": "DOT 2026-C2 PI must be affiliated to Indian or Belgian academic institutions; instruments ADFOSC, TANSPEC, TIRCAM2, SPIM; service or visitor observing; DOPSES submission.",
   "source_ids": [
@@ -6814,7 +6898,9 @@
   "programme_name": "GMRT Time Allocation Committee",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Astronomers; precise geographic restrictions unknown on current landing page",
   "access_evidence": "GMRT Cycle51 announced, with regular and ToO proposals; twice-yearly cycles, July/January submission and linked technical status.",
   "source_ids": [
@@ -6831,7 +6917,9 @@
   "programme_name": "CAS 2m-class joint telescope allocation",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Registered applicants; nationality/institution restrictions unknown in public call",
   "access_evidence": "One proposal covers Lijiang2.4m and Xinglong2.16m, joint review for September2026–June2027; PDF to NADC; Xinglong includes service/ToO allocation.",
   "source_ids": [
@@ -6848,7 +6936,9 @@
   "programme_name": "CAS 2m-class joint telescope allocation",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Registered applicants; nationality/institution restrictions unknown in public call",
   "access_evidence": "One proposal covers Lijiang2.4m and Xinglong2.16m, joint review for September2026–June2027; PDF to NADC; Xinglong includes service/ToO allocation.",
   "source_ids": [
@@ -6865,7 +6955,9 @@
   "programme_name": "NARIT Cycle14 TNO open time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Thai and international astronomers; Thai-affiliated coauthor encouraged; Thai affiliation wins equal ranking",
   "access_evidence": "2.4m TNT and TNO1m accept Thai and internationally affiliated astronomers; Thai affiliation breaks equal rankings; ToO accepted year-round.",
   "source_ids": [
@@ -6882,7 +6974,9 @@
   "programme_name": "NARIT Cycle14 TNO open time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Thai and international astronomers; Thai-affiliated coauthor encouraged; Thai affiliation wins equal ranking",
   "access_evidence": "2.4m TNT and TNO1m accept Thai and internationally affiliated astronomers; Thai affiliation breaks equal rankings; ToO accepted year-round.",
   "source_ids": [
@@ -6899,7 +6993,9 @@
   "programme_name": "EAVN 2027A open use / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Open-use scientific proposals; registration required; no nationality restriction stated",
   "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
   "source_ids": [
@@ -6916,7 +7012,9 @@
   "programme_name": "EAVN 2027A open use / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Open-use scientific proposals; registration required; no nationality restriction stated",
   "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
   "source_ids": [
@@ -6933,7 +7031,9 @@
   "programme_name": "EAVN 2027A open use / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Open-use scientific proposals; registration required; no nationality restriction stated",
   "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
   "source_ids": [
@@ -6950,7 +7050,9 @@
   "programme_name": "EAVN 2027A open use / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Open-use scientific proposals; registration required; no nationality restriction stated",
   "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
   "source_ids": [
@@ -6967,7 +7069,9 @@
   "programme_name": "EAVN 2027A open use / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Open-use scientific proposals; registration required; no nationality restriction stated",
   "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
   "source_ids": [
@@ -6984,7 +7088,9 @@
   "programme_name": "EAVN 2027A open use / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Open-use scientific proposals; registration required; no nationality restriction stated",
   "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
   "source_ids": [
@@ -7001,7 +7107,9 @@
   "programme_name": "EAVN 2027A open use / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Open-use scientific proposals; registration required; no nationality restriction stated",
   "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
   "source_ids": [
@@ -7018,7 +7126,9 @@
   "programme_name": "KVN VLBI open use",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Astronomers worldwide",
   "access_evidence": "KVN invites astronomers worldwide to propose multi-frequency VLBI; four21m antennas; 2027A200h; EATING PI restricted INAF/KASI.",
   "source_ids": [
@@ -7035,7 +7145,9 @@
   "programme_name": "EAVN 2027A open use / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Open-use scientific proposals; registration required; no nationality restriction stated",
   "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
   "source_ids": [
@@ -7052,7 +7164,9 @@
   "programme_name": "KVN single dish",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Korean astronomical community",
   "access_evidence": "KVN single-dish science call is for Korean astronomical community; four antennas250h each; spectral and continuum observing.",
   "source_ids": [
@@ -7069,7 +7183,9 @@
   "programme_name": "ATNF observing-time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "unknown; current primary policy page returned403; do not assume historic open-skies policy unchanged",
   "access_evidence": "Official directory identifies ATNF proposal access for ASKAP, ATCA, Murriyang, Tidbinbilla and LBA.",
   "source_ids": [
@@ -7086,7 +7202,9 @@
   "programme_name": "ATNF observing-time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "unknown; current primary policy page returned403; do not assume historic open-skies policy unchanged",
   "access_evidence": "Official directory identifies ATNF proposal access for ASKAP, ATCA, Murriyang, Tidbinbilla and LBA.",
   "source_ids": [
@@ -7103,7 +7221,9 @@
   "programme_name": "ATNF observing-time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "VLBI; precise available receivers per semester unknown",
+  "covered_instruments": [
+   "VLBI; precise available receivers per semester unknown"
+  ],
   "eligibility": "unknown; current primary policy page returned403; do not assume historic open-skies policy unchanged",
   "access_evidence": "Official directory identifies ATNF proposal access for ASKAP, ATCA, Murriyang, Tidbinbilla and LBA.",
   "source_ids": [
@@ -7123,7 +7243,9 @@
   "programme_name": "ATNF observing-time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "unknown; current primary policy page returned403; do not assume historic open-skies policy unchanged",
   "access_evidence": "Official directory identifies ATNF proposal access for ASKAP, ATCA, Murriyang, Tidbinbilla and LBA.",
   "source_ids": [
@@ -7140,7 +7262,9 @@
   "programme_name": "MWA open / guaranteed access",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Any scientist worldwide may propose. Guaranteed Time member-led or >50% MWA-member teams. Open Access external/nonmember-led and <50% members, excluding Epoch of Reionisation science; borderline exactly50% wording requires operator clarification.",
   "access_evidence": "Guaranteed and Open Access proposals cover May–December2026; configurations128–256tiles; Jotform submission.",
   "source_ids": [
@@ -7159,7 +7283,9 @@
   "programme_name": "FAST regular science observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "19-beam receiver",
+  "covered_instruments": [
+   "19-beam receiver"
+  ],
   "eligibility": "Any nationality or affiliation",
   "access_evidence": "Official 2026–2027 call permits regular proposals from researchers of any nationality or affiliation.",
   "source_ids": [
@@ -7177,7 +7303,9 @@
   "programme_name": "Delingha13.7m scientific observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Domestic and international researchers",
   "access_evidence": "Domestic and international experts invited; observing proposals accepted year-round by email; competing projects ranked for science and feasibility.",
   "source_ids": [
@@ -7194,7 +7322,9 @@
   "programme_name": "Vainu Bappu Telescope observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "National facility; Indian astronomical community; detailed PI restrictions unknown",
   "access_evidence": "VBT national proposals, JCBT20% non-IIA time, Carl-Zeiss40inch IIA-only; three cycles yearly; IPS or email submission.",
   "source_ids": [
@@ -7211,7 +7341,9 @@
   "programme_name": "J.C. Bhattacharyya Telescope observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "IIA plus20% non-IIA proposals",
   "access_evidence": "VBT national proposals, JCBT20% non-IIA time, Carl-Zeiss40inch IIA-only; three cycles yearly; IPS or email submission.",
   "source_ids": [
@@ -7228,7 +7360,9 @@
   "programme_name": "VBO40-inch Carl-Zeiss Telescope observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "IIA researchers only",
   "access_evidence": "VBT national proposals, JCBT20% non-IIA time, Carl-Zeiss40inch IIA-only; three cycles yearly; IPS or email submission.",
   "source_ids": [
@@ -7245,7 +7379,9 @@
   "programme_name": "Kreiken scientific observing projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Research projects; international collaboration prioritised; PI must participate; precise affiliation restrictions unknown",
   "access_evidence": "T80,T40,T35 applications accepted online through25October2026; signed paper copy due26October. Source semester heading and observing-year field conflict.",
   "source_ids": [
@@ -7262,7 +7398,9 @@
   "programme_name": "Kreiken scientific observing projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Research projects; international collaboration prioritised; PI must participate; precise affiliation restrictions unknown",
   "access_evidence": "T80,T40,T35 applications accepted online through25October2026; signed paper copy due26October. Source semester heading and observing-year field conflict.",
   "source_ids": [
@@ -7279,7 +7417,9 @@
   "programme_name": "Kreiken scientific observing projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Research projects; international collaboration prioritised; PI must participate; precise affiliation restrictions unknown",
   "access_evidence": "T80,T40,T35 applications accepted online through25October2026; signed paper copy due26October. Source semester heading and observing-year field conflict.",
   "source_ids": [
@@ -7296,7 +7436,9 @@
   "programme_name": "BOAO observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Full-time university lecturer or above, research-institute researcher or above, or equivalent approved by KASI director; nationality restriction not stated",
   "access_evidence": "Official operator application rules and signed current 2027A call verify access.",
   "source_ids": [
@@ -7314,7 +7456,9 @@
   "programme_name": "JWST General Observer / survey",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Domestic and foreign organizations, including educational, government, nonprofit and for-profit entities",
   "access_evidence": "Worldwide organizational eligibility; Cycle6 GO/survey proposals; deadline extended from30September to1October2026 17:00Eastern after APT outage.",
   "source_ids": [
@@ -7355,7 +7499,9 @@
   "programme_name": "HST Director discretionary time",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Scientific DD request meeting policy",
   "access_evidence": "Cycle34 regular proposals and always-open Director discretionary proposals; instrument handbooks and primer linked.",
   "source_ids": [
@@ -7372,7 +7518,9 @@
   "programme_name": "Chandra General Observer / ToO / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Investigators worldwide; PRC-only and PRC/US-only investigator teams subject to specified bilateral restrictions; HongKong included, Taiwan excluded. NASA funds cannot support non-US institutional research",
   "access_evidence": "Cycle28 observing proposals via CPS, deadline18March2026 18:00EDT; proposer guide, instrument status, DDT/ToO linked.",
   "source_ids": [
@@ -7390,7 +7538,9 @@
   "programme_name": "XMM-Newton Announcement of Opportunity",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Scientific observers; precise institutional restrictions unknown in retrieved landing page",
   "access_evidence": "AO26 released19August2026; observing proposals due9October2026 12:00UT; ESA submission system and current handbook linked.",
   "source_ids": [
@@ -7407,7 +7557,9 @@
   "programme_name": "NuSTAR General Observer",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "US and non-US researchers; NASA funding limited to US-institution PIs",
   "access_evidence": "US and non-US science proposals welcome; funding restrictedUS institutions; Cycle13 announced, submissions openNovember2026; ToO/DDT routes exist.",
   "source_ids": [
@@ -7424,7 +7576,9 @@
   "programme_name": "NuSTAR unsolicited ToO / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Exceptional targets meeting mission criteria",
   "access_evidence": "US and non-US science proposals welcome; funding restrictedUS institutions; Cycle13 announced, submissions openNovember2026; ToO/DDT routes exist.",
   "source_ids": [
@@ -7441,7 +7595,9 @@
   "programme_name": "XRISM General Observer national routes",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "US/Canada viaNASA; ESA-member-country affiliations viaESA; Japan and all other affiliations viaJAXA; US funding US PIs only",
   "access_evidence": "Observing proposals routed to NASA forUS/Canada, ESA forESA countries, JAXA forothers; Cycle3, Key Programme and unsolicited ToO/DDT documented.",
   "source_ids": [
@@ -7458,7 +7614,9 @@
   "programme_name": "XRISM Key Programme",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Scientists worldwide without affiliation restriction; NASA financial support for US-based investigators is separate",
   "access_evidence": "Observing proposals routed to NASA forUS/Canada, ESA forESA countries, JAXA forothers; Cycle3, Key Programme and unsolicited ToO/DDT documented.",
   "source_ids": [
@@ -7477,7 +7635,9 @@
   "programme_name": "XRISM unsolicited ToO / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Exceptional unpredictable events not proposed viaGO",
   "access_evidence": "Observing proposals routed to NASA forUS/Canada, ESA forESA countries, JAXA forothers; Cycle3, Key Programme and unsolicited ToO/DDT documented.",
   "source_ids": [
@@ -7494,7 +7654,9 @@
   "programme_name": "IXPE General Observer",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "US and non-US researchers; US/PRC bilateral institutional collaborations prohibited, multilateral collaborations including other countries allowed; unsolicited ToO has separate form restrictions",
   "access_evidence": "Unsolicited transient/unpredictable-source ToO requests accepted through mission form.",
   "source_ids": [
@@ -7514,7 +7676,9 @@
   "programme_name": "Fermi pointed observations / GI",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "US and non-US investigators; NASA funding onlyUS-employed/resident PIs andUS-affiliated/resident fundedCoIs",
   "access_evidence": "US/non-US investigators may propose pointed LAT observations despite limited capability; joint observatory time and archival funding are distinct.",
   "source_ids": [
@@ -7531,7 +7695,9 @@
   "programme_name": "TESS General Investigator target proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Scientific investigators; funding eligibility separate and unknown in excerpt",
   "access_evidence": "Science programmes may request target slots; DDT/ToO outsideGI throughMIT, reviewed byPI, science expert andoperations team.",
   "source_ids": [
@@ -7548,7 +7714,9 @@
   "programme_name": "TESS Directors Discretionary Targets",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Requests evaluated onscience andoperational feasibility",
   "access_evidence": "Science programmes may request target slots; DDT/ToO outsideGI throughMIT, reviewed byPI, science expert andoperations team.",
   "source_ids": [
@@ -7565,7 +7733,9 @@
   "programme_name": "Swift Target of Opportunity observing requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Astrophysics researchers; exact current policy restrictions unknown",
   "access_evidence": "Mission instructions provide investigator ToO request process and on-duty-scientist review.",
   "source_ids": [
@@ -7582,7 +7752,9 @@
   "programme_name": "CHEOPS Guest Observer Running Call",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Worldwide scientific community; no consortium membership or previous CHEOPS experience required. FastTrack requires active HST/JWSTGO programmePI.",
   "access_evidence": "ESA Project Scientist announcement invites worldwide monthly proposals for2027–2029; 31October2026 large-programme window; monthly HST/JWST fasttrack.",
   "source_ids": [
@@ -7602,7 +7774,9 @@
   "programme_name": "EinsteinProbeCycle3 STP /GuestObserver",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "STP members/associates; non-STP PI primary affiliation in China including Hong Kong, Macao and Taiwan, as stated by the call",
   "access_evidence": "FXT proposals by STP members/associates or China-based guest observers; known targets only; WXT not offered; separate party reviews.",
   "source_ids": [
@@ -7639,7 +7813,9 @@
   "programme_name": "XPoSat XSPECT national guest observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Indian scientists/researchers residing and working at Indian institutes, universities or colleges",
   "access_evidence": "Indian researchers residing and working at Indian institutions may propose XSPECT observations for September 2026–March 2027; POLIX is not offered.",
   "source_ids": [
@@ -7656,7 +7832,9 @@
   "programme_name": "Hinode / IRIS-Hinode Operation Plans",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Researchers inside or outside the Hinode team",
   "access_evidence": "External and mission-team researchers may request coordinated solar observing through HOP/IHOP; instrument priorities and telemetry must be specified; planning team decides scheduling.",
   "source_ids": [
@@ -7673,7 +7851,9 @@
   "programme_name": "Hinode / IRIS-Hinode Operation Plans",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Researchers inside or outside the Hinode team",
   "access_evidence": "External and mission-team researchers may request coordinated solar observing through HOP/IHOP; instrument priorities and telemetry must be specified; planning team decides scheduling.",
   "source_ids": [
@@ -7713,7 +7893,9 @@
   "programme_name": "FAST Medium-Sized Programmes",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "19-beam receiver",
+  "covered_instruments": [
+   "19-beam receiver"
+  ],
   "eligibility": "PI affiliated with an institution in China",
   "access_evidence": "Current official FAST call explicitly offers medium programmes with China-affiliated PIs.",
   "source_ids": [
@@ -7731,7 +7913,9 @@
   "programme_name": "Xinglong small telescope observing applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Scientific applicants; precise nationality/affiliation restrictions unknown",
   "access_evidence": "Official current small-telescope call names this telescope.",
   "source_ids": [
@@ -7748,7 +7932,9 @@
   "programme_name": "Xinglong small telescope observing applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Scientific applicants; precise nationality/affiliation restrictions unknown",
   "access_evidence": "Official current small-telescope call names this telescope.",
   "source_ids": [
@@ -7765,7 +7951,9 @@
   "programme_name": "Xinglong small telescope observing applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Scientific applicants; precise nationality/affiliation restrictions unknown",
   "access_evidence": "Official current small-telescope call names this telescope.",
   "source_ids": [
@@ -7782,7 +7970,9 @@
   "programme_name": "Xinglong small telescope observing applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Scientific applicants; precise nationality/affiliation restrictions unknown",
   "access_evidence": "Official current small-telescope call names this telescope.",
   "source_ids": [
@@ -7799,7 +7989,9 @@
   "programme_name": "Thai Robotic Telescopes scientific observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Node-dependent; GAO excluded",
+  "covered_instruments": [
+   "Node-dependent; GAO excluded"
+  ],
   "eligibility": "Eligible scientific applicants; detailed affiliation restrictions unknown because linked eligibility page could not be retrieved. School applicants need NARIT advisor.",
   "access_evidence": "Official 2026 call invites applications for scientific observations on the TRT network.",
   "source_ids": [
@@ -7817,7 +8009,9 @@
   "programme_name": "ARIES Sampurnanand / DFOT scientific time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Indian institutes and collaboration with ARIES scientists, as stated in BINA access descriptions",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -7834,7 +8028,9 @@
   "programme_name": "ARIES Sampurnanand / DFOT scientific time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Indian institutes and collaboration with ARIES scientists, as stated in BINA access descriptions",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -7851,7 +8047,9 @@
   "programme_name": "LOT research observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Domestic and international researchers; education proposals are a separate category",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -7868,7 +8066,9 @@
   "programme_name": "Nayuta shared-use scientific observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Normally university/institute researchers and elementary/secondary school teachers or equivalent; others must enquire; nationality restriction not stated",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -7885,7 +8085,9 @@
   "programme_name": "NHAO scientific collaboration observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; agreement required",
+  "covered_instruments": [
+   "unknown; agreement required"
+  ],
   "eligibility": "Applicants must include observatory staff as co-investigator and submit through that staff member; at least one visit required",
   "access_evidence": "Official collaboration instructions explicitly name the Nayuta telescope.",
   "source_ids": [
@@ -7903,7 +8105,9 @@
   "programme_name": "NHAO scientific collaboration observing",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Applicants must include observatory staff as co-investigator and submit through that staff member; at least one visit required",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -7920,7 +8124,9 @@
   "programme_name": "SOAO scientific observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Researcher at astronomy/space-science research institute or PhD holder; nationality restriction not stated",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -7937,7 +8143,9 @@
   "programme_name": "AstroSat scientific observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Historical AO14 configurable science payloads; current availability unknown; SSM requestability unverified",
+  "covered_instruments": [
+   "Historical AO14 configurable science payloads; current availability unknown; SSM requestability unverified"
+  ],
   "eligibility": "Indian and international scientific PIs documented in historical AO14; current cycle-specific allocation shares and detailed restrictions unknown",
   "access_evidence": "Current ISSDC mission page provides scientific proposal submission and June 2026 government statement explicitly confirms continuing proposal-driven operation.",
   "source_ids": [
@@ -7956,7 +8164,9 @@
   "programme_name": "Yunnan Fenghuangshan 1 m scientific time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Scientific telescope users; precise nationality/affiliation restrictions unknown in call",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -7973,7 +8183,9 @@
   "programme_name": "Kiso Tomo-e Gozen collaborative observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Researchers propose through permanent University of Tokyo staff; collaborative project acceptance required; detailed nationality/membership rules unknown",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -8090,7 +8302,9 @@
   "programme_name": "iTelescope live scientific sessions included with subscription",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; see facility list and current setup",
+  "covered_instruments": [
+   "unknown; see facility list and current setup"
+  ],
   "eligibility": "Subscribed members; exact additional nationality restrictions unknown",
   "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
   "source_ids": [
@@ -8107,7 +8321,9 @@
   "programme_name": "CASSA institutional scientific telescope booking",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "TART radio array; internal operational scope subject to permission",
+  "covered_instruments": [
+   "TART radio array; internal operational scope subject to permission"
+  ],
   "eligibility": "Certified CASSA members and supervised student researchers; equipment booking or written permission required. External associate membership/collaborative authorization is separate, not automatic open access.",
   "access_evidence": "Official CASSA policy requires telescope bookings or written permission, and identifies TART as an operating institutional research array.",
   "source_ids": [
@@ -8149,7 +8365,9 @@
   "programme_name": "Hida DST annual scientific observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "DST instruments subject to proposed method and feasibility",
+  "covered_instruments": [
+   "DST instruments subject to proposed method and feasibility"
+  ],
   "eligibility": "Physics, astronomy or planetary science researchers/educators, including graduate students; younger student projects require supervisorPI. National programme; international eligibility not explicitly resolved.",
   "access_evidence": "Official2026 scientific observation application and next-cycle continuity announcement.",
   "source_ids": [
@@ -8167,7 +8385,9 @@
   "programme_name": "OISTER coordinated scientific observations",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Conditional partner telescope participation",
+  "covered_instruments": [
+   "Conditional partner telescope participation"
+  ],
   "eligibility": "PI at an OISTER member institution; external co-PI permitted",
   "access_evidence": "Committee report documents proposal eligibility and process; official2026page confirms continuing scientific call.",
   "source_ids": [
@@ -8260,7 +8480,9 @@
   "programme_name": "Türkiye National Observatories guest researcher projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "External public/private institutional researcher with at least bachelors degree; affiliation required. Detailed nationality restrictions unknown.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8280,7 +8502,9 @@
   "programme_name": "Türkiye National Observatories institutional researcher projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "Observatory employees or researchers seconded from other institutions; at least bachelors degree and institutional affiliation.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8300,7 +8524,9 @@
   "programme_name": "Türkiye National Observatories opportunity observing projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "Internal/external researchers or public-institution requests for urgent scientific topics; exact extra restrictions unknown.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8320,7 +8546,9 @@
   "programme_name": "Türkiye National Observatories guest researcher projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "External public/private institutional researcher with at least bachelors degree; affiliation required. Detailed nationality restrictions unknown.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8340,7 +8568,9 @@
   "programme_name": "Türkiye National Observatories institutional researcher projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "Observatory employees or researchers seconded from other institutions; at least bachelors degree and institutional affiliation.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8360,7 +8590,9 @@
   "programme_name": "Türkiye National Observatories opportunity observing projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "Internal/external researchers or public-institution requests for urgent scientific topics; exact extra restrictions unknown.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8380,7 +8612,9 @@
   "programme_name": "Türkiye National Observatories guest researcher projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "External public/private institutional researcher with at least bachelors degree; affiliation required. Detailed nationality restrictions unknown.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8399,7 +8633,9 @@
   "programme_name": "Türkiye National Observatories institutional researcher projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "Observatory employees or researchers seconded from other institutions; at least bachelors degree and institutional affiliation.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8418,7 +8654,9 @@
   "programme_name": "Türkiye National Observatories opportunity observing projects",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+  "covered_instruments": [
+   "Optical focal instruments subject to scientific/technical approval"
+  ],
   "eligibility": "Internal/external researchers or public-institution requests for urgent scientific topics; exact extra restrictions unknown.",
   "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
   "source_ids": [
@@ -8437,7 +8675,9 @@
   "programme_name": "Langkawi scientific observing service / collaboration requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Langkawi Stellar I Telescope System subject to approved scientific service",
+  "covered_instruments": [
+   "Langkawi Stellar I Telescope System subject to approved scientific service"
+  ],
   "eligibility": "Local/international university researchers and students, international scientific collaborators; research/development use. Detailed approval conditions unknown.",
   "access_evidence": "MYSA explicitly offers research observations and instrument-use applications at ONL; named systems documented on same page.",
   "source_ids": [
@@ -8456,7 +8696,9 @@
   "programme_name": "Langkawi scientific observing service / collaboration requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Langkawi Stellar II Telescope System subject to approved scientific service",
+  "covered_instruments": [
+   "Langkawi Stellar II Telescope System subject to approved scientific service"
+  ],
   "eligibility": "Local/international university researchers and students, international scientific collaborators; research/development use. Detailed approval conditions unknown.",
   "access_evidence": "MYSA explicitly offers research observations and instrument-use applications at ONL; named systems documented on same page.",
   "source_ids": [
@@ -8475,7 +8717,9 @@
   "programme_name": "Langkawi scientific observing service / collaboration requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Langkawi Solar Telescope System subject to approved scientific service",
+  "covered_instruments": [
+   "Langkawi Solar Telescope System subject to approved scientific service"
+  ],
   "eligibility": "Local/international university researchers and students, international scientific collaborators; research/development use. Detailed approval conditions unknown.",
   "access_evidence": "MYSA explicitly offers research observations and instrument-use applications at ONL; named systems documented on same page.",
   "source_ids": [
@@ -8849,7 +9093,9 @@
   "programme_name": "ATNF observing-time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "VLBI; receiver details unknown",
+  "covered_instruments": [
+   "VLBI; receiver details unknown"
+  ],
   "eligibility": "unknown; request subject to antenna availability",
   "access_evidence": "CSIRO operator LBA page explicitly states proposals via ATNF and names this antenna as core or additionally requestable.",
   "source_ids": [
@@ -8867,7 +9113,9 @@
   "programme_name": "ATNF observing-time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "VLBI; receiver details unknown",
+  "covered_instruments": [
+   "VLBI; receiver details unknown"
+  ],
   "eligibility": "unknown; request subject to antenna availability",
   "access_evidence": "CSIRO operator LBA page explicitly states proposals via ATNF and names this antenna as core or additionally requestable.",
   "source_ids": [
@@ -8885,7 +9133,9 @@
   "programme_name": "ATNF observing-time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "VLBI; receiver details unknown",
+  "covered_instruments": [
+   "VLBI; receiver details unknown"
+  ],
   "eligibility": "unknown; request subject to antenna availability",
   "access_evidence": "CSIRO operator LBA page explicitly states proposals via ATNF and names this antenna as core or additionally requestable.",
   "source_ids": [
@@ -8903,7 +9153,9 @@
   "programme_name": "ATNF observing-time applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "VLBI; receiver details unknown",
+  "covered_instruments": [
+   "VLBI; receiver details unknown"
+  ],
   "eligibility": "unknown; request subject to antenna availability",
   "access_evidence": "CSIRO operator LBA page explicitly states proposals via ATNF and names this antenna as core or additionally requestable.",
   "source_ids": [
@@ -9129,7 +9381,9 @@
   "programme_name": "Bosscha Observatory academic research access applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; mustbeagreedwithoperator",
+  "covered_instruments": [
+   "unknown; mustbeagreedwithoperator"
+  ],
   "eligibility": "Student final-project/thesis observing and data-processing research; institutional permission and feasibility agreement required. Other national/international researcher access unknown",
   "access_evidence": "Officialinstitutionalacademicservicesoffer observationalthesisresearch orresearchinstrumentuse with documentedrequest/contactroute.",
   "source_ids": [
@@ -9147,7 +9401,9 @@
   "programme_name": "OAIL ITERA student research instrument access applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown; mustbeagreedwithoperator",
+  "covered_instruments": [
+   "unknown; mustbeagreedwithoperator"
+  ],
   "eligibility": "Student thesis equipment-use service; exactinstitutional/nationalityrestrictionsunknown; outsideITERA practicals documentedseparately, notautomaticallyextendedtothesisscience",
   "access_evidence": "Officialinstitutionalacademicservicesoffer observationalthesisresearch orresearchinstrumentuse with documentedrequest/contactroute.",
   "source_ids": [
@@ -9165,7 +9421,9 @@
   "programme_name": "Experimental Complex NEVOD scientific experiment requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "complex detectors / user instruments agreed per experiment",
+  "covered_instruments": [
+   "complex detectors / user instruments agreed per experiment"
+  ],
   "eligibility": "Institutional users with qualified nuclear-physics staff and scientifically/technically justified work; nationality limits unknown",
   "access_evidence": "Official rules permit requests for scientific experiments and allocate equipment use.",
   "source_ids": [
@@ -9187,7 +9445,9 @@
   "programme_name": "D. D. Krasilnikov Yakutsk Extensive Air Shower Array scientific experiment requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "complex detectors / user instruments agreed per experiment",
+  "covered_instruments": [
+   "complex detectors / user instruments agreed per experiment"
+  ],
   "eligibility": "Interested scientific organisations by research/service agreement; nationality limits unknown",
   "access_evidence": "Official rules permit requests for scientific experiments and allocate equipment use.",
   "source_ids": [
@@ -9204,7 +9464,9 @@
   "programme_name": "MSU–ISU scientific observation and equipment-use requests",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "2026 approved scientific-service scope; instrument configuration by agreement",
+  "covered_instruments": [
+   "2026 approved scientific-service scope; instrument configuration by agreement"
+  ],
   "eligibility": "Scientific organisations via agreement/contract; nationality restrictions unknown",
   "access_evidence": "2026 service scope explicitly allocates observing hours; standing signed request rule and institution form.",
   "source_ids": [
@@ -9226,7 +9488,9 @@
   "programme_name": "Baksan scientific research and measurement applications",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "Requestable astrophysical services; detector configuration by agreement",
+  "covered_instruments": [
+   "Requestable astrophysical services; detector configuration by agreement"
+  ],
   "eligibility": "Scientific organisations and individuals by contract; nationality restrictions unknown",
   "access_evidence": "Official request rules, form and services explicitly cover new neutrino/cosmic-ray/gamma measurements.",
   "source_ids": [
@@ -9248,7 +9512,9 @@
   "programme_name": "ASKAP Guest Science",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Competitive Guest Science: proposals assessed on scientific merit and technical/operational feasibility; no guaranteed country/institute shares; additional nationality-specific restrictions unknown",
   "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
   "source_ids": [
@@ -9265,7 +9531,9 @@
   "programme_name": "ASKAP Director Target of Opportunity",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Director-approved urgent scientific requests; detailed affiliation/nationality conditions unknown",
   "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
   "source_ids": [
@@ -9282,7 +9550,9 @@
   "programme_name": "DSN direct radio astronomy and radar proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "antenna-specific science receivers; actual availability conditional",
+  "covered_instruments": [
+   "antenna-specific science receivers; actual availability conditional"
+  ],
   "eligibility": "Investigators with scientifically justified unique DSN requirements; nationality and affiliation restrictions unknown.",
   "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
   "source_ids": [
@@ -9300,7 +9570,9 @@
   "programme_name": "DSN direct radio astronomy and radar proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "antenna-specific science receivers; actual availability conditional",
+  "covered_instruments": [
+   "antenna-specific science receivers; actual availability conditional"
+  ],
   "eligibility": "Investigators with scientifically justified unique DSN requirements; nationality and affiliation restrictions unknown.",
   "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
   "source_ids": [
@@ -9318,7 +9590,9 @@
   "programme_name": "IXPE unsolicited ToO / DDT",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "unknown",
+  "covered_instruments": [
+   "unknown"
+  ],
   "eligibility": "Unanticipated scientific events; form explicitly rejects PRC proposals and requests with Chinese institution, email or phone; other detailed restrictions unknown",
   "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
   "source_ids": [
@@ -9336,7 +9610,9 @@
   "programme_name": "NRAO and GBO regular observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "eLWA coupled VLA+LWA1/Sevilleta only",
+  "covered_instruments": [
+   "eLWA coupled VLA+LWA1/Sevilleta only"
+  ],
   "eligibility": "International researchers; VLA and GBT non-US PIs: priorities A/B only,10% country and30% total foreign caps",
   "access_evidence": "Current NRAOOSS2027A explicitly offers eLWA and grants station time automatically for VLA-approved eLWA projects.",
   "source_ids": [
@@ -9355,7 +9631,9 @@
   "programme_name": "NRAO and GBO regular observing proposals",
   "route_status": "documented_route; current call/configuration subject to cited policy",
   "verification": "official_documentation",
-  "covered_instruments": "eLWA coupled VLA+LWA1/Sevilleta only",
+  "covered_instruments": [
+   "eLWA coupled VLA+LWA1/Sevilleta only"
+  ],
   "eligibility": "International researchers; VLA and GBT non-US PIs: priorities A/B only,10% country and30% total foreign caps",
   "access_evidence": "Current NRAOOSS2027A explicitly offers eLWA and grants station time automatically for VLA-approved eLWA projects.",
   "source_ids": [

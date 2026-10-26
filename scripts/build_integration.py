@@ -45,6 +45,16 @@ with open(os.path.join(SRC_DIR, "master.csv"), encoding="utf-8", newline="") as 
         ELIGIBLE_IDS.add(row["id"])
 
 
+def as_list(v):
+    """~29% of the source's routes[].covered_instruments are a bare string instead of a
+    one-item list (a data-shape inconsistency in the research edition itself, confirmed by
+    checking every other list-typed field -- only this one is affected). Normalize here so
+    every downstream consumer can safely assume a list."""
+    if v is None:
+        return []
+    return v if isinstance(v, list) else [v]
+
+
 def jcell(v):
     if v is None:
         return "unknown"
@@ -202,7 +212,7 @@ for r in INV["routes"]:
         "programme_name": prog.get("name"),
         "route_status": r.get("route_status"),
         "verification": r.get("verification"),
-        "covered_instruments": r.get("covered_instruments") or [],
+        "covered_instruments": as_list(r.get("covered_instruments")),
         "eligibility": r.get("eligibility"),
         "access_evidence": r.get("access_evidence"),
         "source_ids": r.get("source_ids") or [],

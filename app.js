@@ -281,7 +281,9 @@ function routeCard(route) {
     ["Call window status", route.call_window_status],
     ["Latest call found", route.latest_call_found],
     ["Allocation process", route.allocation_process],
-    ["Covered instruments", (route.covered_instruments || []).join(", ")],
+    // defensive: the build pipeline normalizes this to an array, but don't let a future data
+    // slip (e.g. a hand-edited observations.json) crash the whole render again like it did here
+    ["Covered instruments", [].concat(route.covered_instruments || []).join(", ")],
     ["Funding vs. observing", route.funding_vs_observing_note],
   ].filter(([, v]) => v && v !== "unknown");
   const portal = route.submission_portal && route.submission_portal !== "unknown"
@@ -398,9 +400,12 @@ function render() {
 // ---------- Map ----------
 function initMap() {
   map = L.map("map", { worldCopyJump: true }).setView([15, 10], 2);
-  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    subdomains: "abcd",
+  // CARTO's anonymous basemap tiles now require an API key (confirmed: they started returning
+  // "API KEY REQUIRED" watermarked tiles). Use the OSM Foundation's own standard tile server
+  // instead -- always free, no key, no account -- and fake the dark look with a CSS filter on
+  // the tile pane only (markers/popups are excluded, see style.css's #map .leaflet-tile-pane).
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
     maxZoom: 19,
   }).addTo(map);
   markerLayer = L.layerGroup().addTo(map);

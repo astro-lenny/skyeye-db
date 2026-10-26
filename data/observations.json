@@ -1613,7 +1613,9 @@
     "deadline": "2026-03-26 23:59 China Standard Time",
     "submission_portal": "https://tap.china-vo.org/",
     "allocation_process": "TAP TAC scientific/technical review; member institute funding shares; previousallocationreportingpenalties.",
-    "covered_instruments": "2026B WIRCam,SITELLE,MegaCam,SPIRou,ESPaDOnS;offerlistmustbecheckedpersemester",
+    "covered_instruments": [
+     "2026B WIRCam,SITELLE,MegaCam,SPIRou,ESPaDOnS;offerlistmustbecheckedpersemester"
+    ],
     "access_evidence": "4–7CFHTnights+13Halenights. CFHTfirstofficialCFHTproposalnumber26BSthenuploadTAP. P200template1.3.3+Caltechcoversheet;CWIrequiresinstrumentPIapproval. NearIRbrighttimeunlessexplicitjustification. CFHT2026BlastWIRCam/SITELLE;fixedtargetAEONToOMegaCam/SPIRou/ESPaDOnSbefore16HST,movingtargetsnotexpected26B. TAPportalfetchedemptyJavaScriptshell;coversheetread;notauthenticated/submitted.",
     "verification": "official_documentation",
     "notes": "Additionalrestrictednationalaccessroute;2026Bdeadlineclosednotcurrentopenopportunity."
@@ -1633,7 +1635,9 @@
     "deadline": "unknown",
     "submission_portal": "unknown; internal UH observing time request form",
     "allocation_process": "TAC science/feasibility/productivityreview;directorfinaldecision. UH2.2monthly1night rapidresponse directorrequests.",
-    "covered_instruments": "unknown;semester-specific",
+    "covered_instruments": [
+     "unknown;semester-specific"
+    ],
     "access_evidence": "CurrentIfAgraduateinstructions explicitly nameUH2.2/UKIRT/Gemini/CFHT;precandidacy2hlimitGemini/CFHT.",
     "verification": "official_documentation",
     "notes": "Exactsemesterinstrumentallocationunknown."
@@ -2062,7 +2066,9 @@
     "deadline": "Rolling during currentsemester; latestlisted2026BobservingdatesOct27andNov3 2026",
     "submission_portal": "https://forms.office.com/r/Nz0Wq97B9V",
     "allocation_process": "CHARA staff trialreviewscience/impact/publicationtimeline/feasibility;notify>=1weekbeforeselection.",
-    "covered_instruments": "MIRC-X/MYSTIC H/K",
+    "covered_instruments": [
+     "MIRC-X/MYSTIC H/K"
+    ],
     "access_evidence": "Confirmhighimpactresult,feasibilitycheck,unexpectedeventorcompletionforpublication. Formlinkcachemiss;officialprogrammefullyretrieved. Publicationinstrumentteamrecommendationsapply;nofeeamountdocumented.",
     "verification": "official_documentation",
     "notes": "Confirmhighimpactresult,feasibilitycheck,unexpectedeventorcompletionforpublication. Formlinkcachemiss;officialprogrammefullyretrieved. Publicationinstrumentteamrecommendationsapply;nofeeamountdocumented."
@@ -4956,7 +4962,9 @@
     "deadline": "unknown",
     "submission_portal": "https://observe.lco.global/",
     "allocation_process": "DirectorDDT;externalTACanddirectorrelationforKP",
-    "covered_instruments": "2026B MuSCAT/FLOYDS2m,Sinistro/Sophia1m,QHY600.4m;confirmcurrentsemester",
+    "covered_instruments": [
+     "2026B MuSCAT/FLOYDS2m,Sinistro/Sophia1m,QHY600.4m;confirmcurrentsemester"
+    ],
     "access_evidence": "Director reviews often withexperts,usually<1week. Mustjustifyurgencyoverregularcycle ifeligibleforstandard/guaranteedtime. No publisheduserfee identified.",
     "verification": "official_documentation",
     "notes": "Globalnetworkroute;individualphysicalmemberscoveredthroughnetworkrelationship."
@@ -4976,7 +4984,9 @@
     "deadline": "unknown",
     "submission_portal": "https://observe.lco.global/",
     "allocation_process": "DirectorDDT;externalTACanddirectorrelationforKP",
-    "covered_instruments": "2026B MuSCAT/FLOYDS2m,Sinistro/Sophia1m,QHY600.4m;confirmcurrentsemester",
+    "covered_instruments": [
+     "2026B MuSCAT/FLOYDS2m,Sinistro/Sophia1m,QHY600.4m;confirmcurrentsemester"
+    ],
     "access_evidence": ">=500h,multisemesterupto3years,nonanonymous,teamresourcecommitment. Fullproposalinvitationrestricted. Exact2026Bdeadlineunknownfromretrievedguidelines.",
     "verification": "official_documentation",
     "notes": "Globalnetworkroute;individualphysicalmemberscoveredthroughnetworkrelationship."
@@ -5810,7 +5820,9 @@
     "deadline": "unknown",
     "submission_portal": "unknown; internal UH observing time request form",
     "allocation_process": "TAC science/feasibility/productivityreview;directorfinaldecision. UH2.2monthly1night rapidresponse directorrequests.",
-    "covered_instruments": "unknown;semester-specific",
+    "covered_instruments": [
+     "unknown;semester-specific"
+    ],
     "access_evidence": "CurrentIfAgraduateinstructions explicitly nameUH2.2/UKIRT/Gemini/CFHT;precandidacy2hlimitGemini/CFHT.",
     "verification": "official_documentation",
     "notes": "Exactsemesterinstrumentallocationunknown."
@@ -6704,7 +6716,9 @@
     "deadline": "2026-03-26 23:59 China Standard Time",
     "submission_portal": "https://tap.china-vo.org/",
     "allocation_process": "TAP TAC scientific/technical review; member institute funding shares; previousallocationreportingpenalties.",
-    "covered_instruments": "AvailableinstrumentperPalomarsite;CWIPIapprovalmandatory",
+    "covered_instruments": [
+     "AvailableinstrumentperPalomarsite;CWIPIapprovalmandatory"
+    ],
     "access_evidence": "4–7CFHTnights+13Halenights. CFHTfirstofficialCFHTproposalnumber26BSthenuploadTAP. P200template1.3.3+Caltechcoversheet;CWIrequiresinstrumentPIapproval. NearIRbrighttimeunlessexplicitjustification. CFHT2026BlastWIRCam/SITELLE;fixedtargetAEONToOMegaCam/SPIRou/ESPaDOnSbefore16HST,movingtargetsnotexpected26B. TAPportalfetchedemptyJavaScriptshell;coversheetread;notauthenticated/submitted.",
     "verification": "official_documentation",
     "notes": "Additionalrestrictednationalaccessroute;2026Bdeadlineclosednotcurrentopenopportunity."
@@ -6724,7 +6738,9 @@
     "deadline": "2026-10-08 16:00 PDT",
     "submission_portal": "https://cosmos.ipac.caltech.edu/jpac/proposal.php",
     "allocation_process": "JPAC review;2semesterLargeor3–4semesterStrategic proposalspossible;progressreportsrequired.",
-    "covered_instruments": "CurrentPalomarapprovedinstruments;NGPSfacility,PARVIunavailable2027A",
+    "covered_instruments": [
+     "CurrentPalomarapprovedinstruments;NGPSfacility,PARVIunavailable2027A"
+    ],
     "access_evidence": "PIpresentfullallocatedtime;no associatedfunding,feesunknown. Remote request1monthahead;CWIonsitepersonrecommended. NGPSfacilityapproved,PARVIunavailablefrom2027A. Privateinstrumentapprovalrequired. JPACportalnotaccessible;actual7pagecallfullyread.",
     "verification": "official_documentation",
     "notes": "~42nights2027A;full/halfnights,availabilitysubjectschedule."
@@ -8672,7 +8688,9 @@
     "deadline": "29 July 2026 17:00 EDT (21:00 UTC)",
     "submission_portal": "https://my.nrao.edu/",
     "allocation_process": "scientific and technical proposal review",
-    "covered_instruments": "eLWA coupled VLA+LWA1/Sevilleta only",
+    "covered_instruments": [
+     "eLWA coupled VLA+LWA1/Sevilleta only"
+    ],
     "access_evidence": "Current NRAOOSS2027A explicitly offers eLWA and grants station time automatically for VLA-approved eLWA projects.",
     "verification": "official_documentation",
     "notes": "Route-specific current evidence supersedes blanket suspension; eLWA scheduling cannot mix other modes. LWA-NA not listed in pair."
@@ -8848,7 +8866,9 @@
     "deadline": "29 July 2026 17:00 EDT (21:00 UTC)",
     "submission_portal": "https://my.nrao.edu/",
     "allocation_process": "scientific and technical proposal review",
-    "covered_instruments": "eLWA coupled VLA+LWA1/Sevilleta only",
+    "covered_instruments": [
+     "eLWA coupled VLA+LWA1/Sevilleta only"
+    ],
     "access_evidence": "Current NRAOOSS2027A explicitly offers eLWA and grants station time automatically for VLA-approved eLWA projects.",
     "verification": "official_documentation",
     "notes": "Route-specific current evidence supersedes blanket suspension; eLWA scheduling cannot mix other modes. LWA-NA not listed in pair."
@@ -9020,7 +9040,9 @@
     "deadline": "2027-01-28 16:30 Eastern Time",
     "submission_portal": "https://heasarc.gsfc.nasa.gov/ark/rps/",
     "allocation_process": "Technical review then Fermi dual-anonymous GI peer review then VERITASTAC allocation.",
-    "covered_instruments": "Four12m imaging atmospheric Cherenkov telescopes",
+    "covered_instruments": [
+     "Four12m imaging atmospheric Cherenkov telescopes"
+    ],
     "access_evidence": "<=120h/cycle,onehourRA band<=25%historical(~20h); regions<0.5deg; prefer elevation>50deg,typicaldeclination0to60exceptions-10to70deg. July/Augweatherclosure. One year joint time even multiyearFermi support. FullVERITASauthorship/internalpublicationreview;CategoryAineligible,CategoryBcollaboration,CategoryCproposerlead. Specificationslinkfailed; NASA jointtechnicalsection actuallyretrieved. Portal linked, not independentlyread.",
     "verification": "official_documentation",
     "notes": "Additional currentCycle20 verification of joint route; historical route evidence retained."
@@ -11973,7 +11995,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:mlso_data_requests@ucar.edu",
     "allocation_process": "Reviewed and implemented as resources allow; detailed ranking unknown.",
-    "covered_instruments": "Upgraded Coronal Multi-channel Polarimeter",
+    "covered_instruments": [
+     "Upgraded Coronal Multi-channel Polarimeter"
+    ],
     "access_evidence": "UCoMP most flexible; changes to observing modes/cadence can be requested. Most recent illustrated campaign2022 is not a current call. Full-power restoration announcement states UCoMP will join KCor daily; actual resumed date unknown.",
     "verification": "official_documentation",
     "notes": null
@@ -12049,7 +12073,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:mlso_data_requests@ucar.edu",
     "allocation_process": "Reviewed and implemented as resources allow; detailed ranking unknown.",
-    "covered_instruments": "COSMO K-Coronagraph",
+    "covered_instruments": [
+     "COSMO K-Coronagraph"
+    ],
     "access_evidence": "UCoMP most flexible; changes to observing modes/cadence can be requested. Most recent illustrated campaign2022 is not a current call. Full-power restoration announcement states UCoMP will join KCor daily; actual resumed date unknown.",
     "verification": "official_documentation",
     "notes": null
@@ -12126,7 +12152,9 @@
     "deadline": "unknown",
     "submission_portal": "unknown",
     "allocation_process": "unknown",
-    "covered_instruments": "Approved Alpha configuration14Medium-Sized+37Small-Sized telescopes",
+    "covered_instruments": [
+     "Approved Alpha configuration14Medium-Sized+37Small-Sized telescopes"
+    ],
     "access_evidence": "Future access separated from operational accepting programmes; allocation, first call and fees unknown.",
     "verification": "official_documentation",
     "notes": null
@@ -12200,7 +12228,9 @@
     "deadline": "20 October and 20 April 14:00 Mexico City; year unknown; next business day rule",
     "submission_portal": "mailto:solicitud@astro.unam.mx",
     "allocation_process": "scientific and technical proposal review",
-    "covered_instruments": "CMOS direct imaging V/R (2027A); standing CCDs notnecessarilyoffered",
+    "covered_instruments": [
+     "CMOS direct imaging V/R (2027A); standing CCDs notnecessarilyoffered"
+    ],
     "access_evidence": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved.",
     "verification": "official_documentation",
     "notes": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved."
@@ -12274,7 +12304,9 @@
     "deadline": "20 October and 20 April 14:00 Mexico City; year unknown; next business day rule",
     "submission_portal": "mailto:solicitud@astro.unam.mx",
     "allocation_process": "scientific and technical proposal review",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved.",
     "verification": "official_documentation",
     "notes": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved."
@@ -12348,7 +12380,9 @@
     "deadline": "20 October and 20 April 14:00 Mexico City; year unknown; next business day rule",
     "submission_portal": "mailto:solicitud@astro.unam.mx",
     "allocation_process": "scientific and technical proposal review",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved.",
     "verification": "official_documentation",
     "notes": "2027ACANHIS/DDOTI/COATLIunavailable.1.5monsiteonly;.84mremoteonly;COLIBRITEQUILAnew. Tonantzintla1mCMOSVR/NAHUICe/Omeoffered. OutofcycleToOservicepossiblecontactJOAN/CATT;observercoauthorshiprequiredby2012currentlyinvokedpolicy. DeadlineyearforstandingOct20ruleinferred2026for2027A,exactcallclocknotdirectretrieved."
@@ -12424,7 +12458,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:turnos_ba@oac.unc.edu.ar",
     "allocation_process": "unknown",
-    "covered_instruments": "ApogeeALTAF16M andU9 CCDs listed;UBVRI/narrowband",
+    "covered_instruments": [
+     "ApogeeALTAF16M andU9 CCDs listed;UBVRI/narrowband"
+    ],
     "access_evidence": "Standingapplicationinstructioncurrentlinkedoperatorresearchnavigation;lastlistedallocations2019,notcurrentopportunity. Formreferredbutnotlinked;emailcontactprovided. DetailedTAC/feesunknown.",
     "verification": "official_documentation",
     "notes": null
@@ -12502,7 +12538,9 @@
     "deadline": "unknown",
     "submission_portal": "unknown; internal UH observing time request form",
     "allocation_process": "TAC science/feasibility/productivityreview;directorfinaldecision. UH2.2monthly1night rapidresponse directorrequests.",
-    "covered_instruments": "LegacySNIFS,WFGS2,TekCCD,OPTIC;currentofferunknown",
+    "covered_instruments": [
+     "LegacySNIFS,WFGS2,TekCCD,OPTIC;currentofferunknown"
+    ],
     "access_evidence": "UHaffiliatedPI requiredUH2.2. Currentgraduateinstructions+formalpolicyestablishroute;legacyinstrumentlistalone notcurrentoffering. Exactportal/currentinstrumentsunknown.",
     "verification": "official_documentation",
     "notes": null
@@ -12576,7 +12614,9 @@
     "deadline": "unknown",
     "submission_portal": "https://www.kasonline.org/request/index.html (password required)",
     "allocation_process": "RemoteTelescopeCommittee proposalreview andadministratorallocation;boardoversight.",
-    "covered_instruments": "SBIG STX-16803; LRGB and3nm Halpha/OIII/SII",
+    "covered_instruments": [
+     "SBIG STX-16803; LRGB and3nm Halpha/OIII/SII"
+    ],
     "access_evidence": "JointKAS/userdataownership;publicationandprivatesalesrequirewrittenboardconsent. SpecialastronomicaleventsallowRTCcancel/reassign. Scientificusepossibleunderproposalpolicy/photometryinstrumentation;nofundingcallassumed.",
     "verification": "official_documentation",
     "notes": null
@@ -12650,7 +12690,9 @@
     "deadline": "unknown",
     "submission_portal": "https://www.kasonline.org/request/index.html (password required)",
     "allocation_process": "RemoteTelescopeCommittee proposalreview andadministratorallocation;boardoversight.",
-    "covered_instruments": "SBIG STX-16803; LRGB and3nm Halpha/OIII/SII",
+    "covered_instruments": [
+     "SBIG STX-16803; LRGB and3nm Halpha/OIII/SII"
+    ],
     "access_evidence": "JointKAS/userdataownership;publicationandprivatesalesrequirewrittenboardconsent. SpecialastronomicaleventsallowRTCcancel/reassign. Scientificusepossibleunderproposalpolicy/photometryinstrumentation;nofundingcallassumed.",
     "verification": "official_documentation",
     "notes": null
@@ -12724,7 +12766,9 @@
     "deadline": "unknown",
     "submission_portal": "https://www.kasonline.org/reserve/index.html (password required)",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Operator explicitly permitsresearchprojects andprovidesreservationroute. Proposalmeritrankingunknown;membershiprestrictedrequests countunderusercriterion. Directpageantibot/cachemiss,indexread.",
     "verification": "official_documentation",
     "notes": null
@@ -12798,7 +12842,9 @@
     "deadline": "unknown",
     "submission_portal": "https://apps.aavso.org/v2/campaigns/ (403)",
     "allocation_process": "AAVSOdiscretiontoissuecampaign;individualobserversvoluntaryparticipation.",
-    "covered_instruments": "Variablevisual/CCD/CMOS/PEPphotometryandopticalspectrographs",
+    "covered_instruments": [
+     "Variablevisual/CCD/CMOS/PEPphotometryandopticalspectrographs"
+    ],
     "access_evidence": "DistinctfromAAVSOnet roboticallocatedtelescopes. Researcherleadsanalysis/publication;observerrecognitionrequired,coauthorshipstronglyencouragedforcriticaldata. Publicapp403;policyread.",
     "verification": "official_documentation",
     "notes": null
@@ -12872,7 +12918,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:gochile@ung.si",
     "allocation_process": "Contact observations coordinator; formal merit review and scheduling rules unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2026 operator announcement explicitly invites use requests and reports quantitative student research. Non-profit initiative; user fees unknown. Two telescopes share a mount and cannot independently point.",
     "verification": "official_documentation",
     "notes": null
@@ -12946,7 +12994,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:gochile@ung.si",
     "allocation_process": "Contact observations coordinator; formal merit review and scheduling rules unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2026 operator announcement explicitly invites use requests and reports quantitative student research. Non-profit initiative; user fees unknown. Two telescopes share a mount and cannot independently point.",
     "verification": "official_documentation",
     "notes": null
@@ -13022,7 +13072,9 @@
     "deadline": "unknown",
     "submission_portal": "https://gort.sonoma.edu/ (approved user telescope-control portal; exact initial-proposal submission method unknown)",
     "allocation_process": "Operator approves observing proposal before user scheduling",
-    "covered_instruments": "Apogee Alta U47 CCD; clear/B/V/R/I filters",
+    "covered_instruments": [
+     "Apogee Alta U47 CCD; clear/B/V/R/I filters"
+    ],
     "access_evidence": "Actual science proposal required. Guidelines retrieved; telescope portal inaccessible. Contact EdEON edeon@sonoma.edu for application questions; general contact not explicitly mandated submission address. Fees unknown.",
     "verification": "official_documentation",
     "notes": null
@@ -13096,7 +13148,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:coordinadorobservatorio@itm.edu.co",
     "allocation_process": "Observatory professional staff review and email response",
-    "covered_instruments": "H-alpha solar imaging; cameras offered unknown",
+    "covered_instruments": [
+     "H-alpha solar imaging; cameras offered unknown"
+    ],
     "access_evidence": "Official page remains available via search index; direct retrieval timed out. Form itself not retrieved; latest linked form2024A must not be advertised as current opportunity. Museum free-entry statement does not prove telescope-time fees.",
     "verification": "official_documentation",
     "notes": null
@@ -13172,7 +13226,9 @@
     "deadline": "unknown",
     "submission_portal": "https://boyce-astro.org/photometry-sign-up/ (waitlist; timeout on retrieval)",
     "allocation_process": "Programme admission then student-selected scientific project; independentphotometry<20h; explicitnewtime commitment",
-    "covered_instruments": "scientific photometry and speckle cameras; exactcurrentprimarycameraunknown",
+    "covered_instruments": [
+     "scientific photometry and speckle cameras; exactcurrentprimarycameraunknown"
+    ],
     "access_evidence": "Scientific observational research supported, with publication. Archive-only BART radio data do not qualify as new-time route; separate telescope/control eligibility not unrestricted public access.",
     "verification": "official_documentation",
     "notes": null
@@ -13248,7 +13304,9 @@
     "deadline": "unknown",
     "submission_portal": "https://boyce-astro.org/photometry-sign-up/ (waitlist; timeout on retrieval)",
     "allocation_process": "Programme admission then student-selected scientific project; independentphotometry<20h; explicitnewtime commitment",
-    "covered_instruments": "QHY600; speckle and time-series photometry",
+    "covered_instruments": [
+     "QHY600; speckle and time-series photometry"
+    ],
     "access_evidence": "Scientific observational research supported, with publication. Archive-only BART radio data do not qualify as new-time route; separate telescope/control eligibility not unrestricted public access.",
     "verification": "official_documentation",
     "notes": null
@@ -13322,7 +13380,9 @@
     "deadline": "unknown",
     "submission_portal": "https://mo-www.cfa.harvard.edu/cgi-bin/OWN/Own.pl",
     "allocation_process": "automatedqueue subjectvisibility/weather; preselectedtargetandcameraoptions",
-    "covered_instruments": "6inchreflectingCCDtelescopes;650x500pixelimages",
+    "covered_instruments": [
+     "6inchreflectingCCDtelescopes;650x500pixelimages"
+    ],
     "access_evidence": "Actualnewimage requests distinguished from NASAExoplanetWatch existing-data checkout. Research-use documentedthroughDIYPlanetSearchprogramme; exactcurrentadvancedenrolmentunverified. Networkonly, individualphysicalmemberidentitiesnotresolved.",
     "verification": "official_documentation",
     "notes": null
@@ -13396,7 +13456,9 @@
     "deadline": "unknown",
     "submission_portal": "unknown",
     "allocation_process": "tokenbudgetandrequestpriority; calendarbookingandroboticqueue",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Verifiedoperatorindexedscientificobservingaccess;physicalmembersnotpubliclyidentifiedinretrievedsources. DistinctfromformerPhotonRanch employmentofafounder;donotinferplatformormemberidentity.",
     "verification": "official_documentation",
     "notes": null
@@ -13470,7 +13532,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:goderya@tarleton.edu",
     "allocation_process": "Director schedules authorizedrequests; mentorarrangesstudentaccounts",
-    "covered_instruments": "high-resolution CCD imaging; camera/filter modelsunknown",
+    "covered_instruments": [
+     "high-resolution CCD imaging; camera/filter modelsunknown"
+    ],
     "access_evidence": "Actualscientific-timeemailrequestseparatefrompublicstarparties. Feesunknown; nofixedcallcycleordeadlinepublished.",
     "verification": "official_documentation",
     "notes": null
@@ -13546,7 +13610,9 @@
     "deadline": "unknown",
     "submission_portal": "https://request.macroconsortium.org/",
     "allocation_process": "Institutionalemailverification/adminapproval; guaranteedinstitutionalshare and roboticbalancedqueue",
-    "covered_instruments": "QHY600Pro; Sloang/r/i, Halpha/OIII/SII/luminance and grisms",
+    "covered_instruments": [
+     "QHY600Pro; Sloang/r/i, Halpha/OIII/SII/luminance and grisms"
+    ],
     "access_evidence": "Officialindexedcontentread, directguide/facilitycachemissandportalnotaccessible. Sameeveningqueue before15:00Arizona; scheduling/weatherconstraintsapply. Fixedproposaldeadlineunknown.",
     "verification": "official_documentation",
     "notes": null
@@ -13622,7 +13688,9 @@
     "deadline": "unknown",
     "submission_portal": "https://science.greatbasinobservatory.org/operations/observation-request/",
     "allocation_process": "memberregistration and new-observationrequest; detailedreviewcriteriaunknown",
-    "covered_instruments": "CCD imager/filterwheel; spectrograph currentmodelandavailabilityunknown",
+    "covered_instruments": [
+     "CCD imager/filterwheel; spectrograph currentmodelandavailabilityunknown"
+    ],
     "access_evidence": "Officialresearchportalexplicitrequestroute. Form/login/partnership/statussubpagesretrievalcachemiss. Publictourregistrationnot scientific-timeeligibility; userfeesunknown.",
     "verification": "official_documentation",
     "notes": null
@@ -13699,7 +13767,9 @@
     "deadline": "unknown",
     "submission_portal": "https://observe.monet.uni-goettingen.de/",
     "allocation_process": "Robotic/remoteoperator allocation; technicalworkmayinterrupt; importantobservationrequirespriorcontact",
-    "covered_instruments": "CCD imaging; STF-8300M listed technicalpage; currentcameraexactstatusuncertain",
+    "covered_instruments": [
+     "CCD imaging; STF-8300M listed technicalpage; currentcameraexactstatusuncertain"
+    ],
     "access_evidence": "Conditionalaccessscope:specificpartner/schoolscientificobservationssupported; noopeninternationalPIcallverified. Educationlinkcachemiss; observationportalJSonly. MOSESnotassumedofferable.",
     "verification": "official_documentation",
     "notes": null
@@ -22459,7 +22529,9 @@
     "deadline": "2026-11-06 17:00; timezone unknown on page",
     "submission_portal": "https://lens.datacentral.org.au/",
     "allocation_process": "ANU TAC scientific assessment",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A proposals via Lens; Australian-majority normal time, worldwide paid time, contractual guaranteed time, rolling director requests; automated observing.",
     "verification": "official_documentation",
     "notes": null
@@ -22479,7 +22551,9 @@
     "deadline": "unknown",
     "submission_portal": "https://lens.datacentral.org.au/",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A proposals via Lens; Australian-majority normal time, worldwide paid time, contractual guaranteed time, rolling director requests; automated observing.",
     "verification": "official_documentation",
     "notes": null
@@ -22499,7 +22573,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:director.rsaa@anu.edu.au",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A proposals via Lens; Australian-majority normal time, worldwide paid time, contractual guaranteed time, rolling director requests; automated observing.",
     "verification": "official_documentation",
     "notes": null
@@ -22575,7 +22651,9 @@
     "deadline": "unknown",
     "submission_portal": "https://lens.datacentral.org.au/",
     "allocation_process": "ATAC scientific merit",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Since July 2025 Australian institutions may compete for open time; domestic and overseas researchers may purchase time through AAL.",
     "verification": "official_documentation",
     "notes": null
@@ -22595,7 +22673,9 @@
     "deadline": "unknown",
     "submission_portal": "unknown",
     "allocation_process": "AAT governing entity / ATAC policy",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Since July 2025 Australian institutions may compete for open time; domestic and overseas researchers may purchase time through AAL.",
     "verification": "official_documentation",
     "notes": null
@@ -22696,7 +22776,9 @@
     "deadline": "2026-11-02 08:00 UT",
     "submission_portal": "https://eavn.kasi.re.kr/",
     "allocation_process": "EAVN TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
     "verification": "official_documentation",
     "notes": "At most24h per proposal; until2027-04-30; no ToO"
@@ -22851,7 +22933,9 @@
     "deadline": "2026-10-27 10:00 JST",
     "submission_portal": "https://www.nins.jp/",
     "allocation_process": "open-use committee review",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A open-use call offers KOOLS-IFU, TriCCS imaging/slit spectroscopy, GAOES-RV; applications via NOUS; deadline 27 October 2026 10:00 JST.",
     "verification": "official_documentation",
     "notes": null
@@ -22952,7 +23036,9 @@
     "deadline": "Recurring November 1 / March 1 / July 1; latest dated deadline and timezone unknown",
     "submission_portal": "unknown",
     "allocation_process": "IIA Time Allocation Committee",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "HCT is available to the astronomical community, with HFOSC, TIRSPEC and HESP; three cycles yearly, ToO, and separate director requests.",
     "verification": "official_documentation",
     "notes": null
@@ -22972,7 +23058,9 @@
     "deadline": "unknown",
     "submission_portal": "Director IIA; copy professor in charge and HTAC",
     "allocation_process": "Director consultation with observatory lead",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "HCT is available to the astronomical community, with HFOSC, TIRSPEC and HESP; three cycles yearly, ToO, and separate director requests.",
     "verification": "official_documentation",
     "notes": null
@@ -23048,7 +23136,9 @@
     "deadline": "2026-08-03 23:59:59 IST (UTC+05:30)",
     "submission_portal": "https://dopses.aries.res.in",
     "allocation_process": "competitive allocation within Indian/Belgian shares",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "DOT 2026-C2 PI must be affiliated to Indian or Belgian academic institutions; instruments ADFOSC, TANSPEC, TIRCAM2, SPIM; service or visitor observing; DOPSES submission.",
     "verification": "official_documentation",
     "notes": null
@@ -23125,7 +23215,9 @@
     "deadline": "2026-07-15 17:00 IST (UTC+05:30); closed",
     "submission_portal": "https://naps.ncra.tifr.res.in",
     "allocation_process": "GTAC scientific evaluation",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "GMRT Cycle51 announced, with regular and ToO proposals; twice-yearly cycles, July/January submission and linked technical status.",
     "verification": "official_documentation",
     "notes": null
@@ -23199,7 +23291,9 @@
     "deadline": "2026-07-16 24:00; timezone unknown on source",
     "submission_portal": "https://nadc.china-vo.org",
     "allocation_process": "joint peer review and coordinated allocation",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "One proposal covers Lijiang2.4m and Xinglong2.16m, joint review for September2026–June2027; PDF to NADC; Xinglong includes service/ToO allocation.",
     "verification": "official_documentation",
     "notes": null
@@ -23273,7 +23367,9 @@
     "deadline": "2026-07-16 24:00; timezone unknown on source",
     "submission_portal": "https://nadc.china-vo.org",
     "allocation_process": "joint peer review and coordinated allocation",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "One proposal covers Lijiang2.4m and Xinglong2.16m, joint review for September2026–June2027; PDF to NADC; Xinglong includes service/ToO allocation.",
     "verification": "official_documentation",
     "notes": null
@@ -23347,7 +23443,9 @@
     "deadline": "2026-08-24 11:59 Asia/Bangkok (UTC+07:00)",
     "submission_portal": "https://indico.narit.or.th/event/241/",
     "allocation_process": "TAC ranking, previous publication record considered",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2.4m TNT and TNO1m accept Thai and internationally affiliated astronomers; Thai affiliation breaks equal rankings; ToO accepted year-round.",
     "verification": "official_documentation",
     "notes": null
@@ -23421,7 +23519,9 @@
     "deadline": "2026-08-24 11:59 Asia/Bangkok (UTC+07:00)",
     "submission_portal": "https://indico.narit.or.th/event/241/",
     "allocation_process": "TAC ranking, previous publication record considered",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2.4m TNT and TNO1m accept Thai and internationally affiliated astronomers; Thai affiliation breaks equal rankings; ToO accepted year-round.",
     "verification": "official_documentation",
     "notes": null
@@ -23497,7 +23597,9 @@
     "deadline": "2026-11-02 08:00 UT",
     "submission_portal": "https://eavn.kasi.re.kr/",
     "allocation_process": "EAVN TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
     "verification": "official_documentation",
     "notes": null
@@ -23571,7 +23673,9 @@
     "deadline": "2026-11-02 08:00 UT",
     "submission_portal": "https://eavn.kasi.re.kr/",
     "allocation_process": "EAVN TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
     "verification": "official_documentation",
     "notes": null
@@ -23645,7 +23749,9 @@
     "deadline": "2026-11-02 08:00 UT",
     "submission_portal": "https://eavn.kasi.re.kr/",
     "allocation_process": "EAVN TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
     "verification": "official_documentation",
     "notes": null
@@ -23719,7 +23825,9 @@
     "deadline": "2026-11-02 08:00 UT",
     "submission_portal": "https://eavn.kasi.re.kr/",
     "allocation_process": "EAVN TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
     "verification": "official_documentation",
     "notes": null
@@ -23793,7 +23901,9 @@
     "deadline": "2026-11-02 08:00 UT",
     "submission_portal": "https://eavn.kasi.re.kr/",
     "allocation_process": "EAVN TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
     "verification": "official_documentation",
     "notes": null
@@ -23869,7 +23979,9 @@
     "deadline": "2026-11-02 08:00 UT",
     "submission_portal": "https://eavn.kasi.re.kr/",
     "allocation_process": "EAVN TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
     "verification": "official_documentation",
     "notes": null
@@ -23945,7 +24057,9 @@
     "deadline": "2026-11-02 09:00 UT (18:00 KST)",
     "submission_portal": "https://kvn.kasi.re.kr",
     "allocation_process": "scientific and technical justification; TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "KVN invites astronomers worldwide to propose multi-frequency VLBI; four21m antennas; 2027A200h; EATING PI restricted INAF/KASI.",
     "verification": "official_documentation",
     "notes": null
@@ -23965,7 +24079,9 @@
     "deadline": "2026-11-02 08:00 UT",
     "submission_portal": "https://eavn.kasi.re.kr/",
     "allocation_process": "EAVN TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "2027A accepts VLBI and DDT via EAVN portal; 13 Japan/Korea telescopes participate; Chinese stations excluded for lunar tracking.",
     "verification": "official_documentation",
     "notes": null
@@ -23985,7 +24101,9 @@
     "deadline": "2026-11-02 09:00 UT (18:00 KST)",
     "submission_portal": "https://kvn.kasi.re.kr",
     "allocation_process": "science proposal evaluation",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "KVN single-dish science call is for Korean astronomical community; four antennas250h each; spectral and continuum observing.",
     "verification": "official_documentation",
     "notes": null
@@ -24059,7 +24177,9 @@
     "deadline": "2026APR:16December2025 06:00UT /17:00Sydney; not a current opportunity",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "ATNF Time Assignment Committee scientific merit",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official directory identifies ATNF proposal access for ASKAP, ATCA, Murriyang, Tidbinbilla and LBA.",
     "verification": "official_documentation",
     "notes": null
@@ -24133,7 +24253,9 @@
     "deadline": "2026APR:16December2025 06:00UT /17:00Sydney; not a current opportunity",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "ATNF Time Assignment Committee scientific merit",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official directory identifies ATNF proposal access for ASKAP, ATCA, Murriyang, Tidbinbilla and LBA.",
     "verification": "official_documentation",
     "notes": null
@@ -24207,7 +24329,9 @@
     "deadline": "2026APR:16December2025 06:00UT /17:00Sydney; not a current opportunity",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "ATNF Time Assignment Committee scientific merit",
-    "covered_instruments": "VLBI; precise available receivers per semester unknown",
+    "covered_instruments": [
+     "VLBI; precise available receivers per semester unknown"
+    ],
     "access_evidence": "Official directory identifies ATNF proposal access for ASKAP, ATCA, Murriyang, Tidbinbilla and LBA.",
     "verification": "official_documentation",
     "notes": null
@@ -24281,7 +24405,9 @@
     "deadline": "unknown; current exact semester call not recovered",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "TAC scientific merit and operational/technical feasibility",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
     "verification": "official_documentation",
     "notes": "Reconciled from independent access audit."
@@ -24301,7 +24427,9 @@
     "deadline": "unknown",
     "submission_portal": "https://www.atnf.csiro.au/facilities/askap/policy/ASKAP_User_Policy.pdf",
     "allocation_process": "Director approval and operational feasibility",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
     "verification": "official_documentation",
     "notes": "Reconciled from independent access audit."
@@ -24375,7 +24503,9 @@
     "deadline": "2026APR:16December2025 06:00UT /17:00Sydney; not a current opportunity",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "ATNF Time Assignment Committee scientific merit",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official directory identifies ATNF proposal access for ASKAP, ATCA, Murriyang, Tidbinbilla and LBA.",
     "verification": "official_documentation",
     "notes": null
@@ -24395,7 +24525,9 @@
     "deadline": "Recurring15April and15October; year,clock,time zone unknown. ToOanytime.",
     "submission_portal": "2019guide: email stephen.m.lichten@jpl.nasa.gov plus hardcopy; current contact currency unverified.",
     "allocation_process": "Scientific peer review plus technical uniqueness and scheduling feasibility. Spacecraft tracking/telemetry/command priority; approval not scheduling guarantee.",
-    "covered_instruments": "antenna-specific science receivers; actual availability conditional",
+    "covered_instruments": [
+     "antenna-specific science receivers; actual availability conditional"
+    ],
     "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
     "verification": "official_documentation",
     "notes": "DSN scientific approval does not guarantee scheduling; spacecraft telemetry/tracking/command has priority. Standing linked2019 process contact must be confirmed."
@@ -24471,7 +24603,9 @@
     "deadline": "2026-03-20 17:00 AWST",
     "submission_portal": "https://form.jotform.com/230436931661051",
     "allocation_process": "Six appointed TAC members plus nonvoting Principal Scientist; science and technical ranking, Director final schedule",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Guaranteed and Open Access proposals cover May–December2026; configurations128–256tiles; Jotform submission.",
     "verification": "official_documentation",
     "notes": null
@@ -24548,7 +24682,9 @@
     "deadline": "2026-04-07 16:00 UT (extension; original 2026-03-31 16:00 UT superseded)",
     "submission_portal": "https://fast.bao.ac.cn/proposal_submit",
     "allocation_process": "international peer review / time allocation committee",
-    "covered_instruments": "19-beam receiver",
+    "covered_instruments": [
+     "19-beam receiver"
+    ],
     "access_evidence": "Official 2026–2027 call permits regular proposals from researchers of any nationality or affiliation.",
     "verification": "official_documentation",
     "notes": null
@@ -24568,7 +24704,9 @@
     "deadline": "2026-04-07 16:00 UT (extension; original 2026-03-31 16:00 UT superseded)",
     "submission_portal": "https://fast.bao.ac.cn/proposal_submit",
     "allocation_process": "international peer review / time allocation committee",
-    "covered_instruments": "19-beam receiver",
+    "covered_instruments": [
+     "19-beam receiver"
+    ],
     "access_evidence": "Current official FAST call explicitly offers medium programmes with China-affiliated PIs.",
     "verification": "official_documentation",
     "notes": null
@@ -24642,7 +24780,9 @@
     "deadline": "unknown",
     "submission_portal": "mailto:dlhproposal@pmo.ac.cn",
     "allocation_process": "millimetre committee grades competing proposals",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Domestic and international experts invited; observing proposals accepted year-round by email; competing projects ranked for science and feasibility.",
     "verification": "official_documentation",
     "notes": null
@@ -24716,7 +24856,9 @@
     "deadline": "Recurring November1 / March1 / July1; current dated deadline and timezone unknown",
     "submission_portal": "https://ips.iiap.res.in",
     "allocation_process": "VBO time allocation committee",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "VBT national proposals, JCBT20% non-IIA time, Carl-Zeiss40inch IIA-only; three cycles yearly; IPS or email submission.",
     "verification": "official_documentation",
     "notes": null
@@ -24790,7 +24932,9 @@
     "deadline": "Recurring November1 / March1 / July1; current dated deadline and timezone unknown",
     "submission_portal": "https://ips.iiap.res.in",
     "allocation_process": "VBO time allocation committee",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "VBT national proposals, JCBT20% non-IIA time, Carl-Zeiss40inch IIA-only; three cycles yearly; IPS or email submission.",
     "verification": "official_documentation",
     "notes": null
@@ -24864,7 +25008,9 @@
     "deadline": "Recurring November1 / March1 / July1; current dated deadline and timezone unknown",
     "submission_portal": "mailto:vtac@iiap.res.in",
     "allocation_process": "VBO time allocation committee",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "VBT national proposals, JCBT20% non-IIA time, Carl-Zeiss40inch IIA-only; three cycles yearly; IPS or email submission.",
     "verification": "official_documentation",
     "notes": null
@@ -24940,7 +25086,9 @@
     "deadline": "Online2026-10-25; paper2026-10-26; clock time/timezone unknown",
     "submission_portal": "https://rasathane.ankara.edu.tr/2026/10/12/t80-t40-ve-t35-teleskoplari-icin-2026-yili-c-donemi-gozlem-projesi-basvurulari-basladi/",
     "allocation_process": "Observation and Evaluation Commission",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "T80,T40,T35 applications accepted online through25October2026; signed paper copy due26October. Source semester heading and observing-year field conflict.",
     "verification": "official_documentation",
     "notes": null
@@ -25016,7 +25164,9 @@
     "deadline": "Online2026-10-25; paper2026-10-26; clock time/timezone unknown",
     "submission_portal": "https://rasathane.ankara.edu.tr/2026/10/12/t80-t40-ve-t35-teleskoplari-icin-2026-yili-c-donemi-gozlem-projesi-basvurulari-basladi/",
     "allocation_process": "Observation and Evaluation Commission",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "T80,T40,T35 applications accepted online through25October2026; signed paper copy due26October. Source semester heading and observing-year field conflict.",
     "verification": "official_documentation",
     "notes": null
@@ -25092,7 +25242,9 @@
     "deadline": "Online2026-10-25; paper2026-10-26; clock time/timezone unknown",
     "submission_portal": "https://rasathane.ankara.edu.tr/2026/10/12/t80-t40-ve-t35-teleskoplari-icin-2026-yili-c-donemi-gozlem-projesi-basvurulari-basladi/",
     "allocation_process": "Observation and Evaluation Commission",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "T80,T40,T35 applications accepted online through25October2026; signed paper copy due26October. Source semester heading and observing-year field conflict.",
     "verification": "official_documentation",
     "notes": null
@@ -25166,7 +25318,9 @@
     "deadline": "2026-10-31; clock time/timezone unknown",
     "submission_portal": "mailto:proposal@kasi.re.kr",
     "allocation_process": "proposal selection committee with KASI and external members",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official operator application rules and signed current 2027A call verify access.",
     "verification": "official_documentation",
     "notes": "Observers normally PhD-level or doctoral students; masters-level observers require qualified accompaniment; doctoral students without three prior accompanied observing visits may not observe alone. ToO manual link returned 404."
@@ -25296,7 +25450,9 @@
     "deadline": "2026-10-01 17:00 US Eastern Time (extension); original2026-09-30 20:00 Eastern superseded",
     "submission_portal": "https://www.stsci.edu/scientific-community/software/astronomers-proposal-tool-apt",
     "allocation_process": "dual-anonymous TAC",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Worldwide organizational eligibility; Cycle6 GO/survey proposals; deadline extended from30September to1October2026 17:00Eastern after APT outage.",
     "verification": "official_documentation",
     "notes": null
@@ -25399,7 +25555,9 @@
     "deadline": "unknown",
     "submission_portal": "https://hst-docs.stsci.edu/hsp",
     "allocation_process": "Director review",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Cycle34 regular proposals and always-open Director discretionary proposals; instrument handbooks and primer linked.",
     "verification": "official_documentation",
     "notes": null
@@ -25473,7 +25631,9 @@
     "deadline": "2026-03-18 18:00 EDT",
     "submission_portal": "https://cxc.harvard.edu/proposer/",
     "allocation_process": "distributed peer review; panels for large projects",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Cycle28 observing proposals via CPS, deadline18March2026 18:00EDT; proposer guide, instrument status, DDT/ToO linked.",
     "verification": "official_documentation",
     "notes": null
@@ -25547,7 +25707,9 @@
     "deadline": "2026-10-09 12:00 UT",
     "submission_portal": "https://xmmrps.esac.esa.int/",
     "allocation_process": "Observing Time Allocation Committee",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "AO26 released19August2026; observing proposals due9October2026 12:00UT; ESA submission system and current handbook linked.",
     "verification": "official_documentation",
     "notes": null
@@ -25623,7 +25785,9 @@
     "deadline": "2027-01-28 16:30 EST",
     "submission_portal": "https://heasarc.gsfc.nasa.gov/ark/",
     "allocation_process": "peer review",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "US and non-US science proposals welcome; funding restrictedUS institutions; Cycle13 announced, submissions openNovember2026; ToO/DDT routes exist.",
     "verification": "official_documentation",
     "notes": null
@@ -25643,7 +25807,9 @@
     "deadline": "unknown",
     "submission_portal": "https://heasarc.gsfc.nasa.gov/docs/nustar/nustar_prop.html",
     "allocation_process": "mission approval",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "US and non-US science proposals welcome; funding restrictedUS institutions; Cycle13 announced, submissions openNovember2026; ToO/DDT routes exist.",
     "verification": "official_documentation",
     "notes": null
@@ -25719,7 +25885,9 @@
     "deadline": "NASA2026-02-27 16:30 EST (Type1Phase1); ESA/JAXA precise deadlines unknown here",
     "submission_portal": "https://heasarc.gsfc.nasa.gov/ark/",
     "allocation_process": "national peer review and international merging",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Observing proposals routed to NASA forUS/Canada, ESA forESA countries, JAXA forothers; Cycle3, Key Programme and unsolicited ToO/DDT documented.",
     "verification": "official_documentation",
     "notes": null
@@ -25739,7 +25907,9 @@
     "deadline": "2026-12-03 23:59 UT =18:59 EST =2026-12-04 08:59 JST",
     "submission_portal": "https://xrism.isas.jaxa.jp/research/proposer/key_program/index.html",
     "allocation_process": "single international TAC; final Mission Steering Group; review not dual-anonymous",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Observing proposals routed to NASA forUS/Canada, ESA forESA countries, JAXA forothers; Cycle3, Key Programme and unsolicited ToO/DDT documented.",
     "verification": "official_documentation",
     "notes": null
@@ -25759,7 +25929,9 @@
     "deadline": "unknown",
     "submission_portal": "https://xrism.isas.jaxa.jp/research/proposer/too/index.html",
     "allocation_process": "XRISM PI or designee",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Observing proposals routed to NASA forUS/Canada, ESA forESA countries, JAXA forothers; Cycle3, Key Programme and unsolicited ToO/DDT documented.",
     "verification": "official_documentation",
     "notes": null
@@ -25835,7 +26007,9 @@
     "deadline": "2026-09-17 16:30 EDT (past Cycle4 deadline)",
     "submission_portal": "https://heasarc.gsfc.nasa.gov/ark/",
     "allocation_process": "GO peer review; unsolicitedToO mission assessment",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Unsolicited transient/unpredictable-source ToO requests accepted through mission form.",
     "verification": "official_documentation",
     "notes": null
@@ -25855,7 +26029,9 @@
     "deadline": "unknown",
     "submission_portal": "https://ixpe.msfc.nasa.gov/for_scientists/too.html",
     "allocation_process": "mission ToO/DDT review",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
     "verification": "official_documentation",
     "notes": "Reconciled from independent access audit."
@@ -25929,7 +26105,9 @@
     "deadline": "2027-01-28; clock/timezone unknown on page",
     "submission_portal": "https://heasarc.gsfc.nasa.gov/ark/",
     "allocation_process": "peer review / mission feasibility",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "US/non-US investigators may propose pointed LAT observations despite limited capability; joint observatory time and archival funding are distinct.",
     "verification": "official_documentation",
     "notes": null
@@ -26005,7 +26183,9 @@
     "deadline": "2026-03-10; time/timezone unknown in official amendment",
     "submission_portal": "https://heasarc.gsfc.nasa.gov/ark/",
     "allocation_process": "peer review",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Science programmes may request target slots; DDT/ToO outsideGI throughMIT, reviewed byPI, science expert andoperations team.",
     "verification": "official_documentation",
     "notes": null
@@ -26025,7 +26205,9 @@
     "deadline": "unknown",
     "submission_portal": "https://tess.mit.edu/",
     "allocation_process": "PI; science expert; operations team",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Science programmes may request target slots; DDT/ToO outsideGI throughMIT, reviewed byPI, science expert andoperations team.",
     "verification": "official_documentation",
     "notes": null
@@ -26101,7 +26283,9 @@
     "deadline": "unknown",
     "submission_portal": "https://www.swift.psu.edu/too/",
     "allocation_process": "Swift PI / on-duty scientist approval",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Mission instructions provide investigator ToO request process and on-duty-scientist review.",
     "verification": "official_documentation",
     "notes": null
@@ -26177,7 +26361,9 @@
     "deadline": "Large programme2026-10-31; FastTrack last calendar day monthly; clock/timezone unknown",
     "submission_portal": "https://www.cosmos.esa.int/web/cheops-guest-observers-programme/cheops-running-call",
     "allocation_process": "ESA GO review; fasttrack requirements",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "ESA Project Scientist announcement invites worldwide monthly proposals for2027–2029; 31October2026 large-programme window; monthly HST/JWST fasttrack.",
     "verification": "official_documentation",
     "notes": null
@@ -26254,7 +26440,9 @@
     "deadline": "2026-04-03 18:00 UTC+08:00(Beijing)",
     "submission_portal": "https://ep.bao.ac.cn/ep/proposal_submit/user_proposal_create_guide",
     "allocation_process": "party-specific peer review; Science Management Committee endorsement",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "FXT proposals by STP members/associates or China-based guest observers; known targets only; WXT not offered; separate party reviews.",
     "verification": "official_documentation",
     "notes": null
@@ -26407,7 +26595,9 @@
     "deadline": "2026-07-25; clock/timezoneunknown",
     "submission_portal": "https://xpps.issdc.gov.in/web/",
     "allocation_process": "XTAC science and technical ranking",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Indian researchers residing and working at Indian institutions may propose XSPECT observations for September 2026–March 2027; POLIX is not offered.",
     "verification": "official_documentation",
     "notes": null
@@ -26483,7 +26673,9 @@
     "deadline": "unknown",
     "submission_portal": "https://hinode.msfc.nasa.gov/hops.html",
     "allocation_process": "scientific schedule coordinators and daily planning meetings",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "External and mission-team researchers may request coordinated solar observing through HOP/IHOP; instrument priorities and telemetry must be specified; planning team decides scheduling.",
     "verification": "official_documentation",
     "notes": null
@@ -26559,7 +26751,9 @@
     "deadline": "unknown",
     "submission_portal": "https://hinode.msfc.nasa.gov/hops.html",
     "allocation_process": "scientific schedule coordinators and daily planning meetings",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "External and mission-team researchers may request coordinated solar observing through HOP/IHOP; instrument priorities and telemetry must be specified; planning team decides scheduling.",
     "verification": "official_documentation",
     "notes": null
@@ -26714,7 +26908,9 @@
     "deadline": "2026-07-16 24:00; timezone unknown in source",
     "submission_portal": "https://nadc.china-vo.org/events/xinglong2026B",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official current small-telescope call names this telescope.",
     "verification": "official_documentation",
     "notes": "Paid observing; rate unknown."
@@ -26788,7 +26984,9 @@
     "deadline": "2026-07-16 24:00; timezone unknown in source",
     "submission_portal": "https://nadc.china-vo.org/events/xinglong2026B",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official current small-telescope call names this telescope.",
     "verification": "official_documentation",
     "notes": "Paid observing; rate unknown."
@@ -26862,7 +27060,9 @@
     "deadline": "2026-07-16 24:00; timezone unknown in source",
     "submission_portal": "https://nadc.china-vo.org/events/xinglong2026B",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official current small-telescope call names this telescope.",
     "verification": "official_documentation",
     "notes": "85 cm requires an on-site observer or paid service."
@@ -26936,7 +27136,9 @@
     "deadline": "2026-07-16 24:00; timezone unknown in source",
     "submission_portal": "https://nadc.china-vo.org/events/xinglong2026B",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown",
+    "covered_instruments": [
+     "unknown"
+    ],
     "access_evidence": "Official current small-telescope call names this telescope.",
     "verification": "official_documentation",
     "notes": "Paid observing; rate unknown."
@@ -27012,7 +27214,9 @@
     "deadline": "2026-08-21 (extension); original 2026-08-14 11:59 Bangkok time; extension clock not explicitly restated",
     "submission_portal": "https://tac.narit.or.th/",
     "allocation_process": "TAC scientific merit; Operations Department feasibility review",
-    "covered_instruments": "Node-dependent; GAO excluded",
+    "covered_instruments": [
+     "Node-dependent; GAO excluded"
+    ],
     "access_evidence": "Official 2026 call invites applications for scientific observations on the TRT network.",
     "verification": "official_documentation",
     "notes": null
@@ -27089,7 +27293,9 @@
     "deadline": "unknown",
     "submission_portal": "https://old.aries.res.in/~40inch/104cm/",
     "allocation_process": "DFOT: Joint Time Allocation Committee; ST committee identity unknown here",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -27165,7 +27371,9 @@
     "deadline": "unknown",
     "submission_portal": "https://old.aries.res.in/~40inch/104cm/",
     "allocation_process": "DFOT: Joint Time Allocation Committee; ST committee identity unknown here",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -27241,7 +27449,9 @@
     "deadline": "2026-07-31 before midnight local Taiwan time (UTC+08:00)",
     "submission_portal": "mailto:cngeow@astro.ncu.edu.tw",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -27317,7 +27527,9 @@
     "deadline": "2026-08-15 JST (clock time unknown)",
     "submission_portal": "mailto:openuse@nhao.jp",
     "allocation_process": "external referees and observatory allocate time",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -27337,7 +27549,9 @@
     "deadline": "unknown",
     "submission_portal": "https://www.nhao.jp/research/collaboration.html",
     "allocation_process": "observatory collaboration approval; may refer applicants to open-use call",
-    "covered_instruments": "unknown; agreement required",
+    "covered_instruments": [
+     "unknown; agreement required"
+    ],
     "access_evidence": "Official collaboration instructions explicitly name the Nayuta telescope.",
     "verification": "official_documentation",
     "notes": "Restricted collaboration route, distinct from regular open-use calls."
@@ -27411,7 +27625,9 @@
     "deadline": "unknown",
     "submission_portal": "https://www.nhao.jp/research/collaboration.html",
     "allocation_process": "observatory collaboration approval; may refer applicants to open-use call",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -27487,7 +27703,9 @@
     "deadline": "2026-10-31; clock time/timezone unknown",
     "submission_portal": "mailto:proposal@kasi.re.kr",
     "allocation_process": "telescope time-allocation committee",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -27561,7 +27779,9 @@
     "deadline": "unknown; no current exact deadline recovered",
     "submission_portal": "https://apps.issdc.gov.in/apps/auth/login.jsp",
     "allocation_process": "AstroSat Time Allocation Committee and Technical Committee",
-    "covered_instruments": "Historical AO14 configurable science payloads; current availability unknown; SSM requestability unverified",
+    "covered_instruments": [
+     "Historical AO14 configurable science payloads; current availability unknown; SSM requestability unverified"
+    ],
     "access_evidence": "Current ISSDC mission page provides scientific proposal submission and June 2026 government statement explicitly confirms continuing proposal-driven operation.",
     "verification": "official_documentation",
     "notes": "Inclusion uses current official proposal portal plus explicit June 2026 continuity evidence. AO14 is not advertised as current. AO14 55% Indian/20% international shares are historical only. 2018 guide restricts unsolicited ToO to Indian proposers; current ToO eligibility unverified. APPS 403 and science-cell host unavailable."
@@ -27638,7 +27858,9 @@
     "deadline": "2025-12-10 17:00; timezone unknown in source",
     "submission_portal": "mailto:zergang@ynao.ac.cn",
     "allocation_process": "unknown",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -27714,7 +27936,9 @@
     "deadline": "unknown",
     "submission_portal": "https://www.ioa.s.u-tokyo.ac.jp/kisohp/OPENUSE/openuse_a.html",
     "allocation_process": "collaborative project approval; exact review process unknown",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -28180,7 +28404,9 @@
     "deadline": "unknown",
     "submission_portal": "https://go.itelescope.net/",
     "allocation_process": "first come first served; no competitive TAC",
-    "covered_instruments": "unknown; see facility list and current setup",
+    "covered_instruments": [
+     "unknown; see facility list and current setup"
+    ],
     "access_evidence": "Official research network documents scientific time applications, telescope identity and eligibility.",
     "verification": "official_documentation",
     "notes": "Standing route; exact latest dated call requires rechecking the submission system."
@@ -28257,7 +28483,9 @@
     "deadline": "unknown",
     "submission_portal": "https://inside.cassa.bd/",
     "allocation_process": "institutional equipment booking or written permission; detailed observatory review rules unknown",
-    "covered_instruments": "TART radio array; internal operational scope subject to permission",
+    "covered_instruments": [
+     "TART radio array; internal operational scope subject to permission"
+    ],
     "access_evidence": "Official CASSA policy requires telescope bookings or written permission, and identifies TART as an operating institutional research array.",
     "verification": "official_documentation",
     "notes": "Public data availability is distinct from restricted institutional observing-equipment use."
@@ -28333,7 +28561,9 @@
     "deadline": "2026-03-04; clock/timezone unknown; closed",
     "submission_portal": "mailto:hida-dst@kwasan.kyoto-u.ac.jp (or postal application)",
     "allocation_process": "DST joint-use committee scientific selection and day allocation",
-    "covered_instruments": "DST instruments subject to proposed method and feasibility",
+    "covered_instruments": [
+     "DST instruments subject to proposed method and feasibility"
+    ],
     "access_evidence": "Official2026 scientific observation application and next-cycle continuity announcement.",
     "verification": "official_documentation",
     "notes": "Generally Monday–Friday blocks. December onwards weather-sensitive; submit observation method, dates and previous results. Confirmation email required. Educational practicals have separate consultation route. Fees unknown."
@@ -28409,7 +28639,9 @@
     "deadline": "unknown; exact2026deadline not recovered",
     "submission_portal": "unknown; member-only wiki / institutional coordination",
     "allocation_process": "Planning committee coordinates; individual institutions decide acceptance; PI or delegate must attend planning discussion",
-    "covered_instruments": "Conditional partner telescope participation",
+    "covered_instruments": [
+     "Conditional partner telescope participation"
+    ],
     "access_evidence": "Committee report documents proposal eligibility and process; official2026page confirms continuing scientific call.",
     "verification": "official_documentation",
     "notes": "Proposals validoneyear. Telescope participation conditional; network membership is not guaranteed time.2024Seimei10%ceiling is historical, not assumed current. Fees unknown."
@@ -28486,7 +28718,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28506,7 +28740,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28526,7 +28762,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28603,7 +28841,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28623,7 +28863,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28643,7 +28885,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28720,7 +28964,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28740,7 +28986,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28760,7 +29008,9 @@
     "deadline": "Historical2025-03-04 midnight; timezone unknown. Current next deadline unknown.",
     "submission_portal": "mailto:proje@trgozlemevleri.gov.tr",
     "allocation_process": "Scientific Board science/technical scoring and additional strategic/performance priorities; scheduling coordinated by observatory",
-    "covered_instruments": "Optical focal instruments subject to scientific/technical approval",
+    "covered_instruments": [
+     "Optical focal instruments subject to scientific/technical approval"
+    ],
     "access_evidence": "Official2025-onward scientific form names telescope; revised policy defines route and current operator documents programme continuity.",
     "verification": "official_documentation",
     "notes": "Researchers participate for oversight; observatory staff operate hardware. Typical6–24month projects, interim/final reporting. External funding and collaboration can affect priorities. Domestic/foreign institution fields do not prove unrestricted nationality access; confirm detailed conditions. Latest2026allocations are not advertised as an open call."
@@ -28836,7 +29086,9 @@
     "deadline": "unknown; no fixed deadline published on standing service page",
     "submission_portal": "mailto:mysa_hq@mysa.gov.my (agency contact for service application)",
     "allocation_process": "Scientific collaboration/service application to MYSA; detailed allocation committee unknown",
-    "covered_instruments": "Langkawi Stellar I Telescope System subject to approved scientific service",
+    "covered_instruments": [
+     "Langkawi Stellar I Telescope System subject to approved scientific service"
+    ],
     "access_evidence": "MYSA explicitly offers research observations and instrument-use applications at ONL; named systems documented on same page.",
     "verification": "official_documentation",
     "notes": "Use route concerns new observations/instrumentoperation, separate from archived data requests or visits. Telescope-specific configurations subject to approval.2021brochure is current-linked but cannot establish every camera still available."
@@ -28912,7 +29164,9 @@
     "deadline": "unknown; no fixed deadline published on standing service page",
     "submission_portal": "mailto:mysa_hq@mysa.gov.my (agency contact for service application)",
     "allocation_process": "Scientific collaboration/service application to MYSA; detailed allocation committee unknown",
-    "covered_instruments": "Langkawi Stellar II Telescope System subject to approved scientific service",
+    "covered_instruments": [
+     "Langkawi Stellar II Telescope System subject to approved scientific service"
+    ],
     "access_evidence": "MYSA explicitly offers research observations and instrument-use applications at ONL; named systems documented on same page.",
     "verification": "official_documentation",
     "notes": "Use route concerns new observations/instrumentoperation, separate from archived data requests or visits. Telescope-specific configurations subject to approval.2021brochure is current-linked but cannot establish every camera still available."
@@ -28988,7 +29242,9 @@
     "deadline": "unknown; no fixed deadline published on standing service page",
     "submission_portal": "mailto:mysa_hq@mysa.gov.my (agency contact for service application)",
     "allocation_process": "Scientific collaboration/service application to MYSA; detailed allocation committee unknown",
-    "covered_instruments": "Langkawi Solar Telescope System subject to approved scientific service",
+    "covered_instruments": [
+     "Langkawi Solar Telescope System subject to approved scientific service"
+    ],
     "access_evidence": "MYSA explicitly offers research observations and instrument-use applications at ONL; named systems documented on same page.",
     "verification": "official_documentation",
     "notes": "Use route concerns new observations/instrumentoperation, separate from archived data requests or visits. Telescope-specific configurations subject to approval.2021brochure is current-linked but cannot establish every camera still available."
@@ -30370,7 +30626,9 @@
     "deadline": "2026APR:16December2025 06:00UT /17:00Sydney; not a current opportunity",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "ATNF Time Assignment Committee scientific merit",
-    "covered_instruments": "VLBI; receiver details unknown",
+    "covered_instruments": [
+     "VLBI; receiver details unknown"
+    ],
     "access_evidence": "CSIRO operator LBA page explicitly states proposals via ATNF and names this antenna as core or additionally requestable.",
     "verification": "official_documentation",
     "notes": "Conditional LBA participation; not guaranteed standalone scientific access. fees unknown"
@@ -30444,7 +30702,9 @@
     "deadline": "2026APR:16December2025 06:00UT /17:00Sydney; not a current opportunity",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "ATNF Time Assignment Committee scientific merit",
-    "covered_instruments": "VLBI; receiver details unknown",
+    "covered_instruments": [
+     "VLBI; receiver details unknown"
+    ],
     "access_evidence": "CSIRO operator LBA page explicitly states proposals via ATNF and names this antenna as core or additionally requestable.",
     "verification": "official_documentation",
     "notes": "Conditional LBA participation; not guaranteed standalone scientific access. fees unknown"
@@ -30518,7 +30778,9 @@
     "deadline": "2026APR:16December2025 06:00UT /17:00Sydney; not a current opportunity",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "ATNF Time Assignment Committee scientific merit",
-    "covered_instruments": "VLBI; receiver details unknown",
+    "covered_instruments": [
+     "VLBI; receiver details unknown"
+    ],
     "access_evidence": "CSIRO operator LBA page explicitly states proposals via ATNF and names this antenna as core or additionally requestable.",
     "verification": "official_documentation",
     "notes": "Conditional LBA participation; not guaranteed standalone scientific access. fees unknown"
@@ -30592,7 +30854,9 @@
     "deadline": "2026APR:16December2025 06:00UT /17:00Sydney; not a current opportunity",
     "submission_portal": "https://opal.atnf.csiro.au/",
     "allocation_process": "ATNF Time Assignment Committee scientific merit",
-    "covered_instruments": "VLBI; receiver details unknown",
+    "covered_instruments": [
+     "VLBI; receiver details unknown"
+    ],
     "access_evidence": "CSIRO operator LBA page explicitly states proposals via ATNF and names this antenna as core or additionally requestable.",
     "verification": "official_documentation",
     "notes": "Conditional LBA participation; not guaranteed standalone scientific access. fees unknown"
@@ -30612,7 +30876,9 @@
     "deadline": "Recurring15April and15October; year,clock,time zone unknown. ToOanytime.",
     "submission_portal": "2019guide: email stephen.m.lichten@jpl.nasa.gov plus hardcopy; current contact currency unverified.",
     "allocation_process": "Scientific peer review plus technical uniqueness and scheduling feasibility. Spacecraft tracking/telemetry/command priority; approval not scheduling guarantee.",
-    "covered_instruments": "antenna-specific science receivers; actual availability conditional",
+    "covered_instruments": [
+     "antenna-specific science receivers; actual availability conditional"
+    ],
     "access_evidence": "Official source documents this route; current technical availability and eligibility follow the cited programme.",
     "verification": "official_documentation",
     "notes": "DSN scientific approval does not guarantee scheduling; spacecraft telemetry/tracking/command has priority. Standing linked2019 process contact must be confirmed."
@@ -31460,7 +31726,9 @@
     "deadline": "rolling byarrangement; actualleadtimeunknown",
     "submission_portal": "mailto:bosscha.fmipa@itb.ac.id; formalapplicationto dekan.fmipa@itb.ac.id copyingobservatory",
     "allocation_process": "Preliminaryemail describingactivity/schedule; afterapproval institutionallettertoFMIPAdean copiedHeadBosscha; administrativeacademicsurveyhoursTuesday/Thursday10–15WIB are not telescope night limits",
-    "covered_instruments": "unknown; mustbeagreedwithoperator",
+    "covered_instruments": [
+     "unknown; mustbeagreedwithoperator"
+    ],
     "access_evidence": "Officialinstitutionalacademicservicesoffer observationalthesisresearch orresearchinstrumentuse with documentedrequest/contactroute.",
     "verification": "official_documentation",
     "notes": "Accessscopeaggregate only. No individualtelescope/presentinstrumentconfigurationclaim."
@@ -31534,7 +31802,9 @@
     "deadline": "rolling byarrangement; actualleadtimeunknown",
     "submission_portal": "mailto:oail@itera.ac.id",
     "allocation_process": "ContactOAILforscientific/thesisinstrumentuse; detailedallocationranking/timeaccountingunknown",
-    "covered_instruments": "unknown; mustbeagreedwithoperator",
+    "covered_instruments": [
+     "unknown; mustbeagreedwithoperator"
+    ],
     "access_evidence": "Officialinstitutionalacademicservicesoffer observationalthesisresearch orresearchinstrumentuse with documentedrequest/contactroute.",
     "verification": "official_documentation",
     "notes": "Accessscopeaggregate only. No individualtelescope/presentinstrumentconfigurationclaim."
@@ -31611,7 +31881,9 @@
     "deadline": "rolling; year/time zone not applicable",
     "submission_portal": "https://ununevod.mephi.ru/ru/заявка-на-проведение-работ.html",
     "allocation_process": "Scientific-technical council rolling review10days, up30if information needed; agreements for long-term/joint work",
-    "covered_instruments": "complex detectors / user instruments agreed per experiment",
+    "covered_instruments": [
+     "complex detectors / user instruments agreed per experiment"
+    ],
     "access_evidence": "Official rules permit requests for scientific experiments and allocate equipment use.",
     "verification": "official_documentation",
     "notes": "Requestable new cosmic-ray scientific measurements and user-instrument experiments; no astronomical pointing allocation implied. Components not separate facilities."
@@ -31688,7 +31960,9 @@
     "deadline": "rolling; year/time zone not applicable",
     "submission_portal": "https://www.yakutsk-array.ru/wsgi.py/facility_usf_info",
     "allocation_process": "Array scientific council then institute council; director contracts and schedules by suitability and available equipment time",
-    "covered_instruments": "complex detectors / user instruments agreed per experiment",
+    "covered_instruments": [
+     "complex detectors / user instruments agreed per experiment"
+    ],
     "access_evidence": "Official rules permit requests for scientific experiments and allocate equipment use.",
     "verification": "official_documentation",
     "notes": "Includes new additional cosmic-ray experiments with user instruments; archive access alone is not inclusion basis. Active2026–2030 project listed."
@@ -31765,7 +32039,9 @@
     "deadline": "unknown; negotiated requests rather than dated cycle",
     "submission_portal": "https://api.isu.ru/wp-content/uploads/2021/04/zajavka_na_okazanie_uslug.pdf",
     "allocation_process": "Institution letter requesting objective, agreement, dates and equipment time to complex director; ranking/review deadlines unknown",
-    "covered_instruments": "2026 approved scientific-service scope; instrument configuration by agreement",
+    "covered_instruments": [
+     "2026 approved scientific-service scope; instrument configuration by agreement"
+    ],
     "access_evidence": "2026 service scope explicitly allocates observing hours; standing signed request rule and institution form.",
     "verification": "official_documentation",
     "notes": "Aggregate route only; no countable physical member telescope inferred."
@@ -31842,7 +32118,9 @@
     "deadline": "rolling; no dated deadline",
     "submission_portal": "mailto:bnoinr@yandex.ru",
     "allocation_process": "Head review5–10days and thematiccommission; schedule byvolume,duration,cost,workload; contractsetsdirectuseraccess",
-    "covered_instruments": "Requestable astrophysical services; detector configuration by agreement",
+    "covered_instruments": [
+     "Requestable astrophysical services; detector configuration by agreement"
+    ],
     "access_evidence": "Official request rules, form and services explicitly cover new neutrino/cosmic-ray/gamma measurements.",
     "verification": "official_documentation",
     "notes": "Aggregateonly; no componentdetectorcount orblanketaccess toeveryexperiment."
