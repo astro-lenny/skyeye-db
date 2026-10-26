@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://astro-lenny.github.io/skyeye-db/">
-    <img src="https://img.shields.io/badge/LAUNCH%20SKYEYE-→-blue?style=for-the-badge&logo=githubpages" alt="Launch SkyEye">
+    <img src="https://img.shields.io/badge/🚀%20LAUNCH%20SKYEYE-Open%20App-2ea44f?style=for-the-badge" alt="Launch SkyEye">
   </a>
 </p>
 
