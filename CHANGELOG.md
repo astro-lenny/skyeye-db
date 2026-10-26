@@ -1,5 +1,34 @@
 # Changelog
 
+## [Unreleased] — visual redesign + quick telescope links
+
+Direct response to feedback that the previous light-theme redesign still looked unfinished and
+that doc links served raw Markdown on GitHub Pages instead of rendering.
+
+### Added
+- Dark "mission control" theme (new default, not a toggle): validated the categorical waveband
+  palette and status-badge colors against the actual dark surface color with the project's
+  color-accessibility script before using them (see `docs/data_dictionary.md`).
+- A stat bar (observing options / facilities / located / countries / access programmes), computed
+  live from the loaded data, not hardcoded.
+- Chip-style pill buttons for every multi-select filter (waveband, hemisphere, category, status,
+  region, capabilities) — still real `<input type=checkbox>` underneath (confirmed keyboard
+  focus + Space-to-toggle still work), just styled as clickable pills instead of a checkbox list.
+- Collapsible accordion filter groups (`<details>`/`<summary>`) instead of a long stack of
+  always-open fieldsets.
+- An inline SVG logo mark, and SVG icons on the Contribute/Report-bug/view-toggle buttons in place
+  of emoji placeholders.
+- A quick external-link icon directly on each table row's facility name (not just in the expanded
+  detail), linking to the facility's `official_url` where known — honestly labelled, since that
+  field is usually the current proposal/call page on file, not always a general homepage.
+- Map tiles switched to CARTO's dark basemap to match the theme; marker colors adjusted for
+  contrast against it.
+
+### Fixed
+- The "Coverage & limits" / "Data dictionary" / "known issues" / "changelog" links pointed at
+  relative `.md` file paths, which GitHub Pages serves as raw unrendered text — genuinely looked
+  broken. They now point at GitHub's rendered blob view for each file.
+
 ## [Unreleased] — unified single-page design ("SkyEye")
 
 Replaces the two separate pages (Instrument Finder / Facility & Access Finder) from the previous

@@ -10,24 +10,47 @@
 <body>
   <header id="site-header">
     <div class="brand">
-      <h1>SkyEye</h1>
-      <p class="tagline">Find a telescope by wavelength, sky position and who can apply — worldwide.</p>
+      <svg class="mark" width="38" height="38" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="24" cy="24" r="21" stroke="#3bd6ff" stroke-width="2"/>
+        <path d="M3 24a21 21 0 0 1 42 0" stroke="#3bd6ff" stroke-width="2" stroke-dasharray="2 4"/>
+        <circle cx="24" cy="24" r="10" stroke="#3bd6ff" stroke-width="2"/>
+        <circle cx="24" cy="24" r="4" fill="#3bd6ff"/>
+        <circle cx="35" cy="14" r="1.4" fill="#fbbf24"/>
+      </svg>
+      <div>
+        <h1>SkyEye</h1>
+        <p class="tagline">Find a telescope by wavelength, sky position and who can apply — worldwide.</p>
+      </div>
     </div>
     <div class="header-actions">
       <a id="contribute-btn" class="btn btn-primary" target="_blank" rel="noopener"
-         title="Open a GitHub issue to suggest a facility, fix a field, or propose a feature.">★ Contribute</a>
+         title="Open a GitHub issue to suggest a facility, fix a field, or propose a feature.">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 .3l2.1 5 5.4.4-4.1 3.5L12.7 15 8 11.9 3.3 15l1.3-5.8L.5 5.7l5.4-.4z"/></svg>
+        Contribute
+      </a>
       <a id="report-bug-btn" class="btn btn-outline" target="_blank" rel="noopener"
-         title="Found wrong data or a broken filter? Open a bug report on GitHub.">⚠ Report a bug / error</a>
+         title="Found wrong data or a broken filter? Open a bug report on GitHub.">
+        <svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 1a2 2 0 0 1 2 2v1.1A4 4 0 0 1 11.9 6H13V5a1 1 0 1 1 2 0v2a1 1 0 0 1-1 1h-1.09c.06.32.09.66.09 1v.5h1a1 1 0 1 1 0 2h-1.2a4.5 4.5 0 0 1-1.1 2.1l.9.9a1 1 0 1 1-1.4 1.4l-1-1a4 4 0 0 1-4.4 0l-1 1a1 1 0 1 1-1.4-1.4l.9-.9A4.5 4.5 0 0 1 3.2 11.5H2a1 1 0 1 1 0-2h1V9c0-.34.03-.68.09-1H2a1 1 0 0 1-1-1V5a1 1 0 1 1 2 0v1h1.1A4 4 0 0 1 6 4.1V3a2 2 0 0 1 2-2z"/></svg>
+        Report a bug / error
+      </a>
     </div>
   </header>
+
+  <div id="stat-bar">
+    <div class="stat-tile"><span class="n tabular" id="stat-rows">—</span><span class="l">Observing options</span></div>
+    <div class="stat-tile"><span class="n tabular" id="stat-facilities">—</span><span class="l">Facilities</span></div>
+    <div class="stat-tile"><span class="n tabular" id="stat-located">—</span><span class="l">With known location</span></div>
+    <div class="stat-tile"><span class="n tabular" id="stat-countries">—</span><span class="l">Countries</span></div>
+    <div class="stat-tile"><span class="n tabular" id="stat-programmes">—</span><span class="l">Access programmes</span></div>
+  </div>
 
   <div class="caveat-banner">
     <strong>Incomplete, intermediate research edition.</strong>
     "Unknown" never means no, zero, free or unrestricted. Historical deadlines are not current
     opportunities. Peak-elevation and declination-reach figures are derived geometry (latitude
     only) — not verified telescope pointing limits.
-    <a href="research/2026-10-25-intermediate-363/coverage_audit.md">Coverage &amp; limits</a> ·
-    <a href="docs/data_dictionary.md">Data dictionary</a>
+    <a id="link-coverage" href="#">Coverage &amp; limits</a> ·
+    <a id="link-dictionary" href="#">Data dictionary</a>
   </div>
 
   <div id="layout">
@@ -38,130 +61,144 @@
       </div>
       <input type="search" id="search" placeholder="Search facility / instrument / country…">
 
-      <fieldset>
-        <legend title="Filters on either a parsed numeric range (instruments + ~1 in 6 facilities) or the broader category below.">
-          Wavelength / Frequency <span class="info">ⓘ</span>
-        </legend>
-        <label>From <input type="number" id="wmin" step="any" min="0"></label>
-        <label>To <input type="number" id="wmax" step="any" min="0"></label>
-        <label>Unit
-          <select id="wunit">
-            <option value="um">µm</option>
-            <option value="nm">nm</option>
-            <option value="angstrom">Å</option>
-            <option value="mm">mm</option>
-            <option value="cm">cm</option>
-            <option value="ghz">GHz</option>
-            <option value="mhz">MHz</option>
-            <option value="thz">THz</option>
-            <option value="ev">eV</option>
-            <option value="kev">keV</option>
-          </select>
-        </label>
-        <label title="Row's range overlaps your range at all."><input type="radio" name="wmode" value="overlap" checked> Overlaps range</label>
-        <label title="Row's range fully contains your range."><input type="radio" name="wmode" value="cover"> Covers entire range</label>
-        <p class="hint">Only matches rows with a known numeric range (most facility-level entries
-          don't have one yet — use Waveband below for those).</p>
-      </fieldset>
+      <details class="filter-group" open>
+        <summary>Wavelength / Frequency
+          <span class="info" title="Filters on either a parsed numeric range (instruments + ~1 in 6 facilities) or the broader category below.">ⓘ</span>
+        </summary>
+        <div class="filter-body">
+          <label>From <input type="number" id="wmin" step="any" min="0"></label>
+          <label>To <input type="number" id="wmax" step="any" min="0"></label>
+          <label>Unit
+            <select id="wunit">
+              <option value="um">µm</option>
+              <option value="nm">nm</option>
+              <option value="angstrom">Å</option>
+              <option value="mm">mm</option>
+              <option value="cm">cm</option>
+              <option value="ghz">GHz</option>
+              <option value="mhz">MHz</option>
+              <option value="thz">THz</option>
+              <option value="ev">eV</option>
+              <option value="kev">keV</option>
+            </select>
+          </label>
+          <label title="Row's range overlaps your range at all."><input type="radio" name="wmode" value="overlap" checked> Overlaps range</label>
+          <label title="Row's range fully contains your range."><input type="radio" name="wmode" value="cover"> Covers entire range</label>
+          <p class="hint">Only matches rows with a known numeric range — use Waveband below to
+            also catch facility-level entries that only have a category.</p>
+        </div>
+      </details>
 
-      <fieldset>
-        <legend title="Broad electromagnetic regime, derived from each facility's documented coverage. Covers almost every row, even without a precise numeric range.">
-          Waveband <span class="info">ⓘ</span>
-        </legend>
-        <div id="wavebands"></div>
-      </fieldset>
+      <details class="filter-group" open>
+        <summary>Waveband
+          <span class="info" title="Broad electromagnetic regime, derived from each facility's documented coverage. Covers almost every row, even without a precise numeric range.">ⓘ</span>
+        </summary>
+        <div class="filter-body"><div id="wavebands" class="chip-facet"></div></div>
+      </details>
 
-      <fieldset>
-        <legend title="Where your target is on the sky (declination) and how high it must get above the horizon to be usable.">
-          Target declination <span class="info">ⓘ</span>
-        </legend>
-        <label>Dec. min (°) <input type="number" id="decMin" step="any" min="-90" max="90" placeholder="-30"></label>
-        <label>Dec. max (°) <input type="number" id="decMax" step="any" min="-90" max="90" placeholder="optional"></label>
-        <label title="Peak altitude at transit = 90° − |latitude − declination|. Below ~20-30° atmospheric extinction/airmass gets severe for most science cases.">
-          Min. usable elevation (°) <input type="number" id="minElevation" step="any" min="0" max="90" value="30">
-        </label>
-        <p class="hint">Computed from facility latitude only (ideal horizon, no obstructions,
-          mount or scheduling limits). Facilities with unknown coordinates are excluded by this
-          filter specifically — they still appear with every other filter.</p>
-      </fieldset>
+      <details class="filter-group" open>
+        <summary>Target declination
+          <span class="info" title="Where your target is on the sky (declination) and how high it must get above the horizon to be usable.">ⓘ</span>
+        </summary>
+        <div class="filter-body">
+          <label>Dec. min (°) <input type="number" id="decMin" step="any" min="-90" max="90" placeholder="-30"></label>
+          <label>Dec. max (°) <input type="number" id="decMax" step="any" min="-90" max="90" placeholder="optional"></label>
+          <label title="Peak altitude at transit = 90° − |latitude − declination|. Below ~20-30° atmospheric extinction/airmass gets severe for most science cases.">
+            Min. usable elevation (°) <input type="number" id="minElevation" step="any" min="0" max="90" value="30">
+          </label>
+          <p class="hint">Computed from facility latitude only (ideal horizon, no obstructions,
+            mount or scheduling limits). Facilities with unknown coordinates are excluded by this
+            filter specifically — they still appear with every other filter.</p>
+        </div>
+      </details>
 
-      <fieldset>
-        <legend title="Free-text match against the eligibility wording of every documented access route for a facility.">
-          Your affiliation / country <span class="info">ⓘ</span>
-        </legend>
-        <input type="search" id="affiliation" placeholder="e.g. Chile, EU, university…">
-        <p class="hint">Keyword match only — many open programmes don't name every eligible
-          country. Not finding your affiliation mentioned is not proof you're ineligible; always
-          check the linked call.</p>
-      </fieldset>
+      <details class="filter-group" open>
+        <summary>Your affiliation / country
+          <span class="info" title="Free-text match against the eligibility wording of every documented access route for a facility.">ⓘ</span>
+        </summary>
+        <div class="filter-body">
+          <input type="search" id="affiliation" placeholder="e.g. Chile, EU, university…">
+          <p class="hint">Keyword match only — many open programmes don't name every eligible
+            country. Not finding your affiliation mentioned is not proof you're ineligible; always
+            check the linked call.</p>
+        </div>
+      </details>
 
-      <fieldset>
-        <legend title="Only applies to the handful of facilities with verified per-instrument technical data today. A capability shown as required will hide every row where it isn't specifically confirmed.">
-          Capabilities <span class="info">ⓘ</span>
-        </legend>
-        <div id="capabilities"></div>
-      </fieldset>
+      <details class="filter-group">
+        <summary>Capabilities
+          <span class="info" title="Only applies to the handful of facilities with verified per-instrument technical data today.">ⓘ</span>
+        </summary>
+        <div class="filter-body"><div id="capabilities" class="chip-facet"></div></div>
+      </details>
 
-      <fieldset>
-        <legend>Spectral resolving power</legend>
-        <label>From <input type="number" id="minR" step="any" min="0"></label>
-        <label>To <input type="number" id="maxR" step="any" min="0"></label>
-      </fieldset>
+      <details class="filter-group">
+        <summary>Spectral resolving power</summary>
+        <div class="filter-body">
+          <label>From <input type="number" id="minR" step="any" min="0"></label>
+          <label>To <input type="number" id="maxR" step="any" min="0"></label>
+        </div>
+      </details>
 
-      <fieldset>
-        <legend>Spatial resolution</legend>
-        <label>Can reach ≤
-          <input type="number" id="spat" step="any" min="0">
-          <select id="spatunit">
-            <option value="arcsec">arcsec</option>
-            <option value="mas">mas</option>
-            <option value="arcmin">arcmin</option>
-            <option value="deg">deg</option>
-          </select>
-        </label>
-      </fieldset>
+      <details class="filter-group">
+        <summary>Spatial resolution</summary>
+        <div class="filter-body">
+          <label>Can reach ≤
+            <input type="number" id="spat" step="any" min="0">
+            <select id="spatunit">
+              <option value="arcsec">arcsec</option>
+              <option value="mas">mas</option>
+              <option value="arcmin">arcmin</option>
+              <option value="deg">deg</option>
+            </select>
+          </label>
+        </div>
+      </details>
 
-      <fieldset>
-        <legend>Field of view</legend>
-        <label>At least
-          <input type="number" id="fov" step="any" min="0">
-          <select id="fovunit">
-            <option value="arcsec">arcsec</option>
-            <option value="arcmin">arcmin</option>
-            <option value="deg">deg</option>
-            <option value="mas">mas</option>
-          </select>
-        </label>
-      </fieldset>
+      <details class="filter-group">
+        <summary>Field of view</summary>
+        <div class="filter-body">
+          <label>At least
+            <input type="number" id="fov" step="any" min="0">
+            <select id="fovunit">
+              <option value="arcsec">arcsec</option>
+              <option value="arcmin">arcmin</option>
+              <option value="deg">deg</option>
+              <option value="mas">mas</option>
+            </select>
+          </label>
+        </div>
+      </details>
 
-      <fieldset>
-        <legend>Scope</legend>
-        <label title="Excludes suspended, announced-future and non-current/unverified catalogue entries."><input type="checkbox" id="eligibleOnly" checked> Eligible catalogue entries only</label>
-        <label title="A network (e.g. a VLBI array of several telescopes) or an access-scope aggregate is not an independent physical telescope."><input type="checkbox" id="hideAggregates" checked> Hide networks / access-scope aggregates</label>
-        <label><input type="checkbox" id="coordsOnly"> Only facilities with known coordinates</label>
-      </fieldset>
+      <details class="filter-group" open>
+        <summary>Scope</summary>
+        <div class="filter-body">
+          <label title="Excludes suspended, announced-future and non-current/unverified catalogue entries."><input type="checkbox" id="eligibleOnly" checked> Eligible catalogue entries only</label>
+          <label title="A network (e.g. a VLBI array of several telescopes) or an access-scope aggregate is not an independent physical telescope."><input type="checkbox" id="hideAggregates" checked> Hide networks / access-scope aggregates</label>
+          <label><input type="checkbox" id="coordsOnly"> Only facilities with known coordinates</label>
+        </div>
+      </details>
 
-      <fieldset>
-        <legend>Hemisphere</legend>
-        <div id="hemispheres"></div>
-      </fieldset>
+      <details class="filter-group">
+        <summary>Hemisphere</summary>
+        <div class="filter-body"><div id="hemispheres" class="chip-facet"></div></div>
+      </details>
 
-      <fieldset>
-        <legend>Category</legend>
-        <div id="categories"></div>
-      </fieldset>
+      <details class="filter-group">
+        <summary>Category</summary>
+        <div class="filter-body"><div id="categories" class="chip-facet"></div></div>
+      </details>
 
-      <fieldset>
-        <legend title="Documented programme continuity, not a guarantee of an open call right now.">
-          Programme status <span class="info">ⓘ</span>
-        </legend>
-        <div id="statuses"></div>
-      </fieldset>
+      <details class="filter-group">
+        <summary>Programme status
+          <span class="info" title="Documented programme continuity, not a guarantee of an open call right now.">ⓘ</span>
+        </summary>
+        <div class="filter-body"><div id="statuses" class="chip-facet"></div></div>
+      </details>
 
-      <fieldset>
-        <legend>Region</legend>
-        <div id="regions"></div>
-      </fieldset>
+      <details class="filter-group">
+        <summary>Region</summary>
+        <div class="filter-body"><div id="regions" class="chip-facet"></div></div>
+      </details>
 
       <div id="show-results-bar">
         <button id="show-results" type="button">Show results</button>
@@ -170,12 +207,21 @@
 
     <main>
       <div id="mobile-bar">
-        <button id="open-filters" type="button">☰ Filters</button>
+        <button id="open-filters" type="button">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M1 4h14M4 8h8M6 12h4"/></svg>
+          Filters
+        </button>
       </div>
 
       <div id="view-toggle" role="tablist">
-        <button data-view="table" class="active" role="tab" aria-selected="true">Table</button>
-        <button data-view="map" role="tab" aria-selected="false">Map</button>
+        <button data-view="table" class="active" role="tab" aria-selected="true">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="11" rx="1.5"/><path d="M1.5 6.5h13M6 6.5v7"/></svg>
+          Table
+        </button>
+        <button data-view="map" role="tab" aria-selected="false">
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M1.5 3.5l4-1.2 5 1.5 4-1.2v10l-4 1.2-5-1.5-4 1.2z"/><path d="M5.5 2.3v10M10.5 3.8v10"/></svg>
+          Map
+        </button>
       </div>
 
       <p id="count">Loading…</p>
@@ -210,9 +256,9 @@
   <footer>
     SkyEye is open source. Data: intermediate research edition
     <code>2026-10-25-intermediate-363</code> (incomplete, in progress) — see
-    <a href="docs/data_dictionary.md">data dictionary</a>,
-    <a href="docs/unresolved_integration_issues.md">known issues</a> and
-    <a href="CHANGELOG.md">changelog</a>.
+    <a id="link-dictionary-2" href="#">data dictionary</a>,
+    <a id="link-issues" href="#">known issues</a> and
+    <a id="link-changelog" href="#">changelog</a>.
   </footer>
 
   <script src="vendor/leaflet/leaflet.js"></script>

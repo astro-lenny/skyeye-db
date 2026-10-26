@@ -14,6 +14,9 @@ worldwide facility/proposal-access inventory.
 - **One unified table**, not two separate tools: every row is a telescope, array, space
   observatory or instrument, with wavelength, resolving power/FOV (where known), location,
   hemisphere, and documented proposal-access routes all in the same place.
+- A dark "mission control" theme with a live stat bar, chip-style filters, and a quick external
+  link straight from each row to the facility's page on file (clearly labelled: usually the
+  current proposal/call page, not always a general homepage).
 - **Sortable, spreadsheet-like columns** — click any header to sort (ascending/descending, with an
   indicator arrow), resize columns by dragging their edge.
 - **Filter by what you actually have**: a wavelength/frequency range *or* a broad waveband

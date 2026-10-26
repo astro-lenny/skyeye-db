@@ -5,8 +5,16 @@
 // an optional map. No other data fetch happens at runtime.
 
 const GITHUB_REPO = "astro-lenny/skyeye-db"; // update if you fork/rename this repo
+const GITHUB_BLOB = path => `https://github.com/${GITHUB_REPO}/blob/main/${path}`;
 document.getElementById("contribute-btn").href = `https://github.com/${GITHUB_REPO}/issues/new?template=feature_request.md`;
 document.getElementById("report-bug-btn").href = `https://github.com/${GITHUB_REPO}/issues/new?template=bug_report.md`;
+// Point at GitHub's rendered blob view, not the raw relative file -- GitHub Pages would
+// otherwise serve these .md files as plain unrendered text.
+document.getElementById("link-coverage").href = GITHUB_BLOB("research/2026-10-25-intermediate-363/coverage_audit.md");
+document.getElementById("link-dictionary").href = GITHUB_BLOB("docs/data_dictionary.md");
+document.getElementById("link-dictionary-2").href = GITHUB_BLOB("docs/data_dictionary.md");
+document.getElementById("link-issues").href = GITHUB_BLOB("docs/unresolved_integration_issues.md");
+document.getElementById("link-changelog").href = GITHUB_BLOB("CHANGELOG.md");
 
 const CAPABILITIES = [
   ["polarimetry", "Polarimetry"],
@@ -61,9 +69,21 @@ function buildFacet(containerId, values, { title } = {}) {
     const cb = document.createElement("input");
     cb.type = "checkbox";
     cb.value = v;
-    label.append(cb, " " + v);
+    const pill = document.createElement("span");
+    pill.className = "pill";
+    pill.textContent = v;
+    label.append(cb, pill);
     box.append(label);
   }
+}
+
+// Chip facets are real checkboxes (keyboard/screen-reader accessible) styled as pill buttons;
+// since support for styling via :has() varies, toggle the state explicitly instead of relying on it.
+function syncChipStates() {
+  document.querySelectorAll(".chip-facet label").forEach(label => {
+    const cb = label.querySelector("input[type=checkbox]");
+    label.classList.toggle("active", cb.checked);
+  });
 }
 
 fetch("data/observations.json")
@@ -76,6 +96,7 @@ fetch("data/observations.json")
     buildFacet("categories", unique(ROWS.map(r => r.category)));
     buildFacet("statuses", unique(ROWS.map(r => r.proposal_access_status)));
     buildFacet("regions", unique(ROWS.map(r => r.region)));
+    populateStatBar(data);
     initMap();
     render();
   })
@@ -116,6 +137,18 @@ document.querySelectorAll("#view-toggle button").forEach(btn =>
     render();
   })
 );
+
+function populateStatBar(data) {
+  const facilityIds = new Set(data.map(r => r.facility_id));
+  const located = new Set(data.filter(r => r.has_known_coordinates).map(r => r.facility_id));
+  const countries = new Set(data.map(r => r.country).filter(Boolean));
+  const programmes = new Set(data.flatMap(r => r.routes.map(rt => rt.programme_id)));
+  document.getElementById("stat-rows").textContent = data.length.toLocaleString();
+  document.getElementById("stat-facilities").textContent = facilityIds.size.toLocaleString();
+  document.getElementById("stat-located").textContent = located.size.toLocaleString();
+  document.getElementById("stat-countries").textContent = countries.size.toLocaleString();
+  document.getElementById("stat-programmes").textContent = programmes.size.toLocaleString();
+}
 
 // ---------- Peak elevation at transit: 90 - |latitude - declination|, evaluated at the
 // point within [decMin, decMax] closest to the facility's latitude (best case within range).
@@ -216,6 +249,18 @@ function capBadges(caps) {
   return yes.map(l => `<span class="badge badge-cap">${esc(l)}</span>`).join(" ");
 }
 
+// Quick-access link straight from the table row, not just the expanded detail. Honest label:
+// the source's official_url is often the current proposal/call page, not always a general
+// facility homepage, so this doesn't claim to be "the telescope's website."
+function quickLink(r) {
+  if (!r.official_url) return "";
+  return ` <a href="${esc(r.official_url)}" target="_blank" rel="noopener" class="quick-link"
+    title="Official page on file for this facility — usually the current proposal/call documentation, not always a general homepage."
+    onclick="event.stopPropagation()">
+    <svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M6 3H3.5A1.5 1.5 0 0 0 2 4.5v8A1.5 1.5 0 0 0 3.5 14h8a1.5 1.5 0 0 0 1.5-1.5V10M9 2h5v5M13.5 2.5 7 9"/></svg>
+  </a>`;
+}
+
 function hemisphereCell(r) {
   const decMin = toNum(document.getElementById("decMin").value);
   if (decMin != null && r.latitude_deg != null) {
@@ -261,7 +306,7 @@ function detailHtml(r) {
       <dt>Wavelength coverage (as documented)</dt><dd>${esc(r.wavelength_display ?? "unknown")}</dd>
       ${r.aperture_m ? `<dt>Aperture</dt><dd>${esc(r.aperture_m)}</dd>` : ""}
       ${r.instrument_access ? `<dt>Instrument-level access note</dt><dd>${esc(r.instrument_access)}</dd>` : ""}
-      <dt>Official URL</dt><dd>${r.official_url ? `<a href="${esc(r.official_url)}" target="_blank" rel="noopener">${esc(r.official_url)}</a>` : "unknown"}</dd>
+      <dt>Official page on file</dt><dd>${r.official_url ? `<a href="${esc(r.official_url)}" target="_blank" rel="noopener">${esc(r.official_url)}</a> <span class="muted">(usually the current proposal/call page, not always a general homepage)</span>` : "unknown"}</dd>
     </dl></dl>
     ${caveats.map(c => `<div class="caveat">⚠ ${c}</div>`).join("")}
     <h3>Documented access routes (${r.routes.length})</h3>
@@ -293,6 +338,7 @@ function updateSortArrows() {
 }
 
 function render() {
+  syncChipStates();
   const out0 = getMatches();
   let out = out0;
   if (sortKey) {
@@ -315,7 +361,7 @@ function render() {
     const tr = document.createElement("tr");
     tr.className = "facility-row";
     tr.append(
-      td(`${esc(r.official_name)}${r.is_aggregate ? ' <span class="badge badge-aggregate">aggregate</span>' : ""}`, "Facility"),
+      td(`${esc(r.official_name)}${quickLink(r)}${r.is_aggregate ? ' <span class="badge badge-aggregate">aggregate</span>' : ""}`, "Facility"),
       td(r.instrument_name ? esc(r.instrument_name) : '<span class="muted">—</span>', "Instrument"),
       td(esc(r.facility_type || r.entity_class), "Type"),
       td(wavebandChip(r.waveband_category), "Waveband"),
@@ -352,12 +398,15 @@ function render() {
 // ---------- Map ----------
 function initMap() {
   map = L.map("map", { worldCopyJump: true }).setView([15, 10], 2);
-  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxZoom: 18,
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains: "abcd",
+    maxZoom: 19,
   }).addTo(map);
   markerLayer = L.layerGroup().addTo(map);
 }
+
+const MARKER_COLOR = r => r.category === "space" ? "#ff6bcb" : r.hemisphere === "S" ? "#fbbf24" : "#3bd6ff";
 
 function renderMap(rows) {
   if (!map) return;
@@ -368,10 +417,9 @@ function renderMap(rows) {
     if (!byFacility.has(r.facility_id)) byFacility.set(r.facility_id, r);
   }
   for (const r of byFacility.values()) {
+    const color = MARKER_COLOR(r);
     const marker = L.circleMarker([r.latitude_deg, r.longitude_deg], {
-      radius: 6,
-      color: r.category === "space" ? "#9333ea" : r.hemisphere === "S" ? "#0891b2" : "#dc6803",
-      fillOpacity: 0.85,
+      radius: 6, color: "#0a0e17", weight: 1, fillColor: color, fillOpacity: 0.9,
     }).addTo(markerLayer);
     marker.bindPopup(
       `<strong>${esc(r.official_name)}</strong><br>${esc(r.country)}<br>${esc(r.waveband_category)}` +
