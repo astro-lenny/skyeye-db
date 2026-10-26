@@ -1,5 +1,11 @@
 # SkyEye — Telescope & Access Finder
 
+<p align="center">
+  <a href="https://astro-lenny.github.io/skyeye-db/">
+    <img src="https://img.shields.io/badge/LAUNCH%20SKYEYE-→-blue?style=for-the-badge&logo=githubpages" alt="Launch SkyEye">
+  </a>
+</p>
+
 An open-source tool for answering one question: **given a wavelength range, a target's sky
 position and your affiliation, which telescopes worldwide could you actually observe with, and
 how do you apply?** One page, one sortable spreadsheet-style table (plus a map), no backend, no
